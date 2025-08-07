@@ -15,68 +15,63 @@
 
       {# -- Otherwise render a label + control row -- #}
       {% else %}
-        <div class="d-flex align-items-center mb-3">
-          <label
-            for="{{ field.label|replace(' ', '_') }}"
-            style="width:150px; margin-right:0.75rem; font-weight:600;"
-          >
-            {{ field.label }}
-          </label>
-
-          {# Dropdown/select #}
-          {% if field.type == 'dropdown' %}
-            <select
-              id="{{ field.label|replace(' ', '_') }}"
-              name="{{ field.label }}"
-              class="form-select flex-fill"
-              {% if field.help %}title="{{ field.help }}"{% endif %}
+        <div class="mb-3">
+          <div class="d-flex align-items-center">
+            <label
+              for="{{ field.label|replace(' ', '_') }}"
+              style="width:150px; margin-right:0.75rem; font-weight:600;"
             >
-              {% if field.help %}
-                <option value="" disabled {% if not request.form.get(field.label) %}selected{% endif %}>
-                  {{ field.help }}
-                </option>
-              {% endif %}
-              {% for opt in field.options %}
-                <option value="{{ opt }}"
-                  {% if request.form.get(field.label) == opt %}selected{% endif %}>
-                  {{ opt }}
-                </option>
-              {% endfor %}
-            </select>
+              {{ field.label }}
+            </label>
 
-          {# Number input #}
-          {% elif field.type == 'number' %}
-            <input
-              type="number"
-              id="{{ field.label|replace(' ', '_') }}"
-              name="{{ field.label }}"
-              class="form-control flex-fill"
-              value="{{ request.form.get(field.label, '') }}"
-              {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
-            >
+            {# Dropdown/select #}
+            {% if field.type == 'dropdown' %}
+              <select
+                id="{{ field.label|replace(' ', '_') }}"
+                name="{{ field.label }}"
+                class="form-select flex-fill"
+              >
+                {% for opt in field.options %}
+                  <option value="{{ opt }}"
+                    {% if request.form.get(field.label) == opt %}selected{% endif %}>
+                    {{ opt }}
+                  </option>
+                {% endfor %}
+              </select>
 
-          {# Multiline text area #}
-          {% elif field.type == 'textarea' %}
-            <textarea
-              id="{{ field.label|replace(' ', '_') }}"
-              name="{{ field.label }}"
-              class="form-control flex-fill"
-              rows="3"
-              {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
-            >{{ request.form.get(field.label, '') }}</textarea>
+            {# Number input #}
+            {% elif field.type == 'number' %}
+              <input
+                type="number"
+                id="{{ field.label|replace(' ', '_') }}"
+                name="{{ field.label }}"
+                class="form-control flex-fill"
+                value="{{ request.form.get(field.label, '') }}"
+              >
 
-          {# Default: single-line text input #}
-          {% else %}
-            <input
-              type="text"
-              id="{{ field.label|replace(' ', '_') }}"
-              name="{{ field.label }}"
-              class="form-control flex-fill"
-              value="{{ request.form.get(field.label, '') }}"
-              {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
-            >
+            {# Multiline text area #}
+            {% elif field.type == 'textarea' %}
+              <textarea
+                id="{{ field.label|replace(' ', '_') }}"
+                name="{{ field.label }}"
+                class="form-control flex-fill"
+                rows="3"
+              >{{ request.form.get(field.label, '') }}</textarea>
+
+            {# Default: single-line text input #}
+            {% else %}
+              <input
+                type="text"
+                id="{{ field.label|replace(' ', '_') }}"
+                name="{{ field.label }}"
+                class="form-control flex-fill"
+                value="{{ request.form.get(field.label, '') }}"
+              >
+            {% endif %}
+          </div>
+          {% if field.help %}
+            <small class="text-muted">{{ field.help }}</small>
           {% endif %}
-
         </div>
       {% endif %}
 
