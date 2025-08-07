@@ -1,0 +1,29 @@
+{
+  "id": "E2Fixed",
+  "description": "A sample form template2 with labels on info fields",
+  "fields": [
+    {
+      "label": "Intro",
+      "type": "info",
+      "text": "thankyou for taking the time to fill in this form"
+    },
+    {
+      "label": "Name",
+      "type": "text"
+    },
+    {
+      "label": "Age",
+      "type": "number"
+    },
+    {
+      "label": "Favorite Color",
+      "type": "dropdown",
+      "options": [
+        "orange",
+        "Red",
+        "Green",
+        "Blue"
+      ]
+    }
+  ]
+}
