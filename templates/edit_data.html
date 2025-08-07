@@ -16,6 +16,7 @@
             id="{{ field.label|replace(' ', '_') }}"
             name="{{ field.label }}"
             class="form-select flex-fill"
+            {% if field.help %}title="{{ field.help }}"{% endif %}
           >
             {% for opt in field.options %}
               <option value="{{ opt }}" {% if data[field.label] == opt %}selected{% endif %}>
@@ -31,6 +32,7 @@
             name="{{ field.label }}"
             class="form-control flex-fill"
             value="{{ data[field.label] }}"
+            {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
           >
 
         {% elif field.type == 'textarea' %}
@@ -39,6 +41,7 @@
             name="{{ field.label }}"
             class="form-control flex-fill"
             rows="3"
+            {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
           >{{ data[field.label] }}</textarea>
 
         {% else %}
@@ -48,6 +51,7 @@
             name="{{ field.label }}"
             class="form-control flex-fill"
             value="{{ data[field.label] }}"
+            {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
           >
         {% endif %}
       </div>
