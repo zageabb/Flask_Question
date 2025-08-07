@@ -29,7 +29,13 @@
               id="{{ field.label|replace(' ', '_') }}"
               name="{{ field.label }}"
               class="form-select flex-fill"
+              {% if field.help %}title="{{ field.help }}"{% endif %}
             >
+              {% if field.help %}
+                <option value="" disabled {% if not request.form.get(field.label) %}selected{% endif %}>
+                  {{ field.help }}
+                </option>
+              {% endif %}
               {% for opt in field.options %}
                 <option value="{{ opt }}"
                   {% if request.form.get(field.label) == opt %}selected{% endif %}>
@@ -46,6 +52,7 @@
               name="{{ field.label }}"
               class="form-control flex-fill"
               value="{{ request.form.get(field.label, '') }}"
+              {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
             >
 
           {# Multiline text area #}
@@ -55,6 +62,7 @@
               name="{{ field.label }}"
               class="form-control flex-fill"
               rows="3"
+              {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
             >{{ request.form.get(field.label, '') }}</textarea>
 
           {# Default: single-line text input #}
@@ -65,6 +73,7 @@
               name="{{ field.label }}"
               class="form-control flex-fill"
               value="{{ request.form.get(field.label, '') }}"
+              {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
             >
           {% endif %}
 

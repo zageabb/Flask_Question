@@ -2,12 +2,21 @@
   "name": "ExampleForm",
   "description": "A sample form template",
   "fields": [
-    { "label": "Name",            "type": "text" },
-    { "label": "Age",             "type": "number" },
+    {
+      "label": "Name",
+      "type": "text",
+      "help": "Enter your full name"
+    },
+    {
+      "label": "Age",
+      "type": "number",
+      "help": "Age in years"
+    },
     {
       "label": "Favorite Color",
       "type": "dropdown",
-      "options": ["Red", "Green", "Blue"]
+      "options": ["Red", "Green", "Blue"],
+      "help": "Select a color"
     }
   ]
 }
