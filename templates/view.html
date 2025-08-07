@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}View Form #{{ id }}{% endblock %}
+{% block content %}
+  <h1>Form #{{ id }}: {{ template_name }}</h1>
+  <p>Submitted at {{ timestamp }}</p>
+  <ul>
+    {% for k, v in data.items() %}
+      <li>{{ k }}: {{ v }}</li>
+      
+
+    {% endfor %}
+  </ul>
+
+  <h2>Raw JSON</h2>
+  <pre>{{ data | tojson(indent=2) }}</pre>
+{% endblock %}

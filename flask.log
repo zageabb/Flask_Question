@@ -1,0 +1,99 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.130:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 139-087-838
+194.9.108.120 - - [01/Aug/2025 13:52:29] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:52:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [01/Aug/2025 13:52:30] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:52:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [01/Aug/2025 13:52:33] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:52:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [01/Aug/2025 13:53:00] "GET /view/5 HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:53:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+212.40.1.6 - - [01/Aug/2025 13:53:02] "GET /view/5 HTTP/1.1" 200 -
+212.40.1.6 - - [01/Aug/2025 13:53:03] "GET /static/css/style.css HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:53:06] "GET /edit-data/5 HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:53:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+87.255.194.135 - - [01/Aug/2025 13:53:09] "[33mGET /admin/assets/js/pbxlib.js HTTP/1.0[0m" 404 -
+194.9.108.120 - - [01/Aug/2025 13:53:23] "[32mPOST /edit-data/5 HTTP/1.1[0m" 302 -
+194.9.108.120 - - [01/Aug/2025 13:53:23] "GET /view/5 HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:53:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [01/Aug/2025 13:53:59] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:53:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [01/Aug/2025 13:54:01] "GET /view/4 HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:54:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+31.31.48.133 - - [01/Aug/2025 13:54:05] "GET /view/4 HTTP/1.1" 200 -
+31.31.48.133 - - [01/Aug/2025 13:54:05] "GET /static/css/style.css HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:54:16] "GET /edit-data/4 HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:54:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [01/Aug/2025 13:55:08] "[32mPOST /edit-data/4 HTTP/1.1[0m" 302 -
+194.9.108.120 - - [01/Aug/2025 13:55:08] "GET /view/4 HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:55:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [01/Aug/2025 13:55:15] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 13:55:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+204.76.203.219 - - [01/Aug/2025 13:58:14] "GET / HTTP/1.1" 200 -
+103.203.56.1 - - [01/Aug/2025 14:00:56] "GET / HTTP/1.1" 200 -
+45.194.66.8 - - [01/Aug/2025 14:03:51] "GET / HTTP/1.1" 200 -
+66.240.205.34 - - [01/Aug/2025 14:06:24] code 400, message Bad request version ('ô')
+66.240.205.34 - - [01/Aug/2025 14:06:24] "[31m[1mH\x00\x00\x00tj¨\x9e#D\x98+Êð§»lÅ\x19×\x8d¶\x18íJ\x1enÁùxu[lðE\x1d-jìÔxLÉrÉ\x15\x10uà%\x86Rtg\x05fv\x86]%Ì\x80\x0cèÏ®\x00µÀfÈ\x8dDÅ\x09ô[0m" 400 -
+193.46.255.153 - - [01/Aug/2025 14:06:45] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [01/Aug/2025 14:21:37] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:22:45] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:22:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 14:22:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+196.251.88.67 - - [01/Aug/2025 14:32:58] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:37:59] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:37:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 14:38:00] "GET /upload HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:38:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 14:38:10] "[32mPOST /upload HTTP/1.1[0m" 302 -
+192.168.1.117 - - [01/Aug/2025 14:38:10] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:38:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 14:38:12] "GET /fill/Disconnectors HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:38:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+89.42.231.140 - - [01/Aug/2025 14:49:51] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+192.168.1.117 - - [01/Aug/2025 14:51:10] "GET /upload HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:51:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 14:51:15] "[32mPOST /upload HTTP/1.1[0m" 302 -
+192.168.1.117 - - [01/Aug/2025 14:51:15] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:51:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 14:51:22] "GET /fill/Disconnectors HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 14:51:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:03:09] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:03:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:03:11] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:03:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:03:14] "GET /upload HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:03:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:03:20] "[32mPOST /upload HTTP/1.1[0m" 302 -
+192.168.1.117 - - [01/Aug/2025 15:03:20] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:03:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:03:22] "GET /fill/Disconnectors HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:03:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:03:25] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:03:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:03:30] "GET /upload HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:03:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:03:36] "[32mPOST /upload HTTP/1.1[0m" 302 -
+192.168.1.117 - - [01/Aug/2025 15:03:36] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:03:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:04:26] "GET /upload HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:04:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:04:32] "[32mPOST /upload HTTP/1.1[0m" 302 -
+192.168.1.117 - - [01/Aug/2025 15:04:32] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:04:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:04:33] "GET /edit-template/Disconnectors HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:04:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:04:53] "[32mPOST /edit-template/Disconnectors HTTP/1.1[0m" 302 -
+192.168.1.117 - - [01/Aug/2025 15:04:53] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:04:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:04:55] "GET /fill/Disconnectors HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:04:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+46.19.141.90 - - [01/Aug/2025 15:06:14] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -

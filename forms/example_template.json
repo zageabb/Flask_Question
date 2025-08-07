@@ -1,0 +1,13 @@
+{
+  "name": "ExampleForm",
+  "description": "A sample form template",
+  "fields": [
+    { "label": "Name",            "type": "text" },
+    { "label": "Age",             "type": "number" },
+    {
+      "label": "Favorite Color",
+      "type": "dropdown",
+      "options": ["Red", "Green", "Blue"]
+    }
+  ]
+}

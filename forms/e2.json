@@ -1,0 +1,28 @@
+{
+  "name": "E2",
+  "description": "A sample form template2",
+  "fields": [
+    {
+      "type": "info",
+      "text": "thankyou for taking the time to fill in this form"
+    },
+    {
+      "label": "Name",
+      "type": "text"
+    },
+    {
+      "label": "Age",
+      "type": "number"
+    },
+    {
+      "label": "Favorite Color",
+      "type": "dropdown",
+      "options": [
+        "orange",
+        "Red",
+        "Green",
+        "Blue"
+      ]
+    }
+  ]
+}
