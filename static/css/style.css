@@ -1,0 +1,78 @@
+/* Base page styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #007bff;
+  padding: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main container */
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Form styles */
+form div {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+form label {
+  width: 150px;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+form input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  padding: 0.5rem 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #218838;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Raw JSON block */
+pre {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Templates{% endblock %}
+{% block content %}
+  <h1>Templates</h1>
+  <ul>
+    {% for name, tmpl in templates.items() %}
+      <li><a href="{{ url_for('fill_form', template_name=name) }}">{{ name }}</a>
+      <a href="{{ url_for('edit_template', template_name=name) }}" class="btn btn-sm btn-secondary ms-2">Edit</a></li>
+
+    {% endfor %}
+  </ul>
+{% endblock %}

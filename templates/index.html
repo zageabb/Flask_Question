@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}Completed Forms{% endblock %}
+{% block content %}
+  <h1>Completed Forms</h1>
+  <ul>
+    {% for id, name, ts in rows %}
+      <li>
+        {{ name }} — {{ ts }}
+        <a href="{{ url_for('view_form', form_id=id) }}" class="btn btn-sm btn-success ms-2">View</a>
+        <a href="{{ url_for('edit_data', form_id=id) }}" class="btn btn-sm btn-warning ms-2">Edit</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('template_list') }}">Add Form</a>
+{% endblock %}

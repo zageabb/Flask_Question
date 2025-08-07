@@ -1,0 +1,96 @@
+{
+  "name": "Disconnectors",
+  "description": "Initial Disconnectors form",
+  "fields": [
+    {
+      "label": "Supplier Factory Location (Country)",
+      "type": "text"
+    },
+    {
+      "label": "Pre-assembled",
+      "type": "dropdown",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "label": "Disconnector Type",
+      "type": "dropdown",
+      "options": [
+        "Centre-break Disconnectors",
+        "Double-break Disconnectors",
+        "Horizontal Knee Disconnectors",
+        "Pantograph Disconnectors"
+      ]
+    },
+    {
+      "label": "Disconnector Model ",
+      "type": "text"
+    },
+    {
+      "label": "No. of Poles",
+      "type": "number"
+    },
+    {
+      "label": "Rated Voltage (kV)",
+      "type": "number"
+    },
+    {
+      "label": "Rated Busbar Current (A)",
+      "type": "number"
+    },
+    {
+      "label": "Rated Short Circuit Current (kA)",
+      "type": "number"
+    },
+    {
+      "label": "Earth Switch (ES)",
+      "type": "text"
+    },
+    {
+      "label": "Motor Drive (MD) /Hand Drive (HD)",
+      "type": "text"
+    },
+    {
+      "label": "Insulator Type",
+      "type": "text"
+    },
+    {
+      "label": "Rated Frequency (Hz)",
+      "type": "number"
+    },
+    {
+      "label": "Ambient Temperature (C)",
+      "type": "number"
+    },
+    {
+      "label": "Insulator Class",
+      "type": "text"
+    },
+    {
+      "label": "No. of Signal contacts",
+      "type": "textarea"
+    },
+    {
+      "label": "Heating element and Anti-condensation in the control cubicle",
+      "type": "dropdown",
+      "options": [
+        "Yes",
+        "No"
+      ]
+    },
+    {
+      "label": "Operating Mechanishm Earth bus bar",
+      "type": "text"
+    },
+    {
+      "label": "IP class Indoor ",
+      "type": "text"
+    },
+    {
+      "label": "IP Class Outdoor",
+      "type": "text"
+    }
+  ]
+}

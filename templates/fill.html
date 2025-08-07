@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% block title %}Fill {{ template_name }}{% endblock %}
+{% block content %}
+<main class="container my-4">
+  <h1>Fill: {{ template_name }}</h1>
+
+  <form method="post">
+    {% for field in fields %}
+
+      {# -- Display-only info block -- #}
+      {% if field.type == 'info' %}
+        <div class="alert alert-secondary">
+          {{ field.text }}
+        </div>
+
+      {# -- Otherwise render a label + control row -- #}
+      {% else %}
+        <div class="d-flex align-items-center mb-3">
+          <label
+            for="{{ field.label|replace(' ', '_') }}"
+            style="width:150px; margin-right:0.75rem; font-weight:600;"
+          >
+            {{ field.label }}
+          </label>
+
+          {# Dropdown/select #}
+          {% if field.type == 'dropdown' %}
+            <select
+              id="{{ field.label|replace(' ', '_') }}"
+              name="{{ field.label }}"
+              class="form-select flex-fill"
+            >
+              {% for opt in field.options %}
+                <option value="{{ opt }}"
+                  {% if request.form.get(field.label) == opt %}selected{% endif %}>
+                  {{ opt }}
+                </option>
+              {% endfor %}
+            </select>
+
+          {# Number input #}
+          {% elif field.type == 'number' %}
+            <input
+              type="number"
+              id="{{ field.label|replace(' ', '_') }}"
+              name="{{ field.label }}"
+              class="form-control flex-fill"
+              value="{{ request.form.get(field.label, '') }}"
+            >
+
+          {# Multiline text area #}
+          {% elif field.type == 'textarea' %}
+            <textarea
+              id="{{ field.label|replace(' ', '_') }}"
+              name="{{ field.label }}"
+              class="form-control flex-fill"
+              rows="3"
+            >{{ request.form.get(field.label, '') }}</textarea>
+
+          {# Default: single-line text input #}
+          {% else %}
+            <input
+              type="text"
+              id="{{ field.label|replace(' ', '_') }}"
+              name="{{ field.label }}"
+              class="form-control flex-fill"
+              value="{{ request.form.get(field.label, '') }}"
+            >
+          {% endif %}
+
+        </div>
+      {% endif %}
+
+    {% endfor %}
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</main>
+{% endblock %}

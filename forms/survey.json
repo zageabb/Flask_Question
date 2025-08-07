@@ -1,0 +1,27 @@
+{
+  "id": "SurveyWithInstructions",
+  "description": "A survey that includes instructions and questions",
+  "fields": [
+    {
+      "type": "info",
+      "text": "Thank you for taking our survey! Please answer the questions below carefully."
+    },
+    {
+      "label": "First Name",
+      "type": "text"
+    },
+    {
+      "label": "Age",
+      "type": "number"
+    },
+    {
+      "type": "info",
+      "text": "Now choose your favorite fruits (you can pick more than one):"
+    },
+    {
+      "label": "Fruit Choices",
+      "type": "dropdown",
+      "options": ["Apple", "Banana", "Cherry"]
+    }
+  ]
+}
