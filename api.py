@@ -3,9 +3,10 @@ from sqlalchemy import inspect, asc, desc
 from datetime import datetime
 import csv
 import io
+import json
 
 from database import db_session
-from database.models import Question
+from database.models import Question, CompletedForm
 
 api = Blueprint('api', __name__, url_prefix='/api')
 
@@ -27,6 +28,13 @@ def _model_to_dict(obj):
     data = {}
     for col in mapper.columns:
         val = getattr(obj, col.key)
+        if col.key == 'form_json' and isinstance(val, str):
+            try:
+                data[col.key] = json.loads(val)
+                continue
+            except Exception:
+                data[col.key] = val
+                continue
         if hasattr(val, 'isoformat'):
             data[col.key] = val.isoformat()
         else:
@@ -118,4 +126,78 @@ def get_questions_csv():
         csv_text,
         mimetype='text/csv',
         headers={'Content-Disposition': 'attachment; filename=questions.csv'},
+    )
+
+
+@api.route('/forms', methods=['GET'])
+def get_forms():
+    """Return paginated list of completed forms."""
+    _require_api_key()
+
+    q = db_session.query(CompletedForm)
+
+    search = request.args.get('search')
+    if search:
+        q = q.filter(CompletedForm.template_name.ilike(f'%{search}%'))
+
+    sort = request.args.get('sort', 'id')
+    order = request.args.get('order', 'asc').lower()
+    col = getattr(CompletedForm, sort, None)
+    if col is None:
+        abort(400, description=f'Unsupported sort column: {sort}')
+    q = q.order_by(desc(col) if order == 'desc' else asc(col))
+
+    page = max(int(request.args.get('page', 1)), 1)
+    page_size = min(max(int(request.args.get('page_size', 100)), 1), 1000)
+    total = q.count()
+    rows = q.offset((page - 1) * page_size).limit(page_size).all()
+
+    data = [_model_to_dict(r) for r in rows]
+    return jsonify({
+        'page': page,
+        'page_size': page_size,
+        'total': total,
+        'items': data,
+    })
+
+
+@api.route('/forms/<int:item_id>', methods=['GET'])
+def get_form(item_id: int):
+    """Return a single completed form by ID."""
+    _require_api_key()
+    row = db_session.query(CompletedForm).get(item_id)
+    if not row:
+        abort(404)
+    return jsonify(_model_to_dict(row))
+
+
+@api.route('/forms.csv', methods=['GET'])
+def get_forms_csv():
+    """Return all completed forms as CSV."""
+    _require_api_key()
+
+    q = db_session.query(CompletedForm)
+
+    search = request.args.get('search')
+    if search:
+        q = q.filter(CompletedForm.template_name.ilike(f'%{search}%'))
+
+    q = q.order_by(asc(CompletedForm.id))
+
+    rows = q.all()
+    dicts = [_model_to_dict(r) for r in rows]
+
+    if not dicts:
+        csv_text = ''
+    else:
+        output = io.StringIO()
+        writer = csv.DictWriter(output, fieldnames=list(dicts[0].keys()))
+        writer.writeheader()
+        writer.writerows(dicts)
+        csv_text = output.getvalue()
+
+    return Response(
+        csv_text,
+        mimetype='text/csv',
+        headers={'Content-Disposition': 'attachment; filename=forms.csv'},
     )
