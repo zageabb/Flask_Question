@@ -18,7 +18,8 @@ app = Flask(__name__)
 app.secret_key = "change-me"
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 app.register_blueprint(api)
-init_api(api_key="REPLACE_WITH_LONG_RANDOM_VALUE")
+#init_api(api_key="REPLACE_WITH_LONG_RANDOM_VALUE")
+init_api(api_key=None)
 init_question_db()
 
 # Database helpers
