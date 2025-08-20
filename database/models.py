@@ -10,3 +10,14 @@ class Question(Base):
     text = Column(Text, nullable=False)
     created_at = Column(DateTime, server_default=func.now(), nullable=False)
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), nullable=False)
+
+
+class CompletedForm(Base):
+    """SQLAlchemy model for completed form submissions."""
+
+    __tablename__ = 'completed_forms'
+
+    id = Column(Integer, primary_key=True)
+    template_name = Column(String(255), nullable=False)
+    timestamp = Column(String, nullable=False)
+    form_json = Column(Text, nullable=False)
