@@ -4,6 +4,9 @@ from pathlib import Path
 from datetime import datetime
 import json
 from template_loader import load_templates
+from flask_cors import CORS
+from api import api, init_api
+from database import init_db as init_question_db
 
 # Load form templates and define paths
 FORMS_DIR = Path(__file__).parent / "forms"
@@ -13,6 +16,10 @@ DB_PATH = Path(__file__).parent / "database" / "forms.db"
 # Initialize Flask
 app = Flask(__name__)
 app.secret_key = "change-me"
+CORS(app, resources={r"/api/*": {"origins": "*"}})
+app.register_blueprint(api)
+init_api(api_key="REPLACE_WITH_LONG_RANDOM_VALUE")
+init_question_db()
 
 # Database helpers
 def init_db():
