@@ -89,8 +89,11 @@ def fill_form(template_name):
         flash("Template not found.")
         return redirect(url_for('template_list'))
     if request.method == "POST":
-        data = {field["label"]: request.form.get(field["label"], "")
-                for field in template["fields"]}
+        data = {
+            field["label"]: request.form.get(field["label"], "")
+            for field in template["fields"]
+            if "label" in field
+        }
         save_completed_form(template_name, data)
         flash("Form submitted successfully.")
         return redirect(url_for("index"))
@@ -136,10 +139,16 @@ def upload_template():
 
 @app.route("/edit-template/<template_name>", methods=["GET", "POST"])
 def edit_template(template_name):
-    # Path to the JSON file
-    file_path = FORMS_DIR / f"{template_name}.json"
-    if not file_path.exists():
+    global TEMPLATES
+    tmpl = TEMPLATES.get(template_name)
+    if not tmpl:
         flash("Template not found.", "danger")
+        return redirect(url_for("template_list"))
+
+    # Path to the JSON file
+    file_path = tmpl.get("_file", FORMS_DIR / f"{template_name}.json")
+    if not Path(file_path).exists():
+        flash("Template file not found.", "danger")
         return redirect(url_for("template_list"))
 
     if request.method == "POST":
@@ -148,9 +157,8 @@ def edit_template(template_name):
         try:
             # validate JSON
             data = json.loads(new_json)
-            file_path.write_text(json.dumps(data, indent=2))
+            Path(file_path).write_text(json.dumps(data, indent=2))
             # reload into memory
-            global TEMPLATES
             TEMPLATES = load_templates()
             flash(f"Template {template_name} updated.", "success")
             return redirect(url_for("template_list"))
@@ -158,7 +166,7 @@ def edit_template(template_name):
             flash(f"Invalid JSON: {e}", "danger")
 
     # GET: show current JSON
-    current = file_path.read_text()
+    current = Path(file_path).read_text()
     return render_template(
         "edit_template.html",
         template_name=template_name,
@@ -183,6 +191,8 @@ def edit_data(form_id):
         # Rebuild updated data dict
         updated = {}
         for f in fields:
+            if f.get("type") == "info" or "label" not in f:
+                continue
             label = f["label"]
             if f.get("type") == "dropdown":
                 updated[label] = request.form.get(label, "")
