@@ -19,24 +19,44 @@ To store forms in the existing master record, add the following fields:
 
 | Field | Type | Description |
 |-------|------|-------------|
+| `id` | integer | Primary key for the completed form record. |
 | `template_name` | string | Identifier for the template used to render the form. |
 | `form_json` | text | JSON payload containing the user's responses. |
-| `timestamp` | datetime | When the form was submitted. |
+| `timestamp` | string | ISO8601 timestamp when the form was submitted. |
 
 These fields mirror the prototype's `completed_forms` table and enable the
 main system to reconstruct a submitted form at any time.
 
-## Template Management
-Templates are JSON files describing form fields and metadata. Example:
+## Template Format and Management
+Templates are JSON files describing form fields and metadata. They typically
+contain the following top-level keys:
+
+- `id` (or `name`): unique identifier for the template. If omitted, the file
+  name is used.
+- `description` (optional): human-readable details about the form.
+- `fields`: ordered list of field definitions.
+
+Each entry in `fields` is an object with these common keys:
+
+- `label`: user-facing label and key for storing the response.
+- `type`: input type. Supported values include `text`, `number`, `dropdown`,
+  `textarea`, and `info` (for instructional text).
+- `options` (array): choices for `dropdown` fields.
+- `help` (string, optional): hint text displayed to the user.
+- `text` (string, for `info` fields): instructional message shown on the form.
+
+Example template:
 
 ```json
 {
-  "name": "ExampleForm",
+  "id": "ExampleForm",
   "description": "A sample form template",
   "fields": [
-    {"label": "Name", "type": "text"},
-    {"label": "Age", "type": "number"},
-    {"label": "Favorite Color", "type": "dropdown", "options": ["Red", "Green", "Blue"]}
+    {"label": "Intro", "type": "info", "text": "Thanks for taking our survey."},
+    {"label": "Name", "type": "text", "help": "Enter your full name"},
+    {"label": "Age", "type": "number", "help": "Age in years"},
+    {"label": "Favorite Color", "type": "dropdown", "options": ["Red", "Green", "Blue"], "help": "Select a color"},
+    {"label": "Comments", "type": "textarea"}
   ]
 }
 ```
