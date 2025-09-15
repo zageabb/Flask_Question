@@ -1,3 +1,4 @@
+
 /* Base page styles */
 body {
   font-family: Arial, sans-serif;
@@ -30,22 +31,29 @@ main {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/* Form styles */
-form div {
+/* Form styles
+ *
+ * These rules apply only to forms that opt-in with the
+ * `.simple-form` class.  Bootstrap-based forms used elsewhere in
+ * the application rely on Bootstrap's own styling, so limiting the
+ * scope here prevents our base styles from overriding the grid
+ * layout and causing fields to stack vertically.
+ */
+.simple-form div {
   margin-bottom: 1rem;
 }
-form label {
+.simple-form label {
   width: 150px;
   margin-right: 0.5rem;
   font-weight: bold;
 }
-form input {
+.simple-form input {
   flex: 1;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
-form button {
+.simple-form button {
   padding: 0.5rem 1rem;
   background-color: #28a745;
   color: white;
@@ -53,7 +61,7 @@ form button {
   border-radius: 4px;
   cursor: pointer;
 }
-form button:hover {
+.simple-form button:hover {
   background-color: #218838;
 }
 
