@@ -111,12 +111,15 @@ def view_form(form_id):
         return redirect(url_for("index"))
     _, template_name, timestamp, form_json = row
     data = json.loads(form_json)
+    tmpl = TEMPLATES.get(template_name, {})
+    units = {f["label"]: f.get("uom") for f in tmpl.get("fields", [])}
     return render_template(
         "view.html",
         id=form_id,
         template_name=template_name,
         timestamp=timestamp,
         data=data,
+        units=units,
     )
 
 @app.route("/upload", methods=["GET", "POST"])

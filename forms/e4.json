@@ -1,8 +1,17 @@
 {
   "id": "MyForm",
   "fields": [
-    { "label": "First Name" },
-    { "label": "Email Address" },
-    { "label": "Comments" }
+    {
+      "label": "First Name",
+      "uom": ""
+    },
+    {
+      "label": "Email Address",
+      "uom": ""
+    },
+    {
+      "label": "Comments",
+      "uom": ""
+    }
   ]
 }

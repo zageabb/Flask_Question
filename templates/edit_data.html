@@ -47,6 +47,21 @@
               {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
             >{{ data[field.label] }}</textarea>
 
+        {% else %}
+          <input
+            type="text"
+            id="{{ field.label|replace(' ', '_') }}"
+            name="{{ field.label }}"
+            class="form-control flex-fill"
+            value="{{ data[field.label] }}"
+            {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
+          >
+        {% endif %}
+        {% if field.uom %}
+          <span class="ms-2">{{ field.uom }}</span>
+        {% endif %}
+      </div>
+
           {% else %}
             <input
               type="text"
