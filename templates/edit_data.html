@@ -10,11 +10,13 @@
         <div class="alert alert-secondary mb-3">{{ field.text }}</div>
       {% else %}
         <div class="mb-3">
-          <div class="d-flex align-items-center">
-            <label for="{{ field.label|replace(' ', '_') }}" class="form-label me-3" style="width:150px;">
-              {{ field.label }}
-            </label>
-            <div class="flex-fill">
+          <div class="row g-2 align-items-center">
+            <div class="col-3">
+              <label for="{{ field.label|replace(' ', '_') }}" class="col-form-label fw-semibold">
+                {{ field.label }}
+              </label>
+            </div>
+            <div class="col">
               {% if field.type == 'dropdown' %}
                 <select id="{{ field.label|replace(' ', '_') }}" name="{{ field.label }}" class="form-select">
                   {% for opt in field.options %}
@@ -30,12 +32,16 @@
               {% endif %}
             </div>
             {% if field.uom %}
-              <span class="ms-2">{{ field.uom }}</span>
+              <div class="col-2 col-auto">
+                <span>{{ field.uom }}</span>
+              </div>
             {% endif %}
           </div>
           {% if field.help %}
-            <div class="form-text text-muted" style="margin-left:150px;">
-              {{ field.help }}
+            <div class="row">
+              <div class="col-9 offset-3">
+                <div class="form-text text-muted">{{ field.help }}</div>
+              </div>
             </div>
           {% endif %}
         </div>

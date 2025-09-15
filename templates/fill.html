@@ -14,7 +14,7 @@
       {% else %}
         <div class="mb-3">
           <div class="row g-2 align-items-center">
-            <div class="col-md-3">
+            <div class="col-3">
               <label for="{{ field.label|replace(' ', '_') }}" class="col-form-label fw-semibold">
                 {{ field.label }}
               </label>
@@ -65,14 +65,14 @@
               {% endif %}
             </div>
             {% if field.uom %}
-              <div class="col-md-2 col-auto">
+              <div class="col-2 col-auto">
                 <span>{{ field.uom }}</span>
               </div>
             {% endif %}
           </div>
           {% if field.help %}
             <div class="row">
-              <div class="col-md-9 offset-md-3">
+              <div class="col-9 offset-3">
                 <div class="form-text text-muted">{{ field.help }}</div>
               </div>
             </div>
