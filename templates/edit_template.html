@@ -93,7 +93,8 @@
         const help = block.querySelector(`[name="help_${idx}"]`).value.trim();
         if (!label) return; // skip empty entries
         const f = { label: label, type: type };
-        if (uom) f.uom = uom;
+        // Always include the UOM field so it can be edited later
+        f.uom = uom;
         if (help) f.help = help;
         if (optionsVal) {
           f.options = optionsVal.split(',').map(o => o.trim()).filter(Boolean);

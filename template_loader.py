@@ -18,5 +18,9 @@ def load_templates() -> dict[str, dict]:
         # template's `id` differs from the file name.
         data["_file"] = file
 
+        # Ensure every field has a UOM key so it can be easily edited later
+        for field in data.get("fields", []):
+            field.setdefault("uom", "")
+
         templates[name] = data
     return templates
