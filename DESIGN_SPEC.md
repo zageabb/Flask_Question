@@ -1,49 +1,63 @@
 # Design Specification: Template-Based Form System Integration
 
 ## Overview
-This document outlines the design for integrating a template-driven form
-system, prototyped in this repository, into the existing application. The
-goal is to allow non‑developers to define forms as JSON templates, upload them
-through the UI, and capture user responses in the main system database.
+This document describes the current design of the template‑driven form system
+implemented in this repository.  Non‑developers can define form structures as
+JSON templates, upload or edit those templates through a management interface,
+and have end users complete the resulting forms.  Submissions are stored in a
+database so they can be queried, viewed, or edited later.  The goal of this
+document is to capture the system as it exists today and provide verbose
+explanations of the major components.
 
 ## Objectives
-1. **Extend the master record**: add fields that capture which template was
-   used and the completed form data.
-2. **Template management UI**: provide pages to upload and maintain form
-   templates.
-3. **Dynamic form pages**: render forms based on uploaded templates and display
-   submitted data.
+1. **Extend the master record** – each submitted form is stored with enough
+   metadata to recreate it later, including the template name and raw response
+   JSON.
+2. **Template management UI** – the application exposes pages for uploading new
+   templates or editing existing ones.  When a template file is modified, all
+   templates are reloaded so changes are immediately reflected in the UI.
+3. **Dynamic form pages** – end‑user forms are generated directly from the JSON
+   template definitions.  Completed entries can be viewed or edited at any
+   time, even if the underlying template has evolved since the original
+   submission.
+4. **Programmatic access** – a REST API exposes both the master question bank
+   and completed forms for integration with other systems.
 
-## Data Model Changes
-To store forms in the existing master record, add the following fields:
+## Data Model
+Submitted forms are persisted in a SQLite database (`forms.db`).  The table is
+represented both by raw `sqlite3` usage and by a SQLAlchemy model so that the
+web UI and the API share the same storage.  The schema is:
 
 | Field | Type | Description |
 |-------|------|-------------|
 | `id` | integer | Primary key for the completed form record. |
 | `template_name` | string | Identifier for the template used to render the form. |
-| `form_json` | text | JSON payload containing the user's responses. |
 | `timestamp` | string | ISO8601 timestamp when the form was submitted. |
+| `form_json` | text | JSON payload containing the user's responses. |
 
-These fields mirror the prototype's `completed_forms` table and enable the
-main system to reconstruct a submitted form at any time.
+These fields mirror the prototype's `completed_forms` table and allow the
+system to reconstruct or export a submission at any time.  Additional tables in
+the database hold a bank of reusable **questions**, which are exposed through
+the REST API but are not directly tied to the template mechanism.
 
-## Template Format and Management
-Templates are JSON files describing form fields and metadata. They typically
-contain the following top-level keys:
+## Template Format and Lifecycle
+Templates are plain JSON files stored under `forms/`.  The `template_loader`
+module scans this directory at startup and converts each file into an in-memory
+dictionary keyed by template name.  Each template typically contains:
 
 - `id` (or `name`): unique identifier for the template. If omitted, the file
   name is used.
-- `description` (optional): human-readable details about the form.
+- `description` (optional): human-readable details about the form's purpose.
 - `fields`: ordered list of field definitions.
 
-Each entry in `fields` is an object with these common keys:
+Every field definition supports the following keys:
 
-- `label`: user-facing label and key for storing the response.
+- `label`: user-facing label and key used to store the response.
 - `type`: input type. Supported values include `text`, `number`, `dropdown`,
-  `textarea`, and `info` (for instructional text).
-- `options` (array): choices for `dropdown` fields.
+  `textarea`, and `info` for instructional text blocks.
+- `options` (array): list of allowed values for `dropdown` fields.
 - `help` (string, optional): hint text displayed to the user.
-- `text` (string, for `info` fields): instructional message shown on the form.
+- `text` (string, for `info` fields): explanatory message shown on the form.
 
 Example template:
 
@@ -61,31 +75,55 @@ Example template:
 }
 ```
 
-Planned pages:
+### Template Management Pages
+Three primary pages support template maintenance:
 
-1. **Template List** – lists all templates and links to fill or edit them.
-2. **Upload Template** – allows JSON files to be uploaded and stored on the
-   server.
-3. **Edit Template** – shows the JSON for an existing template and saves edits.
+1. **Template List** – enumerates all templates currently loaded and provides
+   links for filling out or editing each one.
+2. **Upload Template** – allows a JSON file to be uploaded to the `forms`
+   directory.  After upload, templates are reloaded so the new definition is
+   immediately available.
+3. **Edit Template** – displays the raw JSON for an existing template.  When a
+   user saves changes, the file on disk is updated and all templates are
+   reloaded into memory.
 
-## Form Execution Flow
+## Form Rendering and Submission Flow
 1. **User selects a template** from the Template List page.
-2. **Dynamic form render** – fields from the template are used to construct an
-   HTML form.
-3. **Submission** – on submit, responses are serialized to JSON and stored in
-   the master record fields described above.
-4. **View/Edit Completed Forms** – index pages list past submissions and allow
-   viewing or editing existing data.
+2. **Dynamic form render** – the selected template's `fields` array is used to
+   build an HTML form.  Input types, help text, and dropdown options come
+   directly from the template.
+3. **Submission** – on submit, responses are serialized to JSON along with the
+   template name and an ISO8601 timestamp.  This data is written to the
+   `completed_forms` table.
+4. **View Completed Forms** – submissions are listed on the index page and can
+   be viewed in a read‑only format.
+5. **Edit Completed Forms** – when editing an existing entry the application
+   reloads the corresponding template from disk and merges its field list with
+   the stored responses.  If new fields were added to the template after the
+   original submission, they appear in the edit form with empty defaults so the
+   record can be brought up to date.
+
+## REST API
+The `api` blueprint exposes a JSON API with optional API‑key protection.  It
+provides endpoints to:
+
+- List or retrieve individual **questions** stored in the database.
+- List, retrieve, or export as CSV the **completed form** records.
+
+This API enables external systems to consume template metadata or completed
+submissions without scraping the UI.
 
 ## Integration Considerations
-- **Authentication/Authorization**: restrict template management and form
-  access as appropriate for the existing system.
-- **Validation**: validate uploaded JSON and user input to prevent malformed
-  forms.
-- **Versioning**: if templates can change, consider versioning to preserve old
-  submissions.
+- **Authentication/Authorization** – restrict template management, API access,
+  and completed-form editing as appropriate for the hosting environment.
+- **Validation** – uploaded JSON templates are parsed to ensure validity; user
+  input should be validated to prevent malformed data.
+- **Versioning** – because templates can evolve over time, consider storing a
+  template version with each submission to preserve historical context.
 
 ## Summary
-By extending the master record and adding template management and form display
-pages, the existing system gains a flexible mechanism for introducing new data
-collection workflows without code changes.
+The template-driven architecture allows new data-collection workflows to be
+introduced without code changes.  By storing a template name and JSON payload
+for each submission, reloading templates from disk whenever edits occur, and
+exposing both a management UI and a REST API, the system provides a flexible
+foundation for building and maintaining custom forms.
