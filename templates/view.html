@@ -5,9 +5,7 @@
   <p>Submitted at {{ timestamp }}</p>
   <ul>
     {% for k, v in data.items() %}
-      <li>{{ k }}: {{ v }}</li>
-      
-
+      <li>{{ k }}: {{ v }}{% if units.get(k) %} {{ units.get(k) }}{% endif %}</li>
     {% endfor %}
   </ul>
 

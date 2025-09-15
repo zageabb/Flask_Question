@@ -4,15 +4,18 @@
   "fields": [
     {
       "type": "info",
-      "text": "thankyou for taking the time to fill in this form"
+      "text": "thankyou for taking the time to fill in this form",
+      "uom": ""
     },
     {
       "label": "Name",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "Age",
-      "type": "number"
+      "type": "number",
+      "uom": ""
     },
     {
       "label": "Favorite Color",
@@ -22,7 +25,8 @@
         "Red",
         "Green",
         "Blue"
-      ]
+      ],
+      "uom": ""
     }
   ]
 }

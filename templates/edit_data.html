@@ -54,6 +54,9 @@
             {% if field.help %}placeholder="{{ field.help }}" title="{{ field.help }}"{% endif %}
           >
         {% endif %}
+        {% if field.uom %}
+          <span class="ms-2">{{ field.uom }}</span>
+        {% endif %}
       </div>
     {% endfor %}
     <button type="submit" class="btn btn-primary">Save Changes</button>

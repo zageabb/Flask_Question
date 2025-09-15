@@ -4,7 +4,8 @@
   "fields": [
     {
       "label": "Supplier Factory Location (Country)",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "Pre-assembled",
@@ -12,7 +13,8 @@
       "options": [
         "Yes",
         "No"
-      ]
+      ],
+      "uom": ""
     },
     {
       "label": "Disconnector Type",
@@ -22,55 +24,68 @@
         "Double-break Disconnectors",
         "Horizontal Knee Disconnectors",
         "Pantograph Disconnectors"
-      ]
+      ],
+      "uom": ""
     },
     {
       "label": "Disconnector Model ",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "No. of Poles",
-      "type": "number"
+      "type": "number",
+      "uom": ""
     },
     {
       "label": "Rated Voltage (kV)",
-      "type": "number"
+      "type": "number",
+      "uom": ""
     },
     {
       "label": "Rated Busbar Current (A)",
-      "type": "number"
+      "type": "number",
+      "uom": ""
     },
     {
       "label": "Rated Short Circuit Current (kA)",
-      "type": "number"
+      "type": "number",
+      "uom": ""
     },
     {
       "label": "Earth Switch (ES)",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "Motor Drive (MD) /Hand Drive (HD)",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "Insulator Type",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "Rated Frequency (Hz)",
-      "type": "number"
+      "type": "number",
+      "uom": ""
     },
     {
       "label": "Ambient Temperature (C)",
-      "type": "number"
+      "type": "number",
+      "uom": ""
     },
     {
       "label": "Insulator Class",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "No. of Signal contacts",
-      "type": "textarea"
+      "type": "textarea",
+      "uom": ""
     },
     {
       "label": "Heating element and Anti-condensation in the control cubicle",
@@ -78,19 +93,23 @@
       "options": [
         "Yes",
         "No"
-      ]
+      ],
+      "uom": ""
     },
     {
       "label": "Operating Mechanishm Earth bus bar",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "IP class Indoor ",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     },
     {
       "label": "IP Class Outdoor",
-      "type": "text"
+      "type": "text",
+      "uom": ""
     }
   ]
 }

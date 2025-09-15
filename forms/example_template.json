@@ -5,18 +5,25 @@
     {
       "label": "Name",
       "type": "text",
-      "help": "Enter your full name"
+      "help": "Enter your full name",
+      "uom": ""
     },
     {
       "label": "Age",
       "type": "number",
-      "help": "Age in years"
+      "help": "Age in years",
+      "uom": "years"
     },
     {
       "label": "Favorite Color",
       "type": "dropdown",
-      "options": ["Red", "Green", "Blue"],
-      "help": "Select a color"
+      "options": [
+        "Red",
+        "Green",
+        "Blue"
+      ],
+      "help": "Select a color",
+      "uom": ""
     }
   ]
 }
