@@ -112,7 +112,9 @@ def view_form(form_id):
     _, template_name, timestamp, form_json = row
     data = json.loads(form_json)
     tmpl = TEMPLATES.get(template_name, {})
-    units = {f["label"]: f.get("uom") for f in tmpl.get("fields", [])}
+    fields = tmpl.get("fields", [])
+    units = {f["label"]: f.get("uom") for f in fields if "label" in f}
+    helps = {f["label"]: f.get("help") for f in fields if "label" in f}
     return render_template(
         "view.html",
         id=form_id,
@@ -120,6 +122,8 @@ def view_form(form_id):
         timestamp=timestamp,
         data=data,
         units=units,
+        helps=helps,
+        fields=fields,
     )
 
 @app.route("/upload", methods=["GET", "POST"])

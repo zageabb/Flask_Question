@@ -3,12 +3,22 @@
 {% block content %}
   <h1>Form #{{ id }}: {{ template_name }}</h1>
   <p>Submitted at {{ timestamp }}</p>
-  <ul>
-    {% for k, v in data.items() %}
-      <li>{{ k }}: {{ v }}{% if units.get(k) %} {{ units.get(k) }}{% endif %}</li>
-    {% endfor %}
-  </ul>
+
+  {% for field in fields %}
+    {% if field.type == 'info' %}
+      <div class="alert alert-secondary mb-3">{{ field.text }}</div>
+    {% elif field.label %}
+      <div class="mb-3">
+        <strong>{{ field.label }}:</strong>
+        {{ data.get(field.label, '') }}{% if units.get(field.label) %} {{ units.get(field.label) }}{% endif %}
+        {% if helps.get(field.label) %}
+          <div class="form-text text-muted">{{ helps.get(field.label) }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+  {% endfor %}
 
   <h2>Raw JSON</h2>
   <pre>{{ data | tojson(indent=2) }}</pre>
 {% endblock %}
+

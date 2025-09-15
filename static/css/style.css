@@ -33,8 +33,6 @@ main {
 /* Form styles */
 form div {
   margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
 }
 form label {
   width: 150px;
