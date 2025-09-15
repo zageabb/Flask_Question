@@ -172,12 +172,18 @@ def edit_template(template_name):
         except json.JSONDecodeError as e:
             flash(f"Invalid JSON: {e}", "danger")
 
-    # GET: show current JSON
+    # GET: show current template fields
     current = Path(file_path).read_text()
+    try:
+        template_data = json.loads(current)
+    except json.JSONDecodeError:
+        template_data = {}
+    if "fields" not in template_data:
+        template_data["fields"] = []
     return render_template(
         "edit_template.html",
         template_name=template_name,
-        current_json=current
+        template=template_data
     )
 
 @app.route("/edit-data/<int:form_id>", methods=["GET", "POST"])

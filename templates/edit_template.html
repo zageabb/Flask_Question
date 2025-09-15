@@ -3,18 +3,109 @@
 {% block content %}
 <main class="container my-4">
   <h1>Edit Template: {{ template_name }}</h1>
-  <form method="post">
-    <div class="mb-3">
-      <label for="template_json" class="form-label">Template JSON</label>
-      <textarea
-        id="template_json"
-        name="template_json"
-        rows="20"
-        class="form-control font-monospace"
-      >{{ current_json }}</textarea>
+  <form method="post" id="template-form">
+    <div id="fields-container">
+      {% for field in template.fields %}
+      <div class="mb-3 field-block" data-index="{{ loop.index0 }}">
+        <div class="row g-2 align-items-center">
+          <div class="col-md-3">
+            <input type="text" class="form-control" name="label_{{ loop.index0 }}" placeholder="Label" value="{{ field.get('label','') }}">
+          </div>
+          <div class="col-md-3">
+            <select class="form-select" name="type_{{ loop.index0 }}">
+              <option value="text" {% if field.get('type')=='text' %}selected{% endif %}>text</option>
+              <option value="number" {% if field.get('type')=='number' %}selected{% endif %}>number</option>
+              <option value="textarea" {% if field.get('type')=='textarea' %}selected{% endif %}>textarea</option>
+              <option value="dropdown" {% if field.get('type')=='dropdown' %}selected{% endif %}>dropdown</option>
+              <option value="info" {% if field.get('type')=='info' %}selected{% endif %}>info</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" name="uom_{{ loop.index0 }}" placeholder="UOM" value="{{ field.get('uom','') }}">
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" name="options_{{ loop.index0 }}" placeholder="Options (comma separated)" value="{% if field.get('options') %}{{ field.get('options')|join(', ') }}{% endif %}">
+          </div>
+        </div>
+        <div class="mt-1">
+          <textarea class="form-control" name="help_{{ loop.index0 }}" rows="2" placeholder="Help text">{{ field.get('help','') }}</textarea>
+        </div>
+      </div>
+      {% endfor %}
     </div>
+
+    <div class="mb-3">
+      <button type="button" class="btn btn-secondary btn-sm" id="add-field">Add Field</button>
+    </div>
+
+    <input type="hidden" name="template_json" id="template_json">
     <button type="submit" class="btn btn-primary">Save Template</button>
     <a href="{{ url_for('template_list') }}" class="btn btn-secondary ms-2">Cancel</a>
   </form>
 </main>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    let fieldIndex = {{ template.fields|length }};
+    const container = document.getElementById('fields-container');
+
+    document.getElementById('add-field').addEventListener('click', function () {
+      const idx = fieldIndex++;
+      const block = document.createElement('div');
+      block.className = 'mb-3 field-block';
+      block.dataset.index = idx;
+      block.innerHTML = `
+        <div class="row g-2 align-items-center">
+          <div class="col-md-3">
+            <input type="text" class="form-control" name="label_${idx}" placeholder="Label">
+          </div>
+          <div class="col-md-3">
+            <select class="form-select" name="type_${idx}">
+              <option value="text">text</option>
+              <option value="number">number</option>
+              <option value="textarea">textarea</option>
+              <option value="dropdown">dropdown</option>
+              <option value="info">info</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" name="uom_${idx}" placeholder="UOM">
+          </div>
+          <div class="col-md-3">
+            <input type="text" class="form-control" name="options_${idx}" placeholder="Options (comma separated)">
+          </div>
+        </div>
+        <div class="mt-1">
+          <textarea class="form-control" name="help_${idx}" rows="2" placeholder="Help text"></textarea>
+        </div>
+      `;
+      container.appendChild(block);
+    });
+
+    document.getElementById('template-form').addEventListener('submit', function (e) {
+      const fields = [];
+      document.querySelectorAll('.field-block').forEach(block => {
+        const idx = block.dataset.index;
+        const label = block.querySelector(`[name="label_${idx}"]`).value.trim();
+        const type = block.querySelector(`[name="type_${idx}"]`).value;
+        const uom = block.querySelector(`[name="uom_${idx}"]`).value.trim();
+        const optionsVal = block.querySelector(`[name="options_${idx}"]`).value.trim();
+        const help = block.querySelector(`[name="help_${idx}"]`).value.trim();
+        if (!label) return; // skip empty entries
+        const f = { label: label, type: type };
+        if (uom) f.uom = uom;
+        if (help) f.help = help;
+        if (optionsVal) {
+          f.options = optionsVal.split(',').map(o => o.trim()).filter(Boolean);
+        }
+        fields.push(f);
+      });
+
+      const tmpl = {{ template|tojson }};
+      tmpl.fields = fields;
+      document.getElementById('template_json').value = JSON.stringify(tmpl, null, 2);
+    });
+  });
+</script>
 {% endblock %}
+
