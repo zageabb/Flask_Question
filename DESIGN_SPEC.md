@@ -83,9 +83,17 @@ Three primary pages support template maintenance:
 2. **Upload Template** – allows a JSON file to be uploaded to the `forms`
    directory.  After upload, templates are reloaded so the new definition is
    immediately available.
-3. **Edit Template** – displays the raw JSON for an existing template.  When a
-   user saves changes, the file on disk is updated and all templates are
-   reloaded into memory.
+3. **Edit Template** – renders each field in a structured editor so labels,
+   types, UOM values, dropdown options, help text, and the instructional text
+   for `info` blocks can be modified directly.  When a user saves changes the
+   client-side script rebuilds the JSON payload, writes it back to disk, and
+   reloads every template into memory.
+
+The editor keeps a hidden `<textarea>` synced with the visible controls so the
+full JSON document can be rewritten on submit.  When a field's type switches to
+`info`, JavaScript reveals a dedicated multiline "Info text" control bound to
+the field's `text` attribute, ensuring instructional copy can be reviewed or
+updated alongside labels, options, and help text.
 
 ## Form Rendering and Submission Flow
 1. **User selects a template** from the Template List page.
