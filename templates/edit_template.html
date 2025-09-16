@@ -27,6 +27,9 @@
             <input type="text" class="form-control" name="options_{{ loop.index0 }}" placeholder="Options (comma separated)" value="{% if field.get('options') %}{{ field.get('options')|join(', ') }}{% endif %}">
           </div>
         </div>
+        <div class="mt-1 info-text-wrapper" {% if field.get('type') != 'info' %}style="display:none;"{% endif %}>
+          <textarea class="form-control" name="text_{{ loop.index0 }}" rows="2" placeholder="Info text">{{ field.get('text','') }}</textarea>
+        </div>
         <div class="mt-1">
           <textarea class="form-control" name="help_{{ loop.index0 }}" rows="2" placeholder="Help text">{{ field.get('help','') }}</textarea>
         </div>
@@ -48,6 +51,32 @@
   document.addEventListener('DOMContentLoaded', function () {
     let fieldIndex = {{ template.fields|length }};
     const container = document.getElementById('fields-container');
+
+    const updateFieldBlock = (block) => {
+      const idx = block.dataset.index;
+      const typeSelect = block.querySelector(`[name="type_${idx}"]`);
+      const infoWrapper = block.querySelector('.info-text-wrapper');
+      if (!typeSelect || !infoWrapper) {
+        return;
+      }
+      if (typeSelect.value === 'info') {
+        infoWrapper.style.display = '';
+      } else {
+        infoWrapper.style.display = 'none';
+      }
+    };
+
+    const attachTypeHandler = (block) => {
+      const idx = block.dataset.index;
+      const typeSelect = block.querySelector(`[name="type_${idx}"]`);
+      if (!typeSelect) {
+        return;
+      }
+      typeSelect.addEventListener('change', () => updateFieldBlock(block));
+      updateFieldBlock(block);
+    };
+
+    document.querySelectorAll('.field-block').forEach(attachTypeHandler);
 
     document.getElementById('add-field').addEventListener('click', function () {
       const idx = fieldIndex++;
@@ -75,22 +104,49 @@
             <input type="text" class="form-control" name="options_${idx}" placeholder="Options (comma separated)">
           </div>
         </div>
+        <div class="mt-1 info-text-wrapper" style="display:none;">
+          <textarea class="form-control" name="text_${idx}" rows="2" placeholder="Info text"></textarea>
+        </div>
         <div class="mt-1">
           <textarea class="form-control" name="help_${idx}" rows="2" placeholder="Help text"></textarea>
         </div>
       `;
       container.appendChild(block);
+      attachTypeHandler(block);
     });
 
     document.getElementById('template-form').addEventListener('submit', function (e) {
       const fields = [];
       document.querySelectorAll('.field-block').forEach(block => {
         const idx = block.dataset.index;
-        const label = block.querySelector(`[name="label_${idx}"]`).value.trim();
-        const type = block.querySelector(`[name="type_${idx}"]`).value;
-        const uom = block.querySelector(`[name="uom_${idx}"]`).value.trim();
-        const optionsVal = block.querySelector(`[name="options_${idx}"]`).value.trim();
-        const help = block.querySelector(`[name="help_${idx}"]`).value.trim();
+        const labelInput = block.querySelector(`[name="label_${idx}"]`);
+        const typeSelect = block.querySelector(`[name="type_${idx}"]`);
+        const uomInput = block.querySelector(`[name="uom_${idx}"]`);
+        const optionsInput = block.querySelector(`[name="options_${idx}"]`);
+        const helpInput = block.querySelector(`[name="help_${idx}"]`);
+        const infoTextInput = block.querySelector(`[name="text_${idx}"]`);
+        const label = labelInput ? labelInput.value.trim() : '';
+        const type = typeSelect ? typeSelect.value : '';
+        const uom = uomInput ? uomInput.value.trim() : '';
+        const optionsVal = optionsInput ? optionsInput.value.trim() : '';
+        const help = helpInput ? helpInput.value.trim() : '';
+        const infoText = infoTextInput ? infoTextInput.value.trim() : '';
+
+        if (type === 'info') {
+          if (!infoText) return;
+          const f = { type: type };
+          if (label) {
+            f.label = label;
+          }
+          f.uom = uom;
+          f.text = infoText;
+          if (help) {
+            f.help = help;
+          }
+          fields.push(f);
+          return;
+        }
+
         if (!label) return; // skip empty entries
         const f = { label: label, type: type };
         // Always include the UOM field so it can be edited later
