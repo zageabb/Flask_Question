@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
+from werkzeug.middleware.proxy_fix import ProxyFix
 import sqlite3
 from pathlib import Path
 from datetime import datetime
@@ -15,6 +16,8 @@ DB_PATH = Path(__file__).parent / "database" / "forms.db"
 
 # Initialize Flask
 app = Flask(__name__)
+# Trust one isolated UDA/Caddy forwarding hop for application prefix URLs.
+app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1, x_prefix=1)
 app.secret_key = "change-me"
 CORS(app, resources={r"/api/*": {"origins": "*"}})
 app.register_blueprint(api)
